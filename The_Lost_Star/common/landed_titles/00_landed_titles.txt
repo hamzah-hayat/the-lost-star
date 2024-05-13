@@ -1,0 +1,165 @@
+﻿# Landed Titles
+############################################################################
+
+k_island = {
+	color = { 215 141 152 }
+
+	capital = c_sacred_mountain
+
+	d_sacred_mountain = {
+		color = { 229 165 115 }
+
+		capital = c_sacred_mountain
+
+		c_sacred_mountain = {
+			color = { 229 165 115 }
+	
+			b_sacred_mountain = {
+				province = 1
+	
+				color = { 229 165 115 }
+			}
+		}
+	}
+
+	d_island_east = {
+		color = { 244 180 130 }
+
+		capital = c_thornleigh
+
+			c_portswick = {
+				color = { 229 165 115 }
+
+				b_portswick = {
+					province = 3
+
+					color = { 229 165 115 }
+				}
+			}
+
+			c_oxport = {
+				color = { 209 145 95 }
+
+				b_oxport = {
+					province = 4
+
+					color = { 209 145 95 }
+				}
+			}
+
+			c_thornleigh = {
+				color = { 219 125 85 }
+
+				b_thornleigh = {
+					province = 5
+
+					color = { 219 125 85 }
+				}
+			}
+
+	}
+
+	d_island_south = {
+		color = { 240 240 190 }
+
+		capital = c_inner_bay
+
+		c_inner_bay = {
+			color = { 245 245 195 }
+			b_inner_bay = {
+				province = 6
+
+				color = { 245 245 195 }
+			}
+		}
+
+		c_southpool = {
+			color = { 240 225 150 }
+
+			b_southpool = {
+				province = 7
+
+				color = { 240 225 150 }
+			}
+		}
+	}
+
+	d_island_north_east = {
+		color = { 217 182 153 }
+
+		capital = c_harhaven
+
+		c_ilchester = {
+			color = { 197 162 133 }
+
+			b_ilchester = {
+				province = 8
+
+				color = { 197 162 133 }
+			}
+		}
+		c_loxton = {
+			color = { 197 172 163 }
+
+			b_loxton = {
+				province = 9
+
+				color = { 197 172 163 }
+			}
+		}
+		c_henbrook = {
+			color = { 227 152 133 }
+
+			b_henbrook = {
+				province = 10
+
+				color = { 227 152 133 }
+			}
+		}
+		c_harhaven = {
+			color = { 167 102 103 }
+
+			b_harhaven = {
+				province = 13
+
+				color = { 167 102 103 }
+			}
+		}
+	}
+
+	d_island_north_west = {
+		color = { 254 245 160 }
+
+		capital = c_fort_sera
+
+		c_presthorpe = {
+			color = { 242 233 156 }
+
+			b_presthorpe = {
+				province = 11
+
+				color = { 242 233 156 }
+			}
+		}
+
+		c_millton = {
+			color = { 242 233 156 }
+
+			b_millton = {
+				province = 12
+
+				color = { 242 233 156 }
+			}
+		}
+
+		c_fort_sera = {
+			color = { 212 203 116 }
+
+			b_fort_sera = {
+				province = 14
+
+				color = { 212 203 116 }
+			}
+		}
+	}
+}

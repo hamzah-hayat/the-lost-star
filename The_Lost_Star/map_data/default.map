@@ -1,0 +1,55 @@
+#max_provinces = 1466
+definitions = "definition.csv"
+provinces = "provinces.png"
+#positions = "positions.txt"
+rivers = "rivers.png"
+#terrain_definition = "terrain.txt"
+topology = "heightmap.heightmap"
+#tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+#climate = "climate.txt"
+island_region = "island_region.txt"
+seasons = "seasons.txt"
+
+#############
+# SEA ZONES
+#############
+sea_zones = LIST { 15 }
+
+###############
+# MAJOR RIVERS
+###############
+#European rivers
+# river_provinces = RANGE { 628 630 }
+
+########
+# LAKES
+########
+# lakes = LIST { 943 955 956 957 979 983 1012 1018 1026 1069 1076 1080 1088 1107 1108 1305 1348 1486 1488 3265 8736 8737 8738 }
+
+#####################
+# IMPASSABLE TERRAIN
+#####################
+# Can be colored by whoever owns the most of the province's neighbours.
+# Blocks unit movement.
+
+impassable_mountains = LIST { 2 }
+
+############
+# WASTELAND
+############
+# These are actually supposed to be Wasteland:
+# Cannot be colored. Blocks unit movement, used for things like Sahara desert. 
+
+# impassable_mountains = LIST { 730 731 8711 }
+
+# IMPASSABLE SEA ZONES
+# These sea provinces cannot be crossed/sailed
+# impassable_seas = LIST { 660 976 978 984 998 1293 1465 1467 8690 8691 8701 }
+
+# UNUSED PROVINCES
+# These provinces cause issues because they are passable land, but not part of any title.
+# They are probably not visible anywhere on the map, so feel free to reuse them (after double checking that they are actually missing).
+
+# impassable_mountains = RANGE { 8802 8992 }
