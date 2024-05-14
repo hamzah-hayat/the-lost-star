@@ -1,7 +1,7 @@
-﻿bm_1506_island = {
-	start_date = 1506.01.1
+﻿bm_867_island = {
+	start_date = 867.01.1
 	is_playable = yes
-	group = bm_group_1506
+	group = bm_group_867
 
 	weight = { value = 100 }
 
