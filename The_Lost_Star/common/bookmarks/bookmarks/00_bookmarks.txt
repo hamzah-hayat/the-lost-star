@@ -1,0 +1,24 @@
+﻿bm_1506_island = {
+	start_date = 1506.01.1
+	is_playable = yes
+	group = bm_group_1506
+
+	weight = { value = 100 }
+
+	# John
+	character = {
+		name = "bookmark_john"
+		dynasty = 1
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1490.1.1
+		title = c_sacred_mountain
+		government = feudal_government
+		culture = english
+		religion = "catholic"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 250 750 }
+
+		animation = happiness
+	}
+}

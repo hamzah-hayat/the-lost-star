@@ -1,0 +1,9 @@
+﻿l_english:
+ bm_group_1506:0 "The Lost Star"
+ bm_1506_island:0 "The Lost Star"
+ bm_1506_island_desc:0 "This is a bookmark.#!"
+
+ # John
+ bookmark_island_john:0 "John"
+ bookmark_island_john_desc:0 "This is a character.#!"
+

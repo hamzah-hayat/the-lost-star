@@ -5,3 +5,4 @@
 # Credits
 - Hamzah
 - /vst/
+- bombusfrigidus for his excellent [Total Conversion Sandbox resource](https://forum.paradoxplaza.com/forum/threads/resource-almost-blank-map-or-a-total-conversion-sandbox-v1-7.1480639/)

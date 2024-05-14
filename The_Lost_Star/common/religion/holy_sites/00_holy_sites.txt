@@ -1,0 +1,13 @@
+﻿#############
+# Christian #
+#############
+
+# Catholic
+jerusalem = {
+	county = c_sacred_mountain
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	flag = jerusalem_conversion_bonus # +20% County Conversion
+}
