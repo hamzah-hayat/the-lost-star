@@ -248,7 +248,7 @@ d_anjan = {
 			color = { 220 165 30 }
 		}
 		b_liomis = {
-			province = 26
+			province = 27
 
 			color = { 220 165 30 }
 		}
