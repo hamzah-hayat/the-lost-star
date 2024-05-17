@@ -123,3 +123,134 @@ k_island = {
 		}
 	}
 }
+
+d_banana = {
+	color = { 255 255 0 }
+	capital = c_pulp
+
+	c_banana = {
+		color = { 255 255 0 }
+		capital = b_pulp
+
+		b_neck = {
+			province = 16
+		}
+
+		b_pulp = {
+			province = 17
+		}
+
+		b_tip = {
+			province = 18
+		}
+	}
+}
+
+d_anjan = {
+	color = { 230 135 20 }
+
+	capital = c_konov
+
+	c_konov = {
+		color = { 230 155 20 }
+
+		b_konov = {
+			province = 30
+
+			color = { 230 155 20 }
+		}
+		b_sifa = {
+			province = 19
+
+			color = { 230 155 20 }
+		}
+		b_gualma = {
+			province = 20
+
+			color = { 230 155 20 }
+		}
+		b_keta = {
+			province = 31
+
+			color = { 230 155 20 }
+		}
+		b_marod = {
+			province = 32
+
+			color = { 230 155 20 }
+		}
+	}
+
+	c_amomao = {
+		color = { 230 155 40 }
+
+		b_amomao = {
+			province = 21
+
+			color = { 230 155 40 }
+		}
+
+		b_torrelajarra = {
+			province = 22
+
+			color = { 230 155 40 }
+		}
+
+		b_scarese = {
+			province = 33
+
+			color = { 230 155 40 }
+		}
+
+		b_portarpa = {
+			province = 34
+
+			color = { 230 155 40 }
+		}
+	}
+
+	c_sorgos = {
+		color = { 210 155 40 }
+
+		b_sorgos = {
+			province = 23
+
+			color = { 210 155 40 }
+		}
+		b_rafittos = {
+			province = 28
+
+			color = { 210 155 40 }
+		}
+		b_kardigou = {
+			province = 29
+
+			color = { 210 155 40 }
+		}
+	}
+
+	c_viabos = {
+		color = { 220 165 30 }
+
+		b_viabos = {
+			province = 24
+
+			color = { 220 165 30 }
+		}
+		b_viterano = {
+			province = 25
+
+			color = { 220 165 30 }
+		}
+		b_tarartici = {
+			province = 26
+
+			color = { 220 165 30 }
+		}
+		b_liomis = {
+			province = 26
+
+			color = { 220 165 30 }
+		}
+	}
+}
