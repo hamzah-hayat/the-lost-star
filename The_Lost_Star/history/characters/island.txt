@@ -1,9 +1,21 @@
-﻿1 = {
+﻿100000 = {
 	name = "John"
-	dynasty = 1
+	dynasty = 10000
+	dna = 100000_john_pinkerton
 	religion = "catholic"
-	culture = english
-	1490.1.1 = {
-		birth = "1490.1.1"
+	culture = "english"
+	martial = 7
+	diplomacy = 7
+	intrigue = 10
+	stewardship = 6
+	prowess = 10
+	trait = ambitious
+	trait = diligent
+	trait = brave
+	trait = education_martial_4
+	sexuality = heterosexual
+
+	851.1.1 = {
+		birth = yes
 	}
 }

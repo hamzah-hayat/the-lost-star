@@ -8,11 +8,12 @@
 	# John
 	character = {
 		name = "bookmark_john"
-		dynasty = 1
+		dynasty = 10000
+		history_id = 100000
 		dynasty_splendor_level = 1
 		type = male
-		birth = 1490.1.1
-		title = c_sacred_mountain
+		birth = 851.1.1
+		title = k_sacred_mountain
 		government = feudal_government
 		culture = english
 		religion = "catholic"
