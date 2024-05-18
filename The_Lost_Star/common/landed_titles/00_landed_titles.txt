@@ -254,3 +254,72 @@ d_anjan = {
 		}
 	}
 }
+
+d_abc = {
+	color = { 180 110 40 }
+
+	capital = c_a1
+
+	c_a1 = {
+		color = { 180 130 60 }
+
+		b_a1 = {
+			province = 35
+
+			color = { 180 130 60 }
+		}
+		b_a2 = {
+			province = 36
+
+			color = { 180 130 60 }
+		}
+		b_a3 = {
+			province = 37
+
+			color = { 180 130 60 }
+		}
+	}
+	c_b1 = {
+		color = { 180 110 60 }
+
+		b_b1 = {
+			province = 38
+
+			color = { 180 110 60 }
+		}
+		b_b2 = {
+			province = 39
+
+			color = { 180 110 60 }
+		}
+		b_b3 = {
+			province = 40
+
+			color = { 180 110 60 }
+		}
+		b_b4 = {
+			province = 41
+
+			color = { 180 110 60 }
+		}
+	}
+	c_c1= {
+		color = { 160 110 60 }
+
+		b_c1 = {
+			province = 42
+
+			color = { 160 110 60 }
+		}
+		b_c2 = {
+			province = 43
+
+			color = { 160 110 60 }
+		}
+		b_c3 = {
+			province = 44
+
+			color = { 160 110 60 }
+		}
+	}
+}
