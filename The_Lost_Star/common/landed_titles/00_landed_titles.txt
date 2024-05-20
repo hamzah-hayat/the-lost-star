@@ -14,14 +14,74 @@ e_maranin = {
 
 		d_scattared_isles = {
 			color = { 60 100 115 }
+
+			c_squiggle = {
+				color = { 115 215 255 }
+			}
+
+			c_wiggle = {
+				color = { 155 230 255 }
+			}
+
+			c_splat = {
+				color = { 190 230 210 }
+			}
+
+			c_glob = {
+				color = { 50 65 70 }
+			}
 		}
 
 		d_bastion = {
 			color = { 60 115 115 }
+
+			c_bunker = {
+				color = { 20 35 35 }
+			}
+
+			c_entrance = {
+				color = { 30 65 65 }
+			}
+
+			c_evacuation = {
+				color = { 85 165 165 }
+			}
+
+			c_empty_port = {
+				color = { 100 190 190 }
+			}
+
+			c_old_gun = {
+				color = { 50 90 90 }
+			}
+
+			c_airport = {
+				color = { 125 215 215 }
+			}
+
+			c_desolate_beach = {
+				color = { 140 240 240 }
+			}
+
+			c_outer_wall = {
+				color = { 110 215 215 }
+			}
+
+			c_inner_wall = {
+				color = { 65 130 130 }
+			}
 		}
 
 		d_banana = {
 			color = { 60 60 115 }
+
+			c_pulp = {
+				color = { 125 125 240 }
+			}
+
+			c_skin = {
+				color = { 30 30 65 }
+			}
 		}
 	}
 
