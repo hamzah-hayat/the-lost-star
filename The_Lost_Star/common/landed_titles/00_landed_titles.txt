@@ -3,38 +3,142 @@
 
 
 ### Empires
-# Ifran people
-e_ifru = {
+# Marani people
+e_maranin = {
 	color = { 190 200 190 }
 
 	capital = c_a
 
 	k_island = {
 		color = { 60 80 115 }
+
+		d_scattared_isles = {
+			color = { 60 100 115 }
+		}
+
+		d_bastion = {
+			color = { 60 115 115 }
+		}
+
+		d_banana = {
+			color = { 60 60 115 }
+		}
 	}
 
 	k_pike = {
 		color = { 185 195 200 }
+
+		d_head =  {
+			color = { 185 185 200 }
+		}
+
+		d_fin = {
+			color = { 185 190 200 }
+		}
+
+		d_gills = {
+			color = { 180 200 210 }
+		}
+
+		d_tail = {
+			color = { 180 210 195 }
+		}
 	}
 
 	k_gentle_hills = {
 		color = { 115 60 85 }
+
+		d_great_farms = {
+			color = { 115 60 115 }
+		}
+
+		d_nestled_plains = {
+			color = { 50 30 60 }
+		}
+
+		d_forest_hills = {
+			color = { 115 70 60 }
+		}
+
+		d_forest_refuge = {
+			color = { 85 50 50 }
+		}
+
+		d_shore = {
+			color = { 115 100 105 }
+		}
 	}
 
 	k_mountain_hold = {
 		color = { 115 100 60 }
+
+		d_thumb = {
+			color = { 115 90 60 }
+		}
+
+		d_arm = {
+			color = { 115 115 60 }
+		}
 	}
 
 	k_great_ports = {
-		color = { 80 135 80 }
+		color = { 200 185 180 }
+
+		d_inner_port = {
+			color = { 200 160 180 }
+		}
+
+		d_coastline = {
+			color = { 220 200 180 }
+		}
+
+		d_central_plains = {
+			color = { 200 185 200 }
+		}
+
+		d_little_plains = {
+			color = { 190 145 160 }
+		}
 	}
 
 	k_merchants_valley = {
 		color = { 195 160 220 }
+
+		d_pass = {
+			color = { 220 160 190 }
+		}
+
+		d_market = {
+			color = { 145 120 160 }
+		}
+
+		d_gap = {
+			color = { 160 165 220 }
+		}
+
+		d_edge = {
+			color = { 150 140 190 }
+		}
 	}
 
 	k_outer_lands = {
-		color = { 200 185 180 }
+		color = { 80 135 80 }
+
+		d_lowlands = {
+			color = { 105 135 80 }
+		}
+
+		d_pass = {
+			color = { 120 135 120 }
+		}
+
+		d_fort = {
+			color = { 100 105 60 }
+		}
+
+		d_border = {
+			color = { 80 135 120 }
+		}
 	}
 }
 
@@ -71,7 +175,7 @@ e_yawmo = {
 	}
 }
 
-# "Tiny" People
+# Tini People
 e_tini = {
 	colour = { 175 235 135 }
 	
