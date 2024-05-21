@@ -34,6 +34,6 @@
 ### d_canarias 
 ## c_canarias 
 # b_grancanaria 
-1 = {
-	winter_severity_bias = 0.0
-}
+# 1 = {
+# 	winter_severity_bias = 0.0
+# }

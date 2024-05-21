@@ -10,6 +10,6 @@
 
 island_region_island = {
 	counties = {
-		c_sacred_mountain
+		c_shelter
 	}
 }

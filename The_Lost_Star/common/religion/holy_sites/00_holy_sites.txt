@@ -3,11 +3,11 @@
 #############
 
 # Catholic
-jerusalem = {
-	county = c_sacred_mountain
+# jerusalem = {
+# 	county = c_shelter
 	
-	character_modifier = {
-		monthly_piety_gain_mult = 0.2
-	}
-	flag = jerusalem_conversion_bonus # +20% County Conversion
-}
+# 	character_modifier = {
+# 		monthly_piety_gain_mult = 0.2
+# 	}
+# 	flag = jerusalem_conversion_bonus # +20% County Conversion
+# }
