@@ -6,6 +6,7 @@
 # Marani people
 e_maranin = {
 	color = { 190 200 190 }
+	capital = c_shelter
 
 	k_island = {
 		color = { 60 80 115 }
@@ -111,17 +112,17 @@ e_maranin = {
 				color = { 140 240 240 }
 
 				b_far_point = {
-					color = { 20 35 35 }
+					color = { 140 240 240 }
 					province = 14
 				}
 
 				b_inner_wall = {
-					color = { 20 35 35 }
+					color = { 140 240 240 }
 					province = 15
 				}
 
 				b_tumbled_hills = {
-					color = { 20 35 35 }
+					color = { 140 240 240 }
 					province = 16
 				}
 			}
@@ -130,17 +131,17 @@ e_maranin = {
 				color = { 110 215 215 }
 
 				b_southern_defense = {
-					color = { 20 35 35 }
+					color = { 110 215 215 }
 					province = 17
 				}
 
 				b_outer_wall = {
-					color = { 20 35 35 }
+					color = { 110 215 215 }
 					province = 18
 				}
 
 				b_tattered_flag = {
-					color = { 20 35 35 }
+					color = { 110 215 215 }
 					province = 19
 				}
 			}
@@ -149,17 +150,17 @@ e_maranin = {
 				color = { 100 190 190 }
 
 				b_old_gun = {
-					color = { 20 35 35 }
+					color = { 100 190 190 }
 					province = 20
 				}
 
 				b_beach_head = {
-					color = { 20 35 35 }
+					color = { 100 190 190 }
 					province = 21
 				}
 
 				b_ammo_dump = {
-					color = { 20 35 35 }
+					color = { 100 190 190 }
 					province = 22
 				}
 			}
@@ -168,58 +169,118 @@ e_maranin = {
 				color = { 125 215 215 }
 
 				b_radar_station = {
-					color = { 20 35 35 }
+					color = { 125 215 215 }
 					province = 23
 				}
 
 				b_airport = {
-					color = { 20 35 35 }
+					color = { 125 215 215 }
 					province = 24
 				}
 
 				b_runway = {
-					color = { 20 35 35 }
+					color = { 125 215 215 }
 					province = 25
 				}
 
-				b_lookout = {
-					color = { 20 35 35 }
+				b_fort = {
+					color = { 125 215 215 }
 					province = 26
 				}
 			}
 		}
 
-		# d_banana = {
-		# 	color = { 60 60 115 }
+		d_banana = {
+			color = { 60 60 115 }
 
-		# 	c_pulp = {
-		# 		color = { 125 125 240 }
-		# 	}
+			c_pulp = {
+				color = { 125 125 240 }
 
-		# 	c_skin = {
-		# 		color = { 30 30 65 }
-		# 	}
-		# }
+				b_pulp = {
+					color = { 125 125 240 }
+					province = 27
+				}
 
-		# d_scattared_isles = {
-		# 	color = { 60 100 115 }
+				b_crown = {
+					color = { 125 125 240 }
+					province = 28
+				}
 
-		# 	c_squiggle = {
-		# 		color = { 115 215 255 }
-		# 	}
+				b_tip = {
+					color = { 125 125 240 }
+					province = 29
+				}
+			}
 
-		# 	c_wiggle = {
-		# 		color = { 155 230 255 }
-		# 	}
+			c_skin = {
+				color = { 30 30 65 }
 
-		# 	c_splat = {
-		# 		color = { 190 230 210 }
-		# 	}
+				b_skin = {
+					color = { 125 125 240 }
+					province = 30
+				}
 
-		# 	c_glob = {
-		# 		color = { 50 65 70 }
-		# 	}
-		# }
+				b_neck = {
+					color = { 125 125 240 }
+					province = 31
+				}
+			}
+		}
+
+		d_scattared_isles = {
+			color = { 60 100 115 }
+
+			c_squiggle = {
+				color = { 115 215 255 }
+
+				b_squiggle = {
+					color = { 115 215 255 }
+					province = 32
+				}
+
+				b_squiggle_tail = {
+					color = { 115 215 255 }
+					province = 33
+				}
+			}
+
+			c_wiggle = {
+				color = { 155 230 255 }
+
+				b_wiggle = {
+					color = { 155 230 255 }
+					province = 34
+				}
+			}
+
+			c_splat = {
+				color = { 190 230 210 }
+
+				b_splat = {
+					color = { 190 230 210 }
+					province = 35
+				}
+			}
+
+			c_glob = {
+				color = { 50 65 70 }
+
+				b_glob = {
+					color = { 50 65 70 }
+					province = 36
+				}
+
+				b_glob_farm = {
+					color = { 50 65 70 }
+					province = 37
+				}
+
+				b_glob_land = {
+					color = { 50 65 70 }
+					province = 38
+				}
+			}
+		}
 	}
 
 	# k_pike = {
@@ -339,60 +400,60 @@ e_maranin = {
 	# }
 }
 
-# # Yibin people
-# e_yawmo = {
-# 	colour = { 230 180 10 }
+# Yibin people
+e_yawmo = {
+	colour = { 230 180 10 }
 
-# 	k_gold_mines = {
-# 		colour = { 255 215 0 }
-# 	}
+	k_gold_mines = {
+		colour = { 255 215 0 }
+	}
 
-# 	k_ports = {
-# 		color = { 230 120 10 }
-# 	}
+	k_ports = {
+		color = { 230 120 10 }
+	}
 
-# 	k_oasis = {
-# 		color = { 225 230 10 }
-# 	}
+	k_oasis = {
+		color = { 225 230 10 }
+	}
 
-# 	k_endless_desert = {
-# 		color = { 230 195 85 }
-# 	}
+	k_endless_desert = {
+		color = { 230 195 85 }
+	}
 
-# 	k_islands = {
-# 		color = { 170 145 60 }
-# 	}
+	k_islands = {
+		color = { 170 145 60 }
+	}
 
-# 	k_peninsula = {
-# 		color = { 245 180 85 }
-# 	}
+	k_peninsula = {
+		color = { 245 180 85 }
+	}
 
-# 	k_edge = {
-# 		color = { 200 190 70 }
-# 	}
-# }
+	k_edge = {
+		color = { 200 190 70 }
+	}
+}
 
-# # Tini People
-# e_tini = {
-# 	colour = { 175 235 135 }
+# Tini People
+e_tini = {
+	colour = { 175 235 135 }
 	
-# 	k_the_pass = {
-# 		colour = { 215 235 130 }
-# 	}
+	k_the_pass = {
+		colour = { 215 235 130 }
+	}
 
-# 	k_valley = {
-# 		color = { 135 235 170 }
-# 	}
+	k_valley = {
+		color = { 135 235 170 }
+	}
 
-# 	k_south_mountains = {
-# 		color = { 220 235 210 }
-# 	}
+	k_south_mountains = {
+		color = { 220 235 210 }
+	}
 
-# 	k_forests = {
-# 		color = { 80 105 80 }
-# 	}
+	k_forests = {
+		color = { 80 105 80 }
+	}
 
-# 	k_west_mountains = {
-# 		color = { 100 105 80 }
-# 	}
-# }
+	k_west_mountains = {
+		color = { 100 105 80 }
+	}
+}
