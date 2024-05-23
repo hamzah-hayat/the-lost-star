@@ -384,81 +384,310 @@ e_maranin = {
 			}
 		}
 
-		# d_fin = {
-		# 	color = { 185 190 200 }
+		d_fin = {
+			color = { 185 190 200 }
 
-		# 	c_fin_jungle_east = {
-		# 		color = { 175 180 190 }
-		# 	}
+			c_fin_coast = {
+				color = { 180 190 200 }
 
-		# 	c_fin_jungle_central = {
-		# 		color = { 65 70 70 }
-		# 	}
+				b_fin_coast_south_west = {
+					color = { 180 190 200 }
+					province = 68
+				}
 
-		# 	c_fin_jungle_west = {
-		# 		color = { 160 165 175 }
-		# 	}
-			
-		# 	c_fin_coast = {
-		# 		color = { 180 190 200 }
-		# 	}
+				b_fin_coast_north = {
+					color = { 180 190 200 }
+					province = 69
+				}
 
-		# 	c_plains_east = {
-		# 		color = { 135 140 150 }
-		# 	}
+				b_fin_coast_south = {
+					color = { 180 190 200 }
+					province = 70
+				}
 
-		# 	c_plains_south = {
-		# 		color = { 230 235 250 }
-		# 	}
+				b_fin_coast_north_east = {
+					color = { 180 190 200 }
+					province = 71
+				}
 
-		# 	c_plains_west = {
-		# 		color = { 115 115 120 }
-		# 	}
-		# }
+				b_fin_coast_south_east = {
+					color = { 180 190 200 }
+					province = 72
+				}
+			}
 
-		# d_gills = {
-		# 	color = { 180 200 210 }
+			c_fin_border = {
+				color = { 115 115 120 }
+				b_fin_border_north = {
+					color = { 115 115 120 }
+					province = 73
+				}
 
-		# 	c_gills_east = {
-		# 		color = { 115 125 135 }
-		# 	}
+				b_fin_border_centre = {
+					color = { 115 115 120 }
+					province = 74
+				}
 
-		# 	c_gills_north = {
-		# 		color = { 85 95 100 }
-		# 	}
+				b_fin_border_south = {
+					color = { 115 115 120 }
+					province = 75
+				}
+			}
 
-		# 	c_gills_south = {
-		# 		color = { 170 190 200 }
-		# 	}
+			c_fin_centre = {
+				color = { 230 235 250 }
+				b_fin_centre_north_west = {
+					color = { 230 235 250 }
+					province = 76
+				}
 
-		# 	c_gills_west = {
-		# 		color = { 140 160 165 }
-		# 	}
+				b_fin_centre_south_west = {
+					color = { 230 235 250 }
+					province = 77
+				}
 
-		# 	c_gills_plains = {
-		# 		color = { 165 180 195 }
-		# 	}
-		# }
+				b_fin_centre_north_east = {
+					color = { 230 235 250 }
+					province = 78
+				}
 
-		# d_tail = {
-		# 	color = { 180 210 195 }
+				b_fin_centre_south_east = {
+					color = { 230 235 250 }
+					province = 79
+				}
+			}
 
-		# 	c_tail_jungle = {
-		# 		color = { 85 100 90 }
-		# 	}
+			c_fin_plains = {
+				color = { 135 140 150 }
 
-		# 	c_tail_coast = {
-		# 		color = { 170 200 180 }
-		# 	}
+				b_fin_plains_north = {
+					color = { 135 140 150 }
+					province = 80
+				}
 
-		# 	c_tail_hill = {
-		# 		color = { 115 130 120 }
-		# 	}
+				b_fin_plains_centre = {
+					color = { 135 140 150 }
+					province = 81
+				}
 
-		# 	c_tail_edge = {
-		# 		color = { 140 170 150 }
-		# 	}
-		# }
+				b_fin_plains_south = {
+					color = { 135 140 150 }
+					province = 82
+				}
+			}
+
+			c_fin_jungle_coast = {
+				color = { 160 165 175 }
+
+				b_fin_jungle_coast_north = {
+					color = { 160 165 175 }
+					province = 83
+				}
+
+				b_fin_jungle_coast_south = {
+					color = { 160 165 175 }
+					province = 84
+				}
+			}
+
+			c_fin_jungle_deep = {
+				color = { 65 70 70 }
+
+				b_fin_jungle_deep_north = {
+					color = { 65 70 70 }
+					province = 85
+				}
+
+				b_fin_jungle_deep_centre = {
+					color = { 65 70 70 }
+					province = 86
+				}
+
+				b_fin_jungle_deep_south = {
+					color = { 65 70 70 }
+					province = 87
+				}
+			}
+
+			c_fin_jungle_edge = {
+				color = { 175 180 190 }
+
+				b_fin_jungle_edge_north = {
+					color = { 175 180 190 }
+					province = 88
+				}
+
+				b_fin_jungle_edge_south = {
+					color = { 175 180 190 }
+					province = 89
+				}
+			}
+
+		}
+
+		d_gills = {
+			color = { 180 200 210 }
+
+			c_gills_forest = {
+				color = { 115 125 135 }
+
+				b_gills_forest_west = {
+					color = { 115 125 135 }
+					province = 90
+				}
+
+				b_gills_forest_east = {
+					color = { 115 125 135 }
+					province = 91
+				}
+			}
+
+			c_gills_wood = {
+				color = { 85 95 100 }
+
+				b_gills_wood = {
+					color = { 85 95 100 }
+					province = 92
+				}
+			}
+
+			c_gills_deep_forest = {
+				color = { 170 190 200 }
+
+				b_gills_deep_forest_west = {
+					color = { 170 190 200 }
+					province = 93
+				}
+
+				b_gills_deep_forest_centre = {
+					color = { 170 190 200 }
+					province = 94
+				}
+
+				b_gills_deep_forest_east = {
+					color = { 170 190 200 }
+					province = 95
+				}
+			}
+
+			c_gills_plains = {
+				color = { 165 180 195 }
+
+				b_gills_plains_north_west = {
+					color = { 165 180 195 }
+					province = 96
+				}
+
+				b_gills_plains_north_east = {
+					color = { 165 180 195 }
+					province = 97
+				}
+
+				b_gills_plains_south_west = {
+					color = { 165 180 195 }
+					province = 98
+				}
+
+				b_gills_plains_south_east = {
+					color = { 165 180 195 }
+					province = 99
+				}
+			}
+
+			c_gills_hills = {
+				color = { 140 160 165 }
+
+				b_gills_hills_west = {
+					color = { 140 160 165 }
+					province = 100
+				}
+
+				b_gills_hills_east = {
+					color = { 140 160 165 }
+					province = 101
+				}
+			}
+		}
+
+		d_tail = {
+			color = { 180 210 195 }
+
+			c_tail_coast = {
+				color = { 170 200 180 }
+
+				b_tail_coast_north = {
+					color = { 170 200 180 }
+					province = 102
+				}
+
+				b_tail_coast_north_east = {
+					color = { 170 200 180 }
+					province = 103
+				}
+
+				b_tail_coast_east = {
+					color = { 170 200 180 }
+					province = 104
+				}
+			}
+
+			c_tail_jungle = {
+				color = { 85 100 90 }
+
+				b_tail_jungle_north_west = {
+					color = { 85 100 90 }
+					province = 105
+				}
+
+				b_tail_jungle_north_east = {
+					color = { 85 100 90 }
+					province = 106
+				}
+
+				b_tail_jungle_south_west = {
+					color = { 85 100 90 }
+					province = 107
+				}
+
+				b_tail_jungle_south_east = {
+					color = { 85 100 90 }
+					province = 108
+				}
+			}
+
+			c_tail_hill = {
+				color = { 115 130 120 }
+
+				b_tail_hill_west = {
+					color = { 115 130 120 }
+					province = 109
+				}
+
+				b_tail_hill_east = {
+					color = { 115 130 120 }
+					province = 110
+				}
+			}
+
+			c_tail_edge = {
+				color = { 140 170 150 }
+
+				b_tail_edge_coast = {
+					color = { 140 170 150 }
+					province = 111
+				}
+
+				b_tail_edge_plains = {
+					color = { 140 170 150 }
+					province = 112
+				}
+
+				b_tail_edge_border = {
+					color = { 140 170 150 }
+					province = 113
+				}
+			}
+		}
 	}
 
 	# k_gentle_hills = {
