@@ -700,19 +700,19 @@ e_maranin = {
 			c_shore_docks = {
 				color = { 105 90 95 }
 
-				b_shore_docks_east = {
-					color = { 105 90 95 }
-					province = 113
-				}
-
-				b_shore_docks_north = {
+				b_shore_docks_west = {
 					color = { 105 90 95 }
 					province = 114
 				}
 
-				b_shore_docks_south = {
+				b_shore_docks_north = {
 					color = { 105 90 95 }
 					province = 115
+				}
+
+				b_shore_docks_south = {
+					color = { 105 90 95 }
+					province = 116
 				}
 			}
 
@@ -721,17 +721,17 @@ e_maranin = {
 
 				b_shore_cove_north_east = {
 					color = { 70 65 65 }
-					province = 116
+					province = 117
 				}
 
 				b_shore_cove_centre = {
 					color = { 70 65 65 }
-					province = 117
+					province = 118
 				}
 
 				b_shore_cove_south_west = {
 					color = { 70 65 65 }
-					province = 118
+					province = 119
 				}
 			}
 
@@ -740,17 +740,17 @@ e_maranin = {
 
 				b_shore_plains_north_east = {
 					color = { 175 150 160 }
-					province = 119
+					province = 120
 				}
 
 				b_shore_plains_centre = {
 					color = { 175 150 160 }
-					province = 120
+					province = 121
 				}
 
 				b_shore_plains_south_west = {
 					color = { 175 150 160 }
-					province = 121
+					province = 122
 				}
 			}
 		}
