@@ -692,10 +692,11 @@ e_maranin = {
 
 	k_gentle_hills = {
 		color = { 115 60 85 }
+		capital = c_shore_docks
 
 		d_shore = {
 			color = { 115 100 105 }
-			capital = c_docks
+			capital = c_shore_docks
 
 			c_shore_docks = {
 				color = { 105 90 95 }
@@ -755,34 +756,253 @@ e_maranin = {
 			}
 		}
 
-		# d_great_farms = {
-		# 	color = { 115 60 115 }
+		d_great_farms = {
+			color = { 115 60 115 }
+			capital = c_great_farms_wheat
 
-		# 	c_great_farms_wheat = {
-		# 		color = { 115 60 115 }
-		# 	}
-		# 	c_great_farms_cabbage = {
-		# 		color = { 105 55 100 }
-		# 	}
-		# 	c_great_farms_onions = {
-		# 		color = { 210 110 190 }
-		# 	}
-		# 	c_great_farms_pumpkins = {
-		# 		color = { 240 125 220 }
-		# 	}
-		# 	c_great_farms_eggplant = {
-		# 		color = { 70 40 65 }
-		# 	}
-		# 	c_great_farms_cucumber = {
-		# 		color = { 175 90 160 }
-		# 	}
-		# 	c_great_farms_onions = {
-		# 		color = { 165 85 150 }
-		# 	}
-		# 	c_great_farms_garlic = {
-		# 		color = { 190 100 175 }
-		# 	}
-		# }
+			c_great_farms_wheat = {
+				color = { 115 60 115 }
+
+				b_great_farms_wheat_north = {
+					color = { 115 60 115 }
+					province = 123
+				}
+				b_great_farms_wheat_east = {
+					color = { 115 60 115 }
+					province = 124
+				}
+				b_great_farms_wheat_centre = {
+					color = { 115 60 115 }
+					province = 125
+				}
+				b_great_farms_wheat_south_east = {
+					color = { 115 60 115 }
+					province = 126
+				}
+				b_great_farms_wheat_south_west = {
+					color = { 115 60 115 }
+					province = 127
+				}
+			}
+
+			c_great_farms_cabbage = {
+				color = { 105 55 100 }
+
+				b_great_farms_cabbage_north = {
+					color = { 105 55 100 }
+					province = 128
+				}
+				b_great_farms_cabbage_east = {
+					color = { 105 55 100 }
+					province = 129
+				}
+				b_great_farms_cabbage_west = {
+					color = { 105 55 100 }
+					province = 130
+				}
+				b_great_farms_cabbage_south = {
+					color = { 105 55 100 }
+					province = 131
+				}
+			}
+
+			c_great_farms_onions = {
+				color = { 210 110 190 }
+
+				b_great_farms_onions_north = {
+					color = { 210 110 190 }
+					province = 132
+				}
+
+				b_great_farms_onions_east = {
+					color = { 210 110 190 }
+					province = 133
+				}
+
+				b_great_farms_onions_west = {
+					color = { 210 110 190 }
+					province = 134
+				}
+
+				b_great_farms_onions_south_east = {
+					color = { 210 110 190 }
+					province = 135
+				}
+
+				b_great_farms_onions_south_west = {
+					color = { 210 110 190 }
+					province = 136
+				}
+			}
+
+			c_great_farms_pumpkin = {
+				color = { 240 125 220 }
+
+				b_great_farms_pumpkin_north_west = {
+					color = { 240 125 220 }
+					province = 137
+				}
+
+				b_great_farms_pumpkin_north_east = {
+					color = { 240 125 220 }
+					province = 138
+				}
+
+				b_great_farms_pumpkin_south_west = {
+					color = { 240 125 220 }
+					province = 139
+				}
+
+				b_great_farms_pumpkin_south_east = {
+					color = { 240 125 220 }
+					province = 140
+				}
+
+			}
+
+			c_great_farms_garlic = {
+				color = { 190 100 175 }
+
+				b_great_farms_garlic_north_west = {
+					color = { 190 100 175 }
+					province = 141
+				}
+
+				b_great_farms_garlic_north = {
+					color = { 190 100 175 }
+					province = 142
+				}
+
+				b_great_farms_garlic_north_east = {
+					color = { 190 100 175 }
+					province = 143
+				}
+
+				b_great_farms_garlic_east = {
+					color = { 190 100 175 }
+					province = 144
+				}
+
+				b_great_farms_garlic_south_east = {
+					color = { 190 100 175 }
+					province = 145
+				}
+
+				b_great_farms_garlic_centre = {
+					color = { 190 100 175 }
+					province = 146
+				}
+
+				b_great_farms_garlic_south = {
+					color = { 190 100 175 }
+					province = 147
+				}
+
+				b_great_farms_garlic_south_west = {
+					color = { 190 100 175 }
+					province = 148
+				}
+			}
+
+			c_great_farms_eggplant = {
+				color = { 70 40 65 }
+
+				b_great_farms_eggplant_north_west = {
+					color = { 70 40 65 }
+					province = 149
+				}
+
+				b_great_farms_eggplant_north = {
+					color = { 70 40 65 }
+					province = 150
+				}
+
+				b_great_farms_eggplant_north_east = {
+					color = { 70 40 65 }
+					province = 151
+				}
+
+				b_great_farms_eggplant_south_east = {
+					color = { 70 40 65 }
+					province = 152
+				}
+
+				b_great_farms_eggplant_south = {
+					color = { 70 40 65 }
+					province = 153
+				}
+
+				b_great_farms_eggplant_south_west = {
+					color = { 70 40 65 }
+					province = 154
+				}
+			}
+
+			c_great_farms_cucumber = {
+				color = { 165 85 150 }
+
+				b_great_farms_cucumber_north_west = {
+					color = { 165 85 150 }
+					province = 155
+				}
+				b_great_farms_cucumber_centre = {
+					color = { 165 85 150 }
+					province = 156
+				}
+				b_great_farms_cucumber_east = {
+					color = { 165 85 150 }
+					province = 157
+				}
+				b_great_farms_cucumber_south_east = {
+					color = { 165 85 150 }
+					province = 158
+				}
+				b_great_farms_cucumber_south_west = {
+					color = { 165 85 150 }
+					province = 159
+				}
+			}
+
+			c_great_farms_potato = {
+				color = { 175 90 160 }
+
+				b_great_farms_potato_north_west = {
+					color = { 175 90 160 }
+					province = 160
+				}
+
+				b_great_farms_potato_north = {
+					color = { 175 90 160 }
+					province = 161
+				}
+
+				b_great_farms_potato_north_east = {
+					color = { 175 90 160 }
+					province = 162
+				}
+
+				b_great_farms_potato_west = {
+					color = { 175 90 160 }
+					province = 163
+				}
+
+				b_great_farms_potato_centre = {
+					color = { 175 90 160 }
+					province = 164
+				}
+
+				b_great_farms_potato_south_east = {
+					color = { 175 90 160 }
+					province = 165
+				}
+
+				b_great_farms_potato_south = {
+					color = { 175 90 160 }
+					province = 166
+				}
+			}
+
+		}
 
 		# d_fruit_orchards = {
 		# 	color = { 50 30 60 }
