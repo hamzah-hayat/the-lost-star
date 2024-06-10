@@ -1265,39 +1265,202 @@ e_maranin = {
 			}
 		}
 
-		# d_fruit_orchards = {
-		# 	color = { 70 50 90 }
+		d_fruit_orchards = {
+			color = { 70 50 90 }
+			capital = c_fruit_orchards_mango
 
-		# 	c_fruit_orchards_orange = {
-		# 		color = { 140 100 180 }
-		# 	}
+			c_fruit_orchards_orange = {
+				color = { 140 100 180 }
 
-		# 	c_fruit_orchards_apple = {
-		# 		color = { 170 120 220 }
-		# 	}
+				b_fruit_orchards_orange_north_west = {
+					color = { 140 100 180 }
+					province = 209
+				}
 
-		# 	c_fruit_orchards_grape = {
-		# 		color = { 200 140 250 }
-		# 	}
+				b_fruit_orchards_orange_north_east = {
+					color = { 140 100 180 }
+					province = 210
+				}
 
-		# 	c_fruit_orchards_pear = {
-		# 		color = { 60 45 80 }
-		# 	}
+				b_fruit_orchards_orange_south_west = {
+					color = { 140 100 180 }
+					province = 211
+				}
 
-		# 	c_fruit_orchards_mango = {
-		# 		color = { 115 80 150 }
-		# 	}
+				b_fruit_orchards_orange_south_east = {
+					color = { 140 100 180 }
+					province = 212
+				}
 
-		# 	c_fruit_orchards_melon = {
-		# 		color = { 180 110 215 }
-		# 	}
-		# }
+			}
+
+			c_fruit_orchards_mango = {
+				color = { 115 80 150 }
+
+				b_fruit_orchards_mango_north_west = {
+					color = { 115 80 150 }
+					province = 213
+				}
+
+				b_fruit_orchards_mango_north_east = {
+					color = { 115 80 150 }
+					province = 214
+				}
+
+				b_fruit_orchards_mango_centre = {
+					color = { 115 80 150 }
+					province = 215
+				}
+
+				b_fruit_orchards_mango_south_west = {
+					color = { 115 80 150 }
+					province = 216
+				}
+
+				b_fruit_orchards_mango_south_east = {
+					color = { 115 80 150 }
+					province = 217
+				}
+			}
+
+			c_fruit_orchards_pear = {
+				color = { 60 45 80 }
+
+				b_fruit_orchards_pear_north = {
+					color = { 60 45 80 }
+					province = 218
+				}
+
+				b_fruit_orchards_pear_west = {
+					color = { 60 45 80 }
+					province = 219
+				}
+
+				b_fruit_orchards_pear_east = {
+					color = { 60 45 80 }
+					province = 220
+				}
+
+				b_fruit_orchards_pear_south = {
+					color = { 60 45 80 }
+					province = 221
+				}
+			}
+
+			c_fruit_orchards_melon = {
+				color = { 180 110 215 }
+
+				b_fruit_orchards_melon_north_east = {
+					color = { 180 110 215 }
+					province = 222
+				}
+
+				b_fruit_orchards_melon_west = {
+					color = { 180 110 215 }
+					province = 223
+				}
+
+				b_fruit_orchards_melon_east = {
+					color = { 180 110 215 }
+					province = 224
+				}
+
+				b_fruit_orchards_melon_south = {
+					color = { 180 110 215 }
+					province = 225
+				}
+			}
+
+			c_fruit_orchards_apple = {
+				color = { 170 120 220 }
+
+				b_fruit_orchards_apple_north_west = {
+					color = { 170 120 220 }
+					province = 226
+				}
+
+				b_fruit_orchards_apple_north_east = {
+					color = { 170 120 220 }
+					province = 227
+				}
+
+				b_fruit_orchards_apple_east = {
+					color = { 170 120 220 }
+					province = 228
+				}
+
+				b_fruit_orchards_apple_west = {
+					color = { 170 120 220 }
+					province = 229
+				}
+
+				b_fruit_orchards_apple_south_west = {
+					color = { 170 120 220 }
+					province = 230
+				}
+
+				b_fruit_orchards_apple_south_east = {
+					color = { 170 120 220 }
+					province = 231
+				}
+			}
+
+			c_fruit_orchards_grape = {
+				color = { 200 140 250 }
+
+				b_fruit_orchards_grape_north_west = {
+					color = { 200 140 250 }
+					province = 232
+				}
+
+				b_fruit_orchards_grape_north_east = {
+					color = { 200 140 250 }
+					province = 233
+				}
+
+				b_fruit_orchards_grape_south_west = {
+					color = { 200 140 250 }
+					province = 234
+				}
+
+				b_fruit_orchards_grape_south_east = {
+					color = { 200 140 250 }
+					province = 235
+				}
+			}
+		}
 
 		# d_forest_refuge = {
 		# 	color = { 85 50 50 }
+		# 	capital = c_forest_refuge_lone_mountain
 
 		# 	c_forest_refuge_lone_mountain = {
 		# 		color = { 75 45 45 }
+
+		# 		b_forest_refuge_lone_mountain_west = {
+		# 			color = { 75 45 45 }
+		# 			province = 236
+		# 		}
+
+		# 		b_forest_refuge_lone_mountain_north = {
+		# 			color = { 75 45 45 }
+		# 			province = 237
+		# 		}
+
+		# 		b_forest_refuge_lone_mountain_east = {
+		# 			color = { 75 45 45 }
+		# 			province = 238
+		# 		}
+
+		# 		b_forest_refuge_lone_mountain_centre = {
+		# 			color = { 75 45 45 }
+		# 			province = 239
+		# 		}
+
+		# 		b_forest_refuge_lone_mountain_south_west = {
+		# 			color = { 75 45 45 }
+		# 			province = 240
+		# 		}
 		# 	}
 
 		# 	c_forest_refuge_mountain_refuges = {
