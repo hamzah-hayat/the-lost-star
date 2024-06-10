@@ -1,0 +1,73 @@
+﻿################################
+### The Lost Star Cultures #####
+################################
+
+## Terran
+# These people represent the last hold outs of "old culture" humans
+# Proud, fascinated with technology and consider themselves to be defenders of the peace
+
+# The "Bastion" people live on the central island
+# Big human stronghold, with lots of old technology left behind
+lost_star_terran = {
+	color = { 1 1 1 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_terran
+	language = language_common
+	martial_custom = martial_custom_equal
+
+	traditions = {
+		tradition_astute_diplomats
+		tradition_equal_inheritance
+		tradition_pacifism
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_english
+
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { western_clothing_gfx}
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+
+
+lost_star_terran_bastion = {
+	color = { 0 0.5 1}
+	created = 867.1.1
+	parents = { lost_star_terran }
+	
+	ethos = ethos_stoic
+	heritage = heritage_terran
+	language = language_common
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_equal_inheritance
+		tradition_castle_keepers
+		tradition_spartan
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_english
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

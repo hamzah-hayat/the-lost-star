@@ -1,0 +1,9 @@
+﻿heritage_terran = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_terran
+		}
+	}
+	audio_parameter = european
+}
