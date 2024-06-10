@@ -1004,42 +1004,292 @@ e_maranin = {
 
 		}
 
+		d_forest_hills = {
+			color = { 115 70 60 }
+			capital = c_forest_hills_valley
+
+			c_forest_hills_light = {
+				color = { 240 150 125 }
+
+				b_forest_hills_light_north = {
+					color = { 240 150 125 }
+					province = 167
+				}
+
+				b_forest_hills_light_centre = {
+					color = { 240 150 125 }
+					province = 168
+				}
+
+				b_forest_hills_light_south = {
+					color = { 240 150 125 }
+					province = 169
+				}
+			}
+
+			c_forest_hills_deep = {
+				color = { 70 45 40 }
+
+				b_forest_hills_deep_north = {
+					color = { 70 45 40 }
+					province = 170
+				}
+
+				b_forest_hills_deep_centre = {
+					color = { 70 45 40 }
+					province = 171
+				}
+
+				b_forest_hills_deep_south_west = {
+					color = { 70 45 40 }
+					province = 172
+				}
+
+				b_forest_hills_deep_south_east = {
+					color = { 70 45 40 }
+					province = 173
+				}
+			}
+
+			c_forest_hills_slope = {
+				color = { 105 65 55 }
+
+				b_forest_hills_slope_north = {
+					color = { 105 65 55 }
+					province = 174
+				}
+
+				b_forest_hills_slope_centre = {
+					color = { 105 65 55 }
+					province = 175
+				}
+
+				b_forest_hills_slope_south = {
+					color = { 105 65 55 }
+					province = 176
+				}
+			}
+
+			c_forest_hills_valley = {
+				color = { 210 130 110 }
+
+				b_forest_hills_valley_north = {
+					color = { 210 130 110 }
+					province = 177
+				}
+
+				b_forest_hills_valley_centre = {
+					color = { 210 130 110 }
+					province = 178
+				}
+
+				b_forest_hills_valley_south_west = {
+					color = { 210 130 110 }
+					province = 179
+				}
+
+				b_forest_hills_valley_south_east = {
+					color = { 210 130 110 }
+					province = 180
+				}
+
+			}
+		}
+
+		d_animal_pastures = {
+			color = { 50 30 60 }
+			capital = c_animal_pastures_horses
+
+			c_animal_pastures_geese = {
+				color = { 110 65 130 }
+
+				b_animal_pastures_geese_north_west = {
+					color = { 110 65 130 }
+					province = 181
+				}
+
+				b_animal_pastures_geese_east = {
+					color = { 110 65 130 }
+					province = 182
+				}
+
+				b_animal_pastures_geese_south = {
+					color = { 110 65 130 }
+					province = 183
+				}
+			}
+
+			c_animal_pastures_goats = {
+				color = { 130 80 160 }
+
+				b_animal_pastures_goats_north = {
+					color = { 130 80 160 }
+					province = 184
+				}
+
+				b_animal_pastures_goats_west = {
+					color = { 130 80 160 }
+					province = 185
+				}
+
+				b_animal_pastures_goats_east = {
+					color = { 130 80 160 }
+					province = 186
+				}
+
+				b_animal_pastures_goats_south = {
+					color = { 130 80 160 }
+					province = 187
+				}
+			}
+
+			c_animal_pastures_cows = {
+				color = { 205 125 250 }
+
+				b_animal_pastures_cows_north_west = {
+					color = { 205 125 250 }
+					province = 188
+				}
+
+				b_animal_pastures_cows_north = {
+					color = { 205 125 250 }
+					province = 189
+				}
+
+				b_animal_pastures_cows_west = {
+					color = { 205 125 250 }
+					province = 190
+				}
+
+				b_animal_pastures_cows_east = {
+					color = { 205 125 250 }
+					province = 191
+				}
+
+				b_animal_pastures_cows_south_west = {
+					color = { 205 125 250 }
+					province = 192
+				}
+
+				b_animal_pastures_cows_south_east = {
+					color = { 205 125 250 }
+					province = 193
+				}
+			}
+
+			c_animal_pastures_chickens = {
+				color = { 160 95 190 }
+
+				b_animal_pastures_chickens_north = {
+					color = { 160 95 190 }
+					province = 194
+				}
+
+				b_animal_pastures_chickens_west = {
+					color = { 160 95 190 }
+					province = 195
+				}
+
+				b_animal_pastures_chickens_east = {
+					color = { 160 95 190 }
+					province = 196
+				}
+
+				b_animal_pastures_chickens_south = {
+					color = { 160 95 190 }
+					province = 197
+				}
+			}
+
+			c_animal_pastures_horses = {
+				color = { 190 110 220 }
+
+				b_animal_pastures_horses_north_west = {
+					color = { 190 110 220 }
+					province = 198
+				}
+
+				b_animal_pastures_horses_north_east = {
+					color = { 190 110 220 }
+					province = 199
+				}
+
+				b_animal_pastures_horses_centre = {
+					color = { 190 110 220 }
+					province = 200
+				}
+
+				b_animal_pastures_horses_south_west = {
+					color = { 190 110 220 }
+					province = 201
+				}
+
+				b_animal_pastures_horses_south_east = {
+					color = { 190 110 220 }
+					province = 202
+				}
+			}
+
+			c_animal_pastures_sheep = {
+				color = { 85 50 100 }
+
+				b_animal_pastures_sheep_north = {
+					color = { 85 50 100 }
+					province = 203
+				}
+
+				b_animal_pastures_sheep_west = {
+					color = { 85 50 100 }
+					province = 204
+				}
+
+				b_animal_pastures_sheep_east = {
+					color = { 85 50 100 }
+					province = 205
+				}
+
+				b_animal_pastures_sheep_south_west = {
+					color = { 85 50 100 }
+					province = 206
+				}
+
+				b_animal_pastures_sheep_south = {
+					color = { 85 50 100 }
+					province = 207
+				}
+
+				b_animal_pastures_sheep_south_east = {
+					color = { 85 50 100 }
+					province = 208
+				}
+			}
+		}
+
 		# d_fruit_orchards = {
-		# 	color = { 50 30 60 }
-		# 	c_fruit_orchards_apples = {
-		# 		color = { 95 55 110 }
+		# 	color = { 70 50 90 }
+
+		# 	c_fruit_orchards_orange = {
+		# 		color = { 140 100 180 }
 		# 	}
-		# 	c_fruit_orchards_oranges = {
-		# 		color = { 200 120 240 }
+
+		# 	c_fruit_orchards_apple = {
+		# 		color = { 170 120 220 }
 		# 	}
-		# 	c_fruit_orchards_grapes = {
+
+		# 	c_fruit_orchards_grape = {
+		# 		color = { 200 140 250 }
+		# 	}
+
+		# 	c_fruit_orchards_pear = {
+		# 		color = { 60 45 80 }
+		# 	}
+
+		# 	c_fruit_orchards_mango = {
+		# 		color = { 115 80 150 }
+		# 	}
+
+		# 	c_fruit_orchards_melon = {
 		# 		color = { 180 110 215 }
-		# 	}
-		# 	c_fruit_orchards_pears = {
-		# 		color = { 135 80 160 }
-		# 	}
-		# 	c_fruit_orchards_peaches = {
-		# 		color = { 160 95 190 }
-		# 	}
-		# }
-
-		# d_forest_hills = {
-		# 	color = { 115 70 60 }
-
-		# 	c_forest_hills_light = {
-		# 		color = { 240 150 125 }
-		# 	}
-
-		# 	c_forest_hills_deep = {
-		# 		color = { 70 45 40 }
-		# 	}
-
-		# 	c_forest_hills_slope = {
-		# 		color = { 105 65 55 }
-		# 	}
-
-		# 	c_forest_hills_valley = {
-		# 		color = { 210 130 110 }
 		# 	}
 		# }
 
