@@ -1,14 +1,14 @@
-# k_island
+﻿# k_island
 	## d_bastion_inner
 		### c_shelter
 		1 = {
-			culture = lost_star_terran_bastion
+			culture = lost_star_bastion
 			religion = catholic
 			holding = castle_holding
 		}
 		### c_entrance
 		2 = {
-			culture = lost_star_terran_bastion
+			culture = lost_star_bastion
 			religion = catholic
 			holding = castle_holding
 		}
@@ -17,12 +17,12 @@
 		}
 		### c_evacuation
 		4 = {
-			culture = lost_star_terran_bastion
+			culture = lost_star_bastion
 			religion = catholic
 			holding = castle_holding
 		}
 		5 = {
-			culture = lost_star_terran_bastion
+			culture = lost_star_bastion
 			religion = catholic
 			holding = church_holding
 		}
@@ -34,7 +34,7 @@
 		}
 		### c_shipyard
 		8 = {
-			culture = lost_star_terran_bastion
+			culture = lost_star_bastion
 			religion = catholic
 			holding = castle_holding
 		}
@@ -43,12 +43,12 @@
 		}
 		### c_desolate_beach
 		10 = {
-			culture = lost_star_terran_bastion
+			culture = lost_star_bastion
 			religion = catholic
 			holding = castle_holding
 		}
 		11 = {
-			culture = lost_star_terran_bastion
+			culture = lost_star_bastion
 			religion = catholic
 			holding = church_holding
 		}
@@ -59,189 +59,111 @@
 			holding = none
 		}
 	## d_bastion_outer
-
+		### c_inner_wall
+		14 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		15 = {
+			holding = none
+		}
+		16 = {
+			holding = none
+		}
+		### c_outer_wall
+		17 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		18 = {
+			holding = none
+		}
+		19 = {
+			holding = none
+		}
+		### c_old_gun
+		20 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		21 = {
+			holding = none
+		}
+		22 = {
+			holding = none
+		}
+		### c_airport
+		23 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		24 = {
+			holding = none
+		}
+		25 = {
+			holding = none
+		}
+		26 = {
+			holding = none
+		}
 	## d_banana
-
+		### c_pulp
+		27 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		28 = {
+			holding = none
+		}
+		
+		29 = {
+			holding = none
+		}
+		### c_skin
+		30 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		31 = {
+			holding = none
+		}
 	## d_scattared_isles
-
-
-# k_island = {
-
-# 	d_bastion_outer = {
-# 		color = { 60 115 115 }
-# 		capital = c_old_gun
-
-# 		c_inner_wall = {
-# 			color = { 140 240 240 }
-
-# 			b_far_point = {
-# 				color = { 140 240 240 }
-# 				province = 14
-# 			}
-
-# 			b_inner_wall = {
-# 				color = { 140 240 240 }
-# 				province = 15
-# 			}
-
-# 			b_tumbled_hills = {
-# 				color = { 140 240 240 }
-# 				province = 16
-# 			}
-# 		}
-
-# 		c_outer_wall = {
-# 			color = { 110 215 215 }
-
-# 			b_southern_defense = {
-# 				color = { 110 215 215 }
-# 				province = 17
-# 			}
-
-# 			b_outer_wall = {
-# 				color = { 110 215 215 }
-# 				province = 18
-# 			}
-
-# 			b_tattered_flag = {
-# 				color = { 110 215 215 }
-# 				province = 19
-# 			}
-# 		}
-
-# 		c_old_gun = {
-# 			color = { 100 190 190 }
-
-# 			b_old_gun = {
-# 				color = { 100 190 190 }
-# 				province = 20
-# 			}
-
-# 			b_beach_head = {
-# 				color = { 100 190 190 }
-# 				province = 21
-# 			}
-
-# 			b_ammo_dump = {
-# 				color = { 100 190 190 }
-# 				province = 22
-# 			}
-# 		}
-
-# 		c_airport = {
-# 			color = { 125 215 215 }
-
-# 			b_radar_station = {
-# 				color = { 125 215 215 }
-# 				province = 23
-# 			}
-
-# 			b_airport = {
-# 				color = { 125 215 215 }
-# 				province = 24
-# 			}
-
-# 			b_runway = {
-# 				color = { 125 215 215 }
-# 				province = 25
-# 			}
-
-# 			b_fort = {
-# 				color = { 125 215 215 }
-# 				province = 26
-# 			}
-# 		}
-# 	}
-
-# 	d_banana = {
-# 		color = { 60 60 115 }
-
-# 		c_pulp = {
-# 			color = { 125 125 240 }
-
-# 			b_pulp = {
-# 				color = { 125 125 240 }
-# 				province = 27
-# 			}
-
-# 			b_crown = {
-# 				color = { 125 125 240 }
-# 				province = 28
-# 			}
-
-# 			b_tip = {
-# 				color = { 125 125 240 }
-# 				province = 29
-# 			}
-# 		}
-
-# 		c_skin = {
-# 			color = { 30 30 65 }
-
-# 			b_skin = {
-# 				color = { 125 125 240 }
-# 				province = 30
-# 			}
-
-# 			b_neck = {
-# 				color = { 125 125 240 }
-# 				province = 31
-# 			}
-# 		}
-# 	}
-
-# 	d_scattared_isles = {
-# 		color = { 60 100 115 }
-
-# 		c_squiggle = {
-# 			color = { 115 215 255 }
-
-# 			b_squiggle = {
-# 				color = { 115 215 255 }
-# 				province = 32
-# 			}
-
-# 			b_squiggle_tail = {
-# 				color = { 115 215 255 }
-# 				province = 33
-# 			}
-# 		}
-
-# 		c_wiggle = {
-# 			color = { 155 230 255 }
-
-# 			b_wiggle = {
-# 				color = { 155 230 255 }
-# 				province = 34
-# 			}
-# 		}
-
-# 		c_splat = {
-# 			color = { 190 230 210 }
-
-# 			b_splat = {
-# 				color = { 190 230 210 }
-# 				province = 35
-# 			}
-# 		}
-
-# 		c_glob = {
-# 			color = { 50 65 70 }
-
-# 			b_glob = {
-# 				color = { 50 65 70 }
-# 				province = 36
-# 			}
-
-# 			b_glob_farm = {
-# 				color = { 50 65 70 }
-# 				province = 37
-# 			}
-
-# 			b_glob_land = {
-# 				color = { 50 65 70 }
-# 				province = 38
-# 			}
-# 		}
-# 	}
-# }
+		### c_squiggle
+		32 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		33 = {
+			holding = none
+		}
+		### c_wiggle
+		34 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		### c_splat
+		35 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		### c_glob
+		36 = {
+			culture = lost_star_bastion
+			religion = catholic
+			holding = castle_holding
+		}
+		37 = {
+			holding = none
+		}
+		38 = {
+			holding = none
+		}

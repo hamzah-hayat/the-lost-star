@@ -1,0 +1,248 @@
+﻿### k_pike
+	## d_head
+		# c_head_nose
+			53 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			54 = {
+				holding = none
+			}
+			55 = {
+				holding = none
+			}
+		# c_head_eyes
+			56 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			57 = {
+				holding = none
+			}
+			58 = {
+				holding = none
+			}
+			59 = {
+				holding = none
+			}
+		# c_head_mouth
+			60 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			61 = {
+				holding = none
+			}
+			62 = {
+				holding = none
+			}
+			63 = {
+				holding = none
+			}
+			64 = {
+				holding = none
+			}
+		# c_head_chin
+			65 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			66 = {
+				holding = none
+			}
+			67 = {
+				holding = none
+			}
+	## d_fin
+		# c_fin_coast
+			68 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			69 = {
+				holding = none
+			}
+			70 = {
+				holding = none
+			}
+			71 = {
+				holding = none
+			}
+			72 = {
+				holding = none
+			}
+		# c_fin_border
+			73 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			74 = {
+				holding = none
+			}
+			75 = {
+				holding = none
+			}
+		# c_fin_centre
+			76 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			77 = {
+				holding = none
+			}
+			78 = {
+				holding = none
+			}
+			79 = {
+				holding = none
+			}
+		# c_fin_plains
+			80 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			81 = {
+				holding = none
+			}
+			82 = {
+				holding = none
+			}
+		# c_fin_jungle_coast
+			83 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			84 = {
+				holding = none
+			}
+		# c_fin_jungle_deep
+			85 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			86 = {
+				holding = none
+			}
+			87 = {
+				holding = none
+			}
+		# c_fin_jungle_edge
+			88 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			89 = {
+				holding = none
+			}
+	## d_gills
+		# c_gills_forest
+			90 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			91 = {
+				holding = none
+			}
+		# c_gills_wood
+			92 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+		# c_gills_deep_forest
+			93 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			94 = {
+				holding = none
+			}
+			95 = {
+				holding = none
+			}
+		# c_gills_plains
+			96 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			97 = {
+				holding = none
+			}
+			98 = {
+				holding = none
+			}
+			99 = {
+				holding = none
+			}
+		# c_gills_hills
+			100 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			101 = {
+				holding = none
+			}
+	## d_tail
+		# c_tail_coast
+			102 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			103 = {
+				holding = none
+			}
+			104 = {
+				holding = none
+			}
+		# c_tail_jungle
+			105 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			106 = {
+				holding = none
+			}
+			107 = {
+				holding = none
+			}
+			108 = {
+				holding = none
+			}
+		# c_tail_hill
+			109 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			110 = {
+				holding = none
+			}
+		# c_tail_edge
+			111 = {
+				culture = lost_star_gibrani
+				religion = catholic
+				holding = castle_holding
+			}
+			112 = {
+				holding = none
+			}
+			113 = {
+				holding = none
+			}

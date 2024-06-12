@@ -1,0 +1,138 @@
+﻿################################
+### The Lost Star Cultures #####
+################################
+
+## Marani
+# Mixture of medeterrian ethnic groups and looks
+lost_star_marani = {
+	color = { 0.5 0 0.5 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_marani
+	language = language_common
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_astute_diplomats
+		tradition_equal_inheritance
+		tradition_pacifism
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_italian
+	name_list = name_list_castilian
+	name_list = name_list_greek
+
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { western_clothing_gfx}
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+# Larani
+# Italian theme
+# Trading + Agriculture experts
+lost_star_larani = {
+	color = { 0 0.5 1}
+	created = 867.1.1
+	parents = { lost_star_marani }
+	
+	ethos = ethos_stoic
+	heritage = heritage_marani
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_equal_inheritance
+		tradition_mystical_ancestors
+		tradition_hereditary_hierarchy
+		tradition_castle_keepers
+		tradition_spartan
+	}
+	
+	name_list = name_list_english
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+# Gibrani
+# Greek theme
+# Fishing experts
+lost_star_gibrani = {
+	color = greek
+	created = 867.1.1
+	parents = { lost_star_marani }
+	
+	ethos = ethos_communal
+	heritage = heritage_marani
+	language = language_common
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_fishermen
+		tradition_collective_lands
+		tradition_seafaring
+		tradition_culinary_art
+	}
+	
+	name_list = name_list_greek
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
+# Hobrani
+# Spanish theme
+lost_star_hobrani = {
+	color = { 0 0.5 1}
+	created = 867.1.1
+	parents = { lost_star_marani }
+	
+	ethos = ethos_stoic
+	heritage = heritage_marani
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_equal_inheritance
+		tradition_mystical_ancestors
+		tradition_hereditary_hierarchy
+		tradition_castle_keepers
+		tradition_spartan
+	}
+	
+	name_list = name_list_english
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

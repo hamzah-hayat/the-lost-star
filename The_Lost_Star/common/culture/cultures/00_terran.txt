@@ -3,11 +3,9 @@
 ################################
 
 ## Terran
-# These people represent the last hold outs of "old culture" humans
-# Proud, fascinated with technology and consider themselves to be defenders of the peace
-
-# The "Bastion" people live on the central island
-# Big human stronghold, with lots of old technology left behind
+# Represent "earth" humans, ancient race
+# Built on equality, goodness etc
+# Utopian ideals
 lost_star_terran = {
 	color = { 1 1 1 }
 	
@@ -38,9 +36,12 @@ lost_star_terran = {
 	}
 }
 
-
-
-lost_star_terran_bastion = {
+# Bastion
+# Bastion people live on the central island
+# Hold out of Terran culture
+# Proud, fascinated with technology and defending themselves and the weak
+# Big human stronghold, with lots of old technology left behind
+lost_star_bastion = {
 	color = { 0 0.5 1}
 	created = 867.1.1
 	parents = { lost_star_terran }
@@ -48,13 +49,13 @@ lost_star_terran_bastion = {
 	ethos = ethos_stoic
 	heritage = heritage_terran
 	language = language_common
-	martial_custom = martial_custom_equal
+	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
 		tradition_equal_inheritance
+		tradition_mystical_ancestors
+		tradition_hereditary_hierarchy
 		tradition_castle_keepers
 		tradition_spartan
-		tradition_mystical_ancestors
 	}
 	
 	name_list = name_list_english

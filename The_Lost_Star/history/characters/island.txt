@@ -3,7 +3,7 @@
 	dynasty = 10000
 	dna = 100000_john_pinkerton
 	religion = catholic
-	culture = lost_star_terran_bastion
+	culture = lost_star_bastion
 	martial = 7
 	diplomacy = 7
 	intrigue = 10
