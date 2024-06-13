@@ -3,9 +3,9 @@
 
 
 ### Empires
-# Marani people
-e_maranin = {
-	color = { 190 200 190 }
+# Old Terran Islands
+e_terran ={
+	color = { 0 128 255 }
 	capital = c_shelter
 
 	k_island = {
@@ -282,6 +282,12 @@ e_maranin = {
 			}
 		}
 	}
+}
+
+# Marani people
+e_maranin = {
+	color = { 190 200 190 }
+	capital = c_shore_docks
 
 	k_pike = {
 		color = { 185 195 200 }
@@ -695,62 +701,62 @@ e_maranin = {
 		capital = c_shore_docks
 
 		d_shore = {
-			color = { 115 100 105 }
+			color = { 90 60 105 }
 			capital = c_shore_docks
 
 			c_shore_docks = {
-				color = { 105 90 95 }
+				color = { 170 115 200 }
 
 				b_shore_docks_west = {
-					color = { 105 90 95 }
+					color = { 170 115 200 }
 					province = 114
 				}
 
 				b_shore_docks_north = {
-					color = { 105 90 95 }
+					color = { 170 115 200 }
 					province = 115
 				}
 
 				b_shore_docks_south = {
-					color = { 105 90 95 }
+					color = { 170 115 200 }
 					province = 116
 				}
 			}
 
 			c_shore_cove = {
-				color = { 70 65 65 }
+				color = { 50 35 60 }
 
 				b_shore_cove_north_east = {
-					color = { 70 65 65 }
+					color = { 50 35 60 }
 					province = 117
 				}
 
 				b_shore_cove_centre = {
-					color = { 70 65 65 }
+					color = { 50 35 60 }
 					province = 118
 				}
 
 				b_shore_cove_south_west = {
-					color = { 70 65 65 }
+					color = { 50 35 60 }
 					province = 119
 				}
 			}
 
 			c_shore_plains = {
-				color = { 175 150 160 }
+				color = { 200 130 230 }
 
 				b_shore_plains_north_east = {
-					color = { 175 150 160 }
+					color = { 200 130 230 }
 					province = 120
 				}
 
 				b_shore_plains_centre = {
-					color = { 175 150 160 }
+					color = { 200 130 230 }
 					province = 121
 				}
 
 				b_shore_plains_south_west = {
-					color = { 175 150 160 }
+					color = { 200 130 230 }
 					province = 122
 				}
 			}
@@ -1000,99 +1006,6 @@ e_maranin = {
 					color = { 175 90 160 }
 					province = 166
 				}
-			}
-
-		}
-
-		d_forest_hills = {
-			color = { 115 70 60 }
-			capital = c_forest_hills_valley
-
-			c_forest_hills_light = {
-				color = { 240 150 125 }
-
-				b_forest_hills_light_north = {
-					color = { 240 150 125 }
-					province = 167
-				}
-
-				b_forest_hills_light_centre = {
-					color = { 240 150 125 }
-					province = 168
-				}
-
-				b_forest_hills_light_south = {
-					color = { 240 150 125 }
-					province = 169
-				}
-			}
-
-			c_forest_hills_deep = {
-				color = { 70 45 40 }
-
-				b_forest_hills_deep_north = {
-					color = { 70 45 40 }
-					province = 170
-				}
-
-				b_forest_hills_deep_centre = {
-					color = { 70 45 40 }
-					province = 171
-				}
-
-				b_forest_hills_deep_south_west = {
-					color = { 70 45 40 }
-					province = 172
-				}
-
-				b_forest_hills_deep_south_east = {
-					color = { 70 45 40 }
-					province = 173
-				}
-			}
-
-			c_forest_hills_slope = {
-				color = { 105 65 55 }
-
-				b_forest_hills_slope_north = {
-					color = { 105 65 55 }
-					province = 174
-				}
-
-				b_forest_hills_slope_centre = {
-					color = { 105 65 55 }
-					province = 175
-				}
-
-				b_forest_hills_slope_south = {
-					color = { 105 65 55 }
-					province = 176
-				}
-			}
-
-			c_forest_hills_valley = {
-				color = { 210 130 110 }
-
-				b_forest_hills_valley_north = {
-					color = { 210 130 110 }
-					province = 177
-				}
-
-				b_forest_hills_valley_centre = {
-					color = { 210 130 110 }
-					province = 178
-				}
-
-				b_forest_hills_valley_south_west = {
-					color = { 210 130 110 }
-					province = 179
-				}
-
-				b_forest_hills_valley_south_east = {
-					color = { 210 130 110 }
-					province = 180
-				}
-
 			}
 		}
 
@@ -1429,57 +1342,134 @@ e_maranin = {
 				}
 			}
 		}
+	}
 
-		# d_forest_refuge = {
-		# 	color = { 85 50 50 }
-		# 	capital = c_forest_refuge_lone_mountain
+	k_forest_holds = {
+		color = { }
 
-		# 	c_forest_refuge_lone_mountain = {
-		# 		color = { 75 45 45 }
+		d_forest_hills = {
+			color = { 115 70 60 }
+			capital = c_forest_hills_valley
 
-		# 		b_forest_refuge_lone_mountain_west = {
-		# 			color = { 75 45 45 }
-		# 			province = 236
-		# 		}
+			c_forest_hills_light = {
+				color = { 240 150 125 }
 
-		# 		b_forest_refuge_lone_mountain_north = {
-		# 			color = { 75 45 45 }
-		# 			province = 237
-		# 		}
+				b_forest_hills_light_north = {
+					color = { 240 150 125 }
+					province = 167
+				}
 
-		# 		b_forest_refuge_lone_mountain_east = {
-		# 			color = { 75 45 45 }
-		# 			province = 238
-		# 		}
+				b_forest_hills_light_centre = {
+					color = { 240 150 125 }
+					province = 168
+				}
 
-		# 		b_forest_refuge_lone_mountain_centre = {
-		# 			color = { 75 45 45 }
-		# 			province = 239
-		# 		}
+				b_forest_hills_light_south = {
+					color = { 240 150 125 }
+					province = 169
+				}
+			}
 
-		# 		b_forest_refuge_lone_mountain_south_west = {
-		# 			color = { 75 45 45 }
-		# 			province = 240
-		# 		}
-		# 	}
+			c_forest_hills_deep = {
+				color = { 70 45 40 }
 
-		# 	c_forest_refuge_mountain_refuges = {
-		# 		color = { 180 105 105 }
-		# 	}
+				b_forest_hills_deep_north = {
+					color = { 70 45 40 }
+					province = 170
+				}
 
-		# 	c_forest_refuge_forests = {
-		# 		color = { 145 85 85 }
-		# 	}
+				b_forest_hills_deep_centre = {
+					color = { 70 45 40 }
+					province = 171
+				}
 
-		# 	c_forest_refuge_forest_pass = {
-		# 		color = { 210 125 125 }
-		# 	}
+				b_forest_hills_deep_south_west = {
+					color = { 70 45 40 }
+					province = 172
+				}
 
-		# 	c_forest_refuge_edge = {
-		# 		color = { 130 75 75 }
-		# 	}
-		# }
+				b_forest_hills_deep_south_east = {
+					color = { 70 45 40 }
+					province = 173
+				}
+			}
 
+			c_forest_hills_slope = {
+				color = { 105 65 55 }
+
+				b_forest_hills_slope_north = {
+					color = { 105 65 55 }
+					province = 174
+				}
+
+				b_forest_hills_slope_centre = {
+					color = { 105 65 55 }
+					province = 175
+				}
+
+				b_forest_hills_slope_south = {
+					color = { 105 65 55 }
+					province = 176
+				}
+			}
+
+			c_forest_hills_valley = {
+				color = { 210 130 110 }
+
+				b_forest_hills_valley_north = {
+					color = { 210 130 110 }
+					province = 177
+				}
+
+				b_forest_hills_valley_centre = {
+					color = { 210 130 110 }
+					province = 178
+				}
+
+				b_forest_hills_valley_south_west = {
+					color = { 210 130 110 }
+					province = 179
+				}
+
+				b_forest_hills_valley_south_east = {
+					color = { 210 130 110 }
+					province = 180
+				}
+
+			}
+		}
+
+		d_stronghold = {
+			color = { 60 40 40 }
+
+			c_stronghold_hold = {
+				color = { 50 35 35 }
+			}
+
+			c_stronghold_entrance = {
+				color = { 85 50 50}
+			}
+
+			c_stronghold_valley = {
+				color = { 200 150 150 }
+			}
+
+			c_stronghold_forest = {
+				color = { 130 75 75 }
+			}
+		}
+
+		d_forest_pass = {
+			color = { 70 45 40 }
+		}
+
+		d_mini_mountain = {
+			color = { 115 60 60 }
+		}
+
+		d_large_mountain = {
+			color = { 85 50 50 }
+		}
 	}
 
 	# k_great_ports = {
