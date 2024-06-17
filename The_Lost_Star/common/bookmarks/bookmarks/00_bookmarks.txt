@@ -1,5 +1,5 @@
 ﻿bm_867_island = {
-	start_date = 867.01.1
+	start_date = 867.1.1
 	is_playable = yes
 	group = bm_group_867
 
@@ -13,12 +13,12 @@
 		dynasty_splendor_level = 1
 		type = male
 		birth = 851.1.1
-		title = k_sacred_mountain
+		title = k_island
 		government = feudal_government
 		culture = english
 		religion = "catholic"
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 250 750 }
+		position = { 1000 150 }
 
 		animation = happiness
 	}

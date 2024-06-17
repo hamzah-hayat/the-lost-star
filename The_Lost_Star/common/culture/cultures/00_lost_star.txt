@@ -6,19 +6,19 @@
 
 # The Marani are a mix of spainish, italian, and greek ethnic groups
 # They are a peaceful, idyllic people, who graze the plains and are very content with life
-lost_star_marani = {
+# lost_star_marani = {
 
-}
+# }
 
 # The Yibin are a mixture of asian cultures, emphasis on Chinese, Japanese and Korean
 # They live mainly in a desert region, and give off "kenshi" vibes
-lost_star_yibin = {
+# lost_star_yibin = {
 
-}
+# }
 
 # The Tini ("Tiny") are dwarvish humans that have become accustomed to living in the southern mountains
 # Use Scandinavian/Nordic ethnic groups as base
 # Very hardy and good with smithing, plus dwarf trait.
-lost_star_tini = {
+# lost_star_tini = {
 	
-}
+# }
