@@ -1345,7 +1345,7 @@ e_maranin = {
 	}
 
 	k_forest_holds = {
-		color = { }
+		color = { 115 70 60 }
 
 		d_forest_hills = {
 			color = { 115 70 60 }
@@ -1444,31 +1444,617 @@ e_maranin = {
 
 			c_stronghold_hold = {
 				color = { 50 35 35 }
+
+				b_stronghold_hold_north = {
+					color = { 50 35 35 }
+					province = 236
+				}
+
+				b_stronghold_hold_centre = {
+					color = { 50 35 35 }
+					province = 237
+				}
+
+				b_stronghold_hold_south = {
+					color = { 50 35 35 }
+					province = 238
+				}
 			}
 
 			c_stronghold_entrance = {
 				color = { 85 50 50}
+
+				b_stronghold_entrance_north = {
+					color = { 85 50 50}
+					province = 239
+				}
+
+				b_stronghold_entrance_east = {
+					color = { 85 50 50}
+					province = 240
+				}
+
+				b_stronghold_entrance_centre = {
+					color = { 85 50 50}
+					province = 241
+				}
+
+				b_stronghold_entrance_south = {
+					color = { 85 50 50}
+					province = 242
+				}
 			}
 
 			c_stronghold_valley = {
 				color = { 200 150 150 }
+
+				b_stronghold_valley_north_east = {
+					color = { 200 150 150 }
+					province = 243
+				}
+
+				b_stronghold_valley_centre = {
+					color = { 200 150 150 }
+					province = 244
+				}
+
+				b_stronghold_valley_south_west = {
+					color = { 200 150 150 }
+					province = 245
+				}
 			}
 
 			c_stronghold_forest = {
 				color = { 130 75 75 }
+
+				b_stronghold_forest_north = {
+					color = { 130 75 75 }
+					province = 246
+				}
+
+				b_stronghold_forest_west = {
+					color = { 130 75 75 }
+					province = 247
+				}
+
+				b_stronghold_forest_east = {
+					color = { 130 75 75 }
+					province = 248
+				}
+
+				b_stronghold_forest_south = {
+					color = { 130 75 75 }
+					province = 249
+				}
+
+				b_stronghold_forest_south_east = {
+					color = { 130 75 75 }
+					province = 250
+				}
 			}
 		}
 
 		d_forest_pass = {
 			color = { 70 45 40 }
-		}
+			capital = c_forest_pass_great_tree
 
-		d_mini_mountain = {
-			color = { 115 60 60 }
+			c_forest_pass_wild = {
+				color = { 60 40 35 }
+
+				b_forest_pass_wild_north = {
+					color = { 60 40 35 }
+					province = 251
+				}
+
+				b_forest_pass_wild_centre = {
+					color = { 60 40 35 }
+					province = 252
+				}
+
+				b_forest_pass_wild_south = {
+					color = { 60 40 35 }
+					province = 253
+				}
+			}
+
+			c_forest_pass_deep = {
+				color = { 195 125 110 }
+
+				b_forest_pass_deep_north = {
+					color = { 195 125 110 }
+					province = 254
+				}
+
+				b_forest_pass_deep_south = {
+					color = { 195 125 110 }
+					province = 255
+				}
+
+				b_forest_pass_deep_west = {
+					color = { 195 125 110 }
+					province = 256
+				}
+			}
+
+			c_forest_pass_road = {
+				color = { 130 80 70 }
+
+				b_forest_pass_road_north = {
+					color = { 130 80 70 }
+					province = 257
+				}
+
+				b_forest_pass_road_centre = {
+					color = { 130 80 70 }
+					province = 258
+				}
+
+				b_forest_pass_road_south = {
+					color = { 130 80 70 }
+					province = 259
+				}
+			}
+
+			c_forest_pass_tree_homes = {
+				color = { 160 100 90 }
+
+				b_forest_pass_tree_homes_north = {
+					color = { 160 100 90 }
+					province = 260
+				}
+
+				b_forest_pass_tree_homes_west = {
+					color = { 160 100 90 }
+					province = 261
+				}
+
+				b_forest_pass_tree_homes_east= {
+					color = { 160 100 90 }
+					province = 262
+				}
+
+				b_forest_pass_tree_homes_south = {
+					color = { 160 100 90 }
+					province = 263
+				}
+			}
+
+			c_forest_pass_great_tree = {
+				color = { 230 150 130 }
+
+				b_forest_pass_great_tree_west = {
+					color = { 230 150 130 }
+					province = 264
+				}
+
+				b_forest_pass_great_tree_centre = {
+					color = { 230 150 130 }
+					province = 265
+				}
+
+				b_forest_pass_great_tree_east = {
+					color = { 230 150 130 }
+					province = 266
+				}
+			}
 		}
 
 		d_large_mountain = {
 			color = { 85 50 50 }
+
+			c_large_mountain_dark_forest = {
+				color = { 245 145 145 }
+
+				b_large_mountain_dark_forest_west = {
+					color = { 245 145 145 }
+					province = 267
+				}
+
+				b_large_mountain_dark_forest_centre = {
+					color = { 245 145 145 }
+					province = 268
+				}
+
+				b_large_mountain_dark_forest_east = {
+					color = { 245 145 145 }
+					province = 269
+				}
+			}
+
+			c_large_mountain_light_forest = {
+				color = { 210 125 125 }
+
+				b_large_mountain_light_forest_west = {
+					color = { 210 125 125 }
+					province = 270
+				}
+
+				b_large_mountain_light_forest_north = {
+					color = { 210 125 125 }
+					province = 271
+				}
+
+				b_large_mountain_light_forest_south = {
+					color = { 210 125 125 }
+					province = 272
+				}
+
+				b_large_mountain_light_forest_east= {
+					color = { 210 125 125 }
+					province = 273
+				}
+			}
+
+			c_large_mountain_outcrop = {
+				color = { 180 105 105 }
+
+				b_large_mountain_outcrop_north = {
+					color = { 180 105 105 }
+					province = 274
+				}
+
+				b_large_mountain_outcrop_south = {
+					color = { 180 105 105 }
+					province = 275
+				}
+			}
+
+			c_large_mountain_caves = {
+				color = { 145 85 85 }
+
+				b_large_mountain_caves_north_west = {
+					color = { 145 85 85 }
+					province = 276
+				}
+
+				b_large_mountain_caves_north_east = {
+					color = { 145 85 85 }
+					province = 277
+				}
+
+				b_large_mountain_caves_south_west = {
+					color = { 145 85 85 }
+					province = 278
+				}
+
+				b_large_mountain_caves_south_east = {
+					color = { 145 85 85 }
+					province = 279
+				}
+			}
+
+			c_large_mountain_mines = {
+				color = { 75 45 45 }
+
+				b_large_mountain_mines_north = {
+					color = { 75 45 45 }
+					province = 280
+				}
+
+				b_large_mountain_mines_centre = {
+					color = { 75 45 45 }
+					province = 281
+				}
+
+				b_large_mountain_mines_south = {
+					color = { 75 45 45 }
+					province = 282
+				}
+			}
+		}
+
+		d_mini_mountain = {
+			color = { 115 60 60 }
+
+			c_mini_mountain_silo = {
+				color = { 105 55 55 }
+
+				b_mini_mountain_silo_north = {
+					color = { 105 55 55 }
+					province = 283
+				}
+
+				b_mini_mountain_silo_south = {
+					color = { 105 55 55 }
+					province = 284
+				}
+			}
+
+			c_mini_mountain_defense = {
+				color = { 240 125 125 }
+
+				b_mini_mountain_defense_west = {
+					color = { 240 125 125 }
+					province = 285
+				}
+
+				b_mini_mountain_defense_centre = {
+					color = { 240 125 125 }
+					province = 286
+				}
+
+				b_mini_mountain_defense_east = {
+					color = { 240 125 125 }
+					province = 287
+				}
+			}
+
+			c_mini_mountain_fort = {
+				color = { 70 40 40 }
+
+				b_mini_mountain_fort_west = {
+					color = { 70 40 40 }
+					province = 288
+				}
+
+				b_mini_mountain_fort_centre = {
+					color = { 70 40 40 }
+					province = 289
+				}
+
+				b_mini_mountain_fort_south = {
+					color = { 70 40 40 }
+					province = 290
+				}
+			}
+
+			c_mini_mountain_camps = {
+				color = { 210 110 110 }
+
+				b_mini_mountain_camps_north = {
+					color = { 210 110 110 }
+					province = 291
+				}
+
+				b_mini_mountain_camps_centre = {
+					color = { 210 110 110 }
+					province = 292
+				}
+
+				b_mini_mountain_camps_south = {
+					color = { 210 110 110 }
+					province = 293
+				}
+			}
+
+			c_mini_mountain_landfill = {
+				color = { 175 90 90 }
+
+				b_mini_mountain_landfill_north = {
+					color = { 175 90 90 }
+					province = 294
+				}
+
+				b_mini_mountain_landfill_west = {
+					color = { 175 90 90 }
+					province = 295
+				}
+
+				b_mini_mountain_landfill_east = {
+					color = { 175 90 90 }
+					province = 296
+				}
+
+				b_mini_mountainlandfill_south_west = {
+					color = { 175 90 90 }
+					province = 297
+				}
+
+				b_mini_mountain_landfill_south_east = {
+					color = { 175 90 90 }
+					province = 298
+				}
+			}
+		}
+
+		d_forest_edge = {
+			color = { 145 85 85 }
+
+			c_forest_edge_ash = {
+				color = { 140 80 80 }
+
+				b_forest_edge_ash_east = {
+					color = { 140 80 80 }
+					province = 299
+				}
+
+				b_forest_edge_ash_north = {
+					color = { 140 80 80 }
+					province = 300
+				}
+
+				b_forest_edge_ash_south = {
+					color = { 140 80 80 }
+					province = 301
+				}
+			}
+
+			c_forest_edge_hornbeam = {
+				color = { 205 120 120 }
+
+				b_forest_edge_hornbeam_north = {
+					color = { 205 120 120 }
+					province = 302
+				}
+
+				b_forest_edge_hornbeam_west = {
+					color = { 205 120 120 }
+					province = 303
+				}
+
+				b_forest_edge_hornbeam_east = {
+					color = { 205 120 120 }
+					province = 304
+				}
+
+				b_forest_edge_hornbeam_south = {
+					color = { 205 120 120 }
+					province = 305
+				}
+			}
+
+			c_forest_edge_oak = {
+				color = { 230 135 135 }
+
+				b_forest_edge_oak_west = {
+					color = { 230 135 135 }
+					province = 306
+				}
+
+				b_forest_edge_oak_north = {
+					color = { 230 135 135 }
+					province = 307
+				}
+
+				b_forest_edge_oak_centre = {
+					color = { 230 135 135 }
+					province = 308
+				}
+
+				b_forest_edge_oak_south = {
+					color = { 230 135 135 }
+					province = 309
+				}
+			}
+
+			c_forest_edge_birch = {
+				color = { 180 110 110 }
+
+				b_forest_edge_birch_west = {
+					color = { 180 110 110 }
+					province = 310
+				}
+
+				b_forest_edge_birch_east = {
+					color = { 180 110 110 }
+					province = 311
+				}
+
+				b_forest_edge_birch_south = {
+					color = { 180 110 110 }
+					province = 312
+				}
+			}
+
+			c_forest_edge_beech = {
+				color = { 100 60 60 }
+
+				b_forest_edge_beech_west = {
+					color = { 100 60 60 }
+					province = 313
+				}
+
+				b_forest_edge_beech_north = {
+					color = { 100 60 60 }
+					province = 314
+				}
+
+				b_forest_edge_beech_south_west = {
+					color = { 100 60 60 }
+					province = 315
+				}
+
+				b_forest_edge_beech_centre = {
+					color = { 100 60 60 }
+					province = 316
+				}
+
+				b_forest_edge_beech_south_east = {
+					color = { 100 60 60 }
+					province = 317
+				}
+			}
+
+			c_forest_edge_fir = {
+				color = { 250 150 150 }
+
+				b_forest_edge_fir_west = {
+					color = { 250 150 150 }
+					province = 318
+				}
+
+				b_forest_edge_fir_south = {
+					color = { 250 150 150 }
+					province = 319
+				}
+
+				b_forest_edge_fir_centre = {
+					color = { 250 150 150 }
+					province = 320
+				}
+
+				b_forest_edge_fir_north_east = {
+					color = { 250 150 150 }
+					province = 321
+				}
+			}
+
+			c_forest_edge_cedar = {
+				color = { 70 40 40 }
+
+				b_forest_edge_cedar_north = {
+					color = { 70 40 40 }
+					province = 322
+				}
+
+				b_forest_edge_cedar_west = {
+					color = { 70 40 40 }
+					province = 323
+				}
+
+				b_forest_edge_cedar_east = {
+					color = { 70 40 40 }
+					province = 324
+				}
+
+				b_forest_edge_cedar_south = {
+					color = { 70 40 40 }
+					province = 325
+				}
+			}
+
+			c_forest_edge_elm = {
+				color = { 240 140 140 }
+
+				b_forest_edge_elm_north_west = {
+					color = { 240 140 140 }
+					province = 326
+				}
+
+				b_forest_edge_elm_north_east = {
+					color = { 240 140 140 }
+					province = 327
+				}
+
+				b_forest_edge_elm_centre = {
+					color = { 240 140 140 }
+					province = 328
+				}
+
+				b_forest_edge_elm_south = {
+					color = { 240 140 140 }
+					province = 329
+				}
+			}
+
+			c_forest_edge_maple = {
+				color = { 90 50 50 }
+
+				b_forest_edge_maple_north = {
+					color = { 90 50 50 }
+					province = 330
+				}
+
+				b_forest_edge_maple_centre = {
+					color = { 90 50 50 }
+					province = 331
+				}
+
+				b_forest_edge_maple_south = {
+					color = { 90 50 50 }
+					province = 332
+				}
+			}
 		}
 	}
 
