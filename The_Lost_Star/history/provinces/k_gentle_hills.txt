@@ -194,351 +194,205 @@
 				holding = none
 			}
     ## d_animal_pastures
+		### c_animal_pastures_geese
+			181 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			182 = {
+				holding = none
+			}
+			183 = {
+				holding = none
+			}
+		### c_animal_pastures_goats
+			184 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			185 = {
+				holding = none
+			}
+			186 = {
+				holding = none
+			}
+			187 = {
+				holding = none
+			}
+		### c_animal_pastures_cows
+			188 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			189 = {
+				holding = none
+			}
+			190 = {
+				holding = none
+			}
+			191 = {
+				holding = none
+			}
+			192 = {
+				holding = none
+			}
+			193 = {
+				holding = none
+			}
+		### c_animal_pastures_chickens
+			194 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			195 = {
+				holding = none
+			}
+			196 = {
+				holding = none
+			}
+			197 = {
+				holding = none
+			}
+		### c_animal_pastures_horses
+			198 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			199 = {
+				holding = none
+			}
+			200 = {
+				holding = none
+			}
+			201 = {
+				holding = none
+			}
+			202 = {
+				holding = none
+			}
+		### c_animal_pastures_sheep
+			203 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			204 = {
+				holding = none
+			}
+			205 = {
+				holding = none
+			}
+			206 = {
+				holding = none
+			}
+			207 = {
+				holding = none
+			}
+			208 = {
+				holding = none
+			}
     ## d_fruit_orchards
-
-
-
-
-
-
-
-
-
-	# k_gentle_hills = {
-	# 	color = { 115 60 85 }
-	# 	capital = c_shore_docks
-
-	# 	d_animal_pastures = {
-	# 		color = { 50 30 60 }
-	# 		capital = c_animal_pastures_horses
-
-	# 		c_animal_pastures_geese = {
-	# 			color = { 110 65 130 }
-
-	# 			b_animal_pastures_geese_north_west = {
-	# 				color = { 110 65 130 }
-	# 				province = 181
-	# 			}
-
-	# 			b_animal_pastures_geese_east = {
-	# 				color = { 110 65 130 }
-	# 				province = 182
-	# 			}
-
-	# 			b_animal_pastures_geese_south = {
-	# 				color = { 110 65 130 }
-	# 				province = 183
-	# 			}
-	# 		}
-
-	# 		c_animal_pastures_goats = {
-	# 			color = { 130 80 160 }
-
-	# 			b_animal_pastures_goats_north = {
-	# 				color = { 130 80 160 }
-	# 				province = 184
-	# 			}
-
-	# 			b_animal_pastures_goats_west = {
-	# 				color = { 130 80 160 }
-	# 				province = 185
-	# 			}
-
-	# 			b_animal_pastures_goats_east = {
-	# 				color = { 130 80 160 }
-	# 				province = 186
-	# 			}
-
-	# 			b_animal_pastures_goats_south = {
-	# 				color = { 130 80 160 }
-	# 				province = 187
-	# 			}
-	# 		}
-
-	# 		c_animal_pastures_cows = {
-	# 			color = { 205 125 250 }
-
-	# 			b_animal_pastures_cows_north_west = {
-	# 				color = { 205 125 250 }
-	# 				province = 188
-	# 			}
-
-	# 			b_animal_pastures_cows_north = {
-	# 				color = { 205 125 250 }
-	# 				province = 189
-	# 			}
-
-	# 			b_animal_pastures_cows_west = {
-	# 				color = { 205 125 250 }
-	# 				province = 190
-	# 			}
-
-	# 			b_animal_pastures_cows_east = {
-	# 				color = { 205 125 250 }
-	# 				province = 191
-	# 			}
-
-	# 			b_animal_pastures_cows_south_west = {
-	# 				color = { 205 125 250 }
-	# 				province = 192
-	# 			}
-
-	# 			b_animal_pastures_cows_south_east = {
-	# 				color = { 205 125 250 }
-	# 				province = 193
-	# 			}
-	# 		}
-
-	# 		c_animal_pastures_chickens = {
-	# 			color = { 160 95 190 }
-
-	# 			b_animal_pastures_chickens_north = {
-	# 				color = { 160 95 190 }
-	# 				province = 194
-	# 			}
-
-	# 			b_animal_pastures_chickens_west = {
-	# 				color = { 160 95 190 }
-	# 				province = 195
-	# 			}
-
-	# 			b_animal_pastures_chickens_east = {
-	# 				color = { 160 95 190 }
-	# 				province = 196
-	# 			}
-
-	# 			b_animal_pastures_chickens_south = {
-	# 				color = { 160 95 190 }
-	# 				province = 197
-	# 			}
-	# 		}
-
-	# 		c_animal_pastures_horses = {
-	# 			color = { 190 110 220 }
-
-	# 			b_animal_pastures_horses_north_west = {
-	# 				color = { 190 110 220 }
-	# 				province = 198
-	# 			}
-
-	# 			b_animal_pastures_horses_north_east = {
-	# 				color = { 190 110 220 }
-	# 				province = 199
-	# 			}
-
-	# 			b_animal_pastures_horses_centre = {
-	# 				color = { 190 110 220 }
-	# 				province = 200
-	# 			}
-
-	# 			b_animal_pastures_horses_south_west = {
-	# 				color = { 190 110 220 }
-	# 				province = 201
-	# 			}
-
-	# 			b_animal_pastures_horses_south_east = {
-	# 				color = { 190 110 220 }
-	# 				province = 202
-	# 			}
-	# 		}
-
-	# 		c_animal_pastures_sheep = {
-	# 			color = { 85 50 100 }
-
-	# 			b_animal_pastures_sheep_north = {
-	# 				color = { 85 50 100 }
-	# 				province = 203
-	# 			}
-
-	# 			b_animal_pastures_sheep_west = {
-	# 				color = { 85 50 100 }
-	# 				province = 204
-	# 			}
-
-	# 			b_animal_pastures_sheep_east = {
-	# 				color = { 85 50 100 }
-	# 				province = 205
-	# 			}
-
-	# 			b_animal_pastures_sheep_south_west = {
-	# 				color = { 85 50 100 }
-	# 				province = 206
-	# 			}
-
-	# 			b_animal_pastures_sheep_south = {
-	# 				color = { 85 50 100 }
-	# 				province = 207
-	# 			}
-
-	# 			b_animal_pastures_sheep_south_east = {
-	# 				color = { 85 50 100 }
-	# 				province = 208
-	# 			}
-	# 		}
-	# 	}
-
-	# 	d_fruit_orchards = {
-	# 		color = { 70 50 90 }
-	# 		capital = c_fruit_orchards_mango
-
-	# 		c_fruit_orchards_orange = {
-	# 			color = { 140 100 180 }
-
-	# 			b_fruit_orchards_orange_north_west = {
-	# 				color = { 140 100 180 }
-	# 				province = 209
-	# 			}
-
-	# 			b_fruit_orchards_orange_north_east = {
-	# 				color = { 140 100 180 }
-	# 				province = 210
-	# 			}
-
-	# 			b_fruit_orchards_orange_south_west = {
-	# 				color = { 140 100 180 }
-	# 				province = 211
-	# 			}
-
-	# 			b_fruit_orchards_orange_south_east = {
-	# 				color = { 140 100 180 }
-	# 				province = 212
-	# 			}
-
-	# 		}
-
-	# 		c_fruit_orchards_mango = {
-	# 			color = { 115 80 150 }
-
-	# 			b_fruit_orchards_mango_north_west = {
-	# 				color = { 115 80 150 }
-	# 				province = 213
-	# 			}
-
-	# 			b_fruit_orchards_mango_north_east = {
-	# 				color = { 115 80 150 }
-	# 				province = 214
-	# 			}
-
-	# 			b_fruit_orchards_mango_centre = {
-	# 				color = { 115 80 150 }
-	# 				province = 215
-	# 			}
-
-	# 			b_fruit_orchards_mango_south_west = {
-	# 				color = { 115 80 150 }
-	# 				province = 216
-	# 			}
-
-	# 			b_fruit_orchards_mango_south_east = {
-	# 				color = { 115 80 150 }
-	# 				province = 217
-	# 			}
-	# 		}
-
-	# 		c_fruit_orchards_pear = {
-	# 			color = { 60 45 80 }
-
-	# 			b_fruit_orchards_pear_north = {
-	# 				color = { 60 45 80 }
-	# 				province = 218
-	# 			}
-
-	# 			b_fruit_orchards_pear_west = {
-	# 				color = { 60 45 80 }
-	# 				province = 219
-	# 			}
-
-	# 			b_fruit_orchards_pear_east = {
-	# 				color = { 60 45 80 }
-	# 				province = 220
-	# 			}
-
-	# 			b_fruit_orchards_pear_south = {
-	# 				color = { 60 45 80 }
-	# 				province = 221
-	# 			}
-	# 		}
-
-	# 		c_fruit_orchards_melon = {
-	# 			color = { 180 110 215 }
-
-	# 			b_fruit_orchards_melon_north_east = {
-	# 				color = { 180 110 215 }
-	# 				province = 222
-	# 			}
-
-	# 			b_fruit_orchards_melon_west = {
-	# 				color = { 180 110 215 }
-	# 				province = 223
-	# 			}
-
-	# 			b_fruit_orchards_melon_east = {
-	# 				color = { 180 110 215 }
-	# 				province = 224
-	# 			}
-
-	# 			b_fruit_orchards_melon_south = {
-	# 				color = { 180 110 215 }
-	# 				province = 225
-	# 			}
-	# 		}
-
-	# 		c_fruit_orchards_apple = {
-	# 			color = { 170 120 220 }
-
-	# 			b_fruit_orchards_apple_north_west = {
-	# 				color = { 170 120 220 }
-	# 				province = 226
-	# 			}
-
-	# 			b_fruit_orchards_apple_north_east = {
-	# 				color = { 170 120 220 }
-	# 				province = 227
-	# 			}
-
-	# 			b_fruit_orchards_apple_east = {
-	# 				color = { 170 120 220 }
-	# 				province = 228
-	# 			}
-
-	# 			b_fruit_orchards_apple_west = {
-	# 				color = { 170 120 220 }
-	# 				province = 229
-	# 			}
-
-	# 			b_fruit_orchards_apple_south_west = {
-	# 				color = { 170 120 220 }
-	# 				province = 230
-	# 			}
-
-	# 			b_fruit_orchards_apple_south_east = {
-	# 				color = { 170 120 220 }
-	# 				province = 231
-	# 			}
-	# 		}
-
-	# 		c_fruit_orchards_grape = {
-	# 			color = { 200 140 250 }
-
-	# 			b_fruit_orchards_grape_north_west = {
-	# 				color = { 200 140 250 }
-	# 				province = 232
-	# 			}
-
-	# 			b_fruit_orchards_grape_north_east = {
-	# 				color = { 200 140 250 }
-	# 				province = 233
-	# 			}
-
-	# 			b_fruit_orchards_grape_south_west = {
-	# 				color = { 200 140 250 }
-	# 				province = 234
-	# 			}
-
-	# 			b_fruit_orchards_grape_south_east = {
-	# 				color = { 200 140 250 }
-	# 				province = 235
-	# 			}
-	# 		}
-	# 	}
-	# }
+		### c_fruit_orchards_orange
+			209 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			210 = {
+				holding = none
+			}
+			211 = {
+				holding = none
+			}
+			212 = {
+				holding = none
+			}
+		### c_fruit_orchards_mango
+			213 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			214 = {
+				holding = none
+			}
+			215 = {
+				holding = none
+			}
+			216 = {
+				holding = none
+			}
+			217 = {
+				holding = none
+			}
+		### c_fruit_orchards_pear
+			218 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			219 = {
+				holding = none
+			}
+			220 = {
+				holding = none
+			}
+			221 = {
+				holding = none
+			}
+		### c_fruit_orchards_melon
+			222 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			223 = {
+				holding = none
+			}
+			224 = {
+				holding = none
+			}
+			225 = {
+				holding = none
+			}
+		### c_fruit_orchards_apple
+			226 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			227 = {
+				holding = none
+			}
+			228 = {
+				holding = none
+			}
+			229 = {
+				holding = none
+			}
+			230 = {
+				holding = none
+			}
+			231 = {
+				holding = none
+			}
+		### c_fruit_orchards_grape
+			232 = {
+				culture = lost_star_larani
+				religion = catholic
+				holding = castle_holding
+			}
+			233 = {
+				holding = none
+			}
+			234 = {
+				holding = none
+			}
+			235 = {
+				holding = none
+			}
