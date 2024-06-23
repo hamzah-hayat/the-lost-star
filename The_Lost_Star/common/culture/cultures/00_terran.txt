@@ -15,8 +15,8 @@ lost_star_terran = {
 	martial_custom = martial_custom_equal
 
 	traditions = {
+		tradition_terran_ideals
 		tradition_astute_diplomats
-		tradition_equal_inheritance
 		tradition_pacifism
 		tradition_mystical_ancestors
 	}
@@ -51,7 +51,7 @@ lost_star_bastion = {
 	language = language_common
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_equal_inheritance
+		tradition_terran_ideals
 		tradition_mystical_ancestors
 		tradition_hereditary_hierarchy
 		tradition_castle_keepers

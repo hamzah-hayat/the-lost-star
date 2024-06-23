@@ -8,7 +8,7 @@
 	# John
 	character = {
 		name = "bookmark_john"
-		dynasty = 10000
+		dynasty = 1
 		history_id = 100000
 		dynasty_splendor_level = 1
 		type = male

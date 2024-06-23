@@ -1,0 +1,19 @@
+﻿l_english:
+# Culture Names
+  lost_star_terran:0 "Terran"
+  lost_star_terran_prefix:0 "Terran"
+  lost_star_terran_collective_noun:0 "Terrans"
+
+  lost_star_bastion:0 "Bastion"
+  lost_star_bastion_prefix:0 "Bastion"
+  lost_star_bastion_collective_noun:0 "Bastions"
+
+# Heritage
+  heritage_terran_name:0 "Terran"
+
+# Language
+  language_common_name:0 "Common Terran"
+
+# Terran Ideals tradition
+  tradition_terran_ideals_name:0 "Terran Ideals"
+  tradition_terran_ideals_desc:0  "The sons of Adam are limbs of each other\nHaving been created of one essence.\nWhen the calamity of time afflicts one limb\nThe other limbs cannot remain at rest.\nIf thou hast no sympathy for the troubles of others\nThou art unworthy to be called by the name of a man.\n\nBani Adam\nSaadi Shirazi"
