@@ -1,18 +1,18 @@
 k_island = {
 	867.1.1 = {
-		holder = 100000
+		holder = 1
 	}
 }
 
 d_bastion_inner = {
 	867.1.1 = {
-		holder = 100000
+		holder = 1
 	}
 }
 
 d_bastion_outer = {
 	867.1.1 = {
-		holder = 100000
+		holder = 1
 	}
 }
 
@@ -20,6 +20,6 @@ c_shelter = {
 	867.1.1 = { change_development_level = 5 }
 
 	867.1.1 = {
-		holder = 100000
+		holder = 1
 	}
 }

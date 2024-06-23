@@ -1,7 +1,7 @@
-﻿100000 = {
+﻿1 = {
 	name = "John"
-	dynasty = 10000
-	dna = 100000_john_pinkerton
+	dynasty = 1
+	dna = 1_john_pinkerton
 	religion = catholic
 	culture = lost_star_bastion
 	martial = 7
