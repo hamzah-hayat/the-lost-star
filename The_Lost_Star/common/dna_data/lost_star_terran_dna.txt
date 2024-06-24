@@ -1,9 +1,5 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
-# History database id:1
-bookmark_john={
-	type=boy
-	id=2
-	age=0.160000
+1_john_pinkerton = {
+	portrait_info = {
 	genes={ 		hair_color={ 114 240 169 152 }
  		skin_color={ 15 83 15 83 }
  		eye_color={ 5 171 71 161 }
@@ -122,35 +118,6 @@ bookmark_john={
  		additive_headgear={ "western_veils" 143 "no_additive" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 979141817 979141817 }
-	tags={ {
-			hash=2125534279
-			invert=no
-		}
- {
-			hash=681013727
-			invert=no
-		}
- {
-			hash=3672171019
-			invert=no
-		}
- {
-			hash=2670398845
-			invert=no
-		}
- {
-			hash=1500963499
-			invert=no
-		}
- {
-			hash=1563190100
-			invert=no
-		}
- {
-			hash=1945936758
-			invert=no
-		}
- }
+	}
+	enabled=yes
 }
-
