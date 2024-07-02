@@ -14,8 +14,11 @@ tradition_terran_ideals = {
 	
 	parameters = {
 		gender_equal_inheritance = yes
+
+		compassionate_trait_more_common = yes
+		just_trait_more_common = yes
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
