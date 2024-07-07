@@ -2058,85 +2058,271 @@ e_maranin = {
 		}
 	}
 
-	# k_great_ports = {
-	# 	color = { 200 185 180 }
+	k_great_ports = {
+		color = { 200 185 180 }
 
-	# 	d_inner_port = {
-	# 		color = { 220 200 180 }
+		d_trader_coastlands = {
+			color = { 220 200 180 }
 
-	# 		c_inner_port_exotic_goods_shipping = {
-	# 			color = { 210 190 170 }
-	# 		}
+			c_trader_coastlands_food = {
+				color = { 220 200 185 }
 
-	# 		c_inner_port_general_cargo_shipping = {
-	# 			color = { 175 160 145 }
-	# 		}
+				b_trader_coastlands_food_north = {
+					color = { 220 200 185 }
+					province = 333
+				}
 
-	# 		c_inner_port_port_treasures = {
-	# 			color = { 110 100 90 }
-	# 		}
+				b_trader_coastlands_food_centre = {
+					color = { 220 200 185 }
+					province = 334
+				}
 
-	# 		c_inner_port_port_warehouses = {
-	# 			color = { 75 70 60 }
-	# 		}
-	# 	}
+				b_trader_coastlands_food_south = {
+					color = { 220 200 185 }
+					province = 335
+				}
+			}
 
-	# 	d_coastline = {
-	# 		color = { 200 160 180 }
+			c_trader_coastlands_cargo = {
+				color = { 75 70 60 }
 
-	# 		c_coastline_low_tide = {
-	# 			color = { 190 150 170 }
-	# 		}
+				b_trader_coastlands_cargo_east = {
+					color = { 75 70 60 }
+					province = 336
+				}
 
-	# 		c_coastline_high_tide = {
-	# 			color = { 155 125 140 }
-	# 		}
-	# 	}
+				b_trader_coastlands_cargo_centre = {
+					color = { 75 70 60 }
+					province = 337
+				}
 
-	# 	d_central_plains = {
-	# 		color = { 200 185 200 }
+				b_trader_coastlands_cargo_west = {
+					color = { 75 70 60 }
+					province = 338
+				}
+			}
 
-	# 		c_central_plains_merchants = {
-	# 			color = { 120 110 120  }
-	# 		}
+			c_trader_coastlands_storage = {
+				color = { 140 130 120 }
 
-	# 		c_central_plains_nobles = {
-	# 			color = { 190 175 190  }
-	# 		}
+				b_trader_coastlands_storage_east = {
+					color = { 140 130 120 }
+					province = 339
+				}
 
-	# 		c_central_plains_bankers = {
-	# 			color = { 155 145 155  }
-	# 		}
+				b_trader_coastlands_storage_north = {
+					color = { 140 130 120 }
+					province = 340
+				}
 
-	# 		c_central_plains_smiths = {
-	# 			color = { 55 50 55 }
-	# 		}
+				b_trader_coastlands_storage_centre = {
+					color = { 140 130 120 }
+					province = 341
+				}
 
-	# 		c_central_plains_builders = {
-	# 			color = { 75 70 75  }
-	# 		}
-	# 	}
+				b_trader_coastlands_storage_south = {
+					color = { 140 130 120 }
+					province = 342
+				}
 
-	# 	d_little_plains = {
-	# 		color = { 190 145 160 }
+				b_trader_coastlands_storage_west = {
+					color = { 140 130 120 }
+					province = 343
+				}
+			}
 
-	# 		c_little_plains_coast = {
-	# 			color = { 250 190 210 }
-	# 		}
+			c_trader_coastlands_shipyards = {
+				color = { 175 160 145 }
 
-	# 		c_little_plains_farms = {
-	# 			color = { 135 105 115 }
-	# 		}
+				b_trader_coastlands_shipyards_north = {
+					color = { 175 160 145 }
+					province = 344
+				}
 
-	# 		c_little_plains_orchards = {
-	# 			color = { 70 55 60 }
-	# 		}
+				b_trader_coastlands_shipyards_east = {
+					color = { 175 160 145 }
+					province = 345
+				}
 
-	# 		c_little_plains_nestled = {
-	# 			color = { 180 140 155 }
-	# 		}
-	# 	}
-	# }
+				b_trader_coastlands_shipyards_south_east = {
+					color = { 175 160 145 }
+					province = 346
+				}
+
+				b_trader_coastlands_shipyards_centre = {
+					color = { 175 160 145 }
+					province = 347
+				}
+
+				b_trader_coastlands_shipyards_south = {
+					color = { 175 160 145 }
+					province = 348
+				}
+
+				b_trader_coastlands_shipyards_west = {
+					color = { 175 160 145 }
+					province = 349
+				}
+
+				b_trader_coastlands_shipyards_south_west = {
+					color = { 175 160 145 }
+					province = 350
+				}
+			}
+
+			c_trader_coastlands_exotic = {
+				color = { 210 190 170 }
+
+				b_trader_coastlands_exotic_east = {
+					color = { 210 190 170 }
+					province = 351
+				}
+
+				b_trader_coastlands_exotic_north = {
+					color = { 210 190 170 }
+					province = 352
+				}
+
+				b_trader_coastlands_exotic_south = {
+					color = { 210 190 170 }
+					province = 353
+				}
+
+				b_trader_coastlands_exotic_west = {
+					color = { 210 190 170 }
+					province = 354
+				}
+			}
+
+			c_trader_coastlands_treasure = {
+				color = { 110 100 90 }
+
+				b_trader_coastlands_treasure_east = {
+					color = { 110 100 90 }
+					province = 355
+				}
+
+				b_trader_coastlands_treasure_centre = {
+					color = { 110 100 90 }
+					province = 356
+				}
+
+				b_trader_coastlands_treasure_west = {
+					color = { 110 100 90 }
+					province = 357
+				}
+			}
+		}
+
+		# d_kings_port = {
+		# 	color = { 200 160 180 }
+
+		# 	c_kings_port_throne = {
+		# 		color = { 190 150 170 }
+		# 	}
+
+		# 	c_kings_port_lowlands = {
+		# 		color = { 155 125 140 }
+		# 	}
+
+		# 	c_kings_port_navy = {
+		# 		color = { 200 160 185 }
+		# 	}
+		# }
+
+		# d_central_plains = {
+		# 	color = { 200 185 200 }
+
+		# 	c_central_plains_merchants = {
+		# 		color = { 120 110 120  }
+		# 	}
+
+		# 	c_central_plains_nobles = {
+		# 		color = { 190 175 190  }
+		# 	}
+
+		# 	c_central_plains_bankers = {
+		# 		color = { 155 145 155  }
+		# 	}
+
+		# 	c_central_plains_smiths = {
+		# 		color = { 55 50 55 }
+		# 	}
+
+		# 	c_central_plains_builders = {
+		# 		color = { 75 70 75  }
+		# 	}
+		# }
+
+		# d_golden_river = {
+		# 	color = { 200 180 185 }
+
+		# 	c_golden_river_a = {
+		# 		color = { 205 185 190 }
+		# 	}
+
+		# 	c_golden_river_b = {
+		# 		color = { 185 165 170 }
+		# 	}
+
+		# 	c_golden_river_c = {
+		# 		color = { 160 150 150 }
+		# 	}
+
+		# 	c_golden_river_d = {
+		# 		color = { 140 130 130 }
+		# 	}
+
+		# 	c_golden_river_d = {
+		# 		color = { 245 220 225 }
+		# 	}
+
+		# }
+
+		# d_little_plains = {
+		# 	color = { 190 145 160 }
+
+		# 	c_little_plains_border = {
+		# 		color = { 250 190 210 }
+		# 	}
+
+		# 	c_little_plains_farms = {
+		# 		color = { 135 105 115 }
+		# 	}
+
+		# 	c_little_plains_orchards = {
+		# 		color = { 70 55 60 }
+		# 	}
+
+		# 	c_little_plains_nestled = {
+		# 		color = { 180 140 155 }
+		# 	}
+		# }
+
+		# d_lone_road = {
+		# 	color = { 200 140 115 }
+
+		# 	c_lone_road_a = {
+		# 		color = { 205 140 115 }
+		# 	}
+
+		# 	c_lone_road_b = {
+		# 		color = { 100 70 60 }
+		# 	}
+
+		# 	c_lone_road_c = {
+		# 		color = { 185 130 105 }
+		# 	}
+
+		# 	c_lone_road_d = {
+		# 		color = { 120 85 70 }
+		# 	}
+
+		# 	c_lone_road_e = {
+		# 		color = { 140 100 80 }
+		# 	}
+		# }
+	}
 
 	# k_mountain_hold = {
 	# 	color = { 115 100 60 }
