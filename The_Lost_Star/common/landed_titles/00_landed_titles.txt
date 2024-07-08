@@ -2214,45 +2214,212 @@ e_maranin = {
 			}
 		}
 
-		# d_kings_port = {
-		# 	color = { 200 160 180 }
+		d_kings_port = {
+			color = { 200 160 180 }
 
-		# 	c_kings_port_throne = {
-		# 		color = { 190 150 170 }
-		# 	}
+			c_kings_port_throne = {
+				color = { 190 150 170 }
 
-		# 	c_kings_port_lowlands = {
-		# 		color = { 155 125 140 }
-		# 	}
+				b_kings_port_throne_north_east = {
+					color = { 190 150 170 }
+					province = 358
+				}
 
-		# 	c_kings_port_navy = {
-		# 		color = { 200 160 185 }
-		# 	}
-		# }
+				b_kings_port_throne_west = {
+					color = { 190 150 170 }
+					province = 359
+				}
 
-		# d_central_plains = {
-		# 	color = { 200 185 200 }
+				b_kings_port_throne_centre = {
+					color = { 190 150 170 }
+					province = 360
+				}
 
-		# 	c_central_plains_merchants = {
-		# 		color = { 120 110 120  }
-		# 	}
+				b_kings_port_throne_south_east = {
+					color = { 190 150 170 }
+					province = 361
+				}
 
-		# 	c_central_plains_nobles = {
-		# 		color = { 190 175 190  }
-		# 	}
+				b_kings_port_throne_south_west = {
+					color = { 190 150 170 }
+					province = 362
+				}
+			}
 
-		# 	c_central_plains_bankers = {
-		# 		color = { 155 145 155  }
-		# 	}
+			c_kings_port_lowlands = {
+				color = { 155 125 140 }
 
-		# 	c_central_plains_smiths = {
-		# 		color = { 55 50 55 }
-		# 	}
+				b_kings_port_lowlands_east = {
+					color = { 155 125 140 }
+					province = 363
+				}
+				
+				b_kings_port_lowlands_north = {
+					color = { 155 125 140 }
+					province = 364
+				}
 
-		# 	c_central_plains_builders = {
-		# 		color = { 75 70 75  }
-		# 	}
-		# }
+				
+				b_kings_port_lowlands_south = {
+					color = { 155 125 140 }
+					province = 365
+				}
+
+				
+				b_kings_port_lowlands_south_west = {
+					color = { 155 125 140 }
+					province = 366
+				}
+			}
+
+			c_kings_port_navy = {
+				color = { 200 160 185 }
+
+				b_kings_port_navy_north_east = {
+					color = { 200 160 185 }
+					province = 367
+				}
+
+				b_kings_port_navy_east = {
+					color = { 200 160 185 }
+					province = 368
+				}
+
+				b_kings_port_navy_centre = {
+					color = { 200 160 185 }
+					province = 369
+				}
+
+				b_kings_port_navy_south_west = {
+					color = { 200 160 185 }
+					province = 370
+				}
+			}
+		}
+
+		d_central_plains = {
+			color = { 200 185 200 }
+
+			c_central_plains_smiths = {
+				color = { 55 50 55 }
+
+				b_central_plains_smiths_north_east = {
+					color = { 55 50 55 }
+					province = 371
+				}
+
+				b_central_plains_smiths_north_west = {
+					color = { 55 50 55 }
+					province = 372
+				}
+
+				b_central_plains_smiths_south_east = {
+					color = { 55 50 55 }
+					province = 373
+				}
+
+				b_central_plains_smiths_south_west = {
+					color = { 55 50 55 }
+					province = 374
+				}
+			}
+
+			c_central_plains_bankers = {
+				color = { 155 145 155  }
+
+				b_central_plains_bankers_north = {
+					color = { 55 50 55 }
+					province = 375
+				}
+
+				b_central_plains_bankers_east = {
+					color = { 55 50 55 }
+					province = 376
+				}
+
+				b_central_plains_bankers_south_west = {
+					color = { 55 50 55 }
+					province = 377
+				}
+			}
+
+			c_central_plains_builders = {
+				color = { 75 70 75  }
+
+				b_central_plains_builders_east = {
+					color = { 75 70 75  }
+					province = 378
+				}
+
+				b_central_plains_builders_centre = {
+					color = { 75 70 75  }
+					province = 379
+				}
+
+				b_central_plains_builders_west = {
+					color = { 75 70 75  }
+					province = 380
+				}
+			}
+
+			c_central_plains_merchants = {
+				color = { 120 110 120  }
+
+				b_central_plains_merchants_north_east = {
+					color = { 120 110 120  }
+					province = 381
+				}
+
+				b_central_plains_merchants_south_east = {
+					color = { 120 110 120  }
+					province = 382
+				}
+
+				b_central_plains_merchants_centre = {
+					color = { 120 110 120  }
+					province = 383
+				}
+
+				b_central_plains_merchants_west = {
+					color = { 120 110 120  }
+					province = 384
+				}
+
+				b_central_plains_merchants_south_west = {
+					color = { 120 110 120  }
+					province = 385
+				}
+			}
+
+			c_central_plains_nobles = {
+				color = { 190 175 190  }
+
+				b_central_plains_nobles_north = {
+					color = { 190 175 190  }
+					province = 386
+				}
+
+				b_central_plains_nobles_centre = {
+					color = { 190 175 190  }
+					province = 387
+				}
+
+				b_central_plains_nobles_east = {
+					color = { 190 175 190  }
+					province = 388
+				}
+
+				b_central_plains_nobles_west = {
+					color = { 190 175 190  }
+					province = 389
+				}
+
+				b_central_plains_nobles_south = {
+					color = { 190 175 190  }
+					province = 390
+				}
+			}
+		}
 
 		# d_golden_river = {
 		# 	color = { 200 180 185 }
