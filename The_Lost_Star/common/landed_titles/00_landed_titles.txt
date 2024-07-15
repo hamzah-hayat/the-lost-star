@@ -2421,74 +2421,364 @@ e_maranin = {
 			}
 		}
 
-		# d_golden_river = {
-		# 	color = { 200 180 185 }
+		d_golden_river = {
+			color = { 200 180 185 }
 
-		# 	c_golden_river_a = {
-		# 		color = { 205 185 190 }
-		# 	}
+			c_golden_river_drain = {
+				color = { 205 185 190 }
 
-		# 	c_golden_river_b = {
-		# 		color = { 185 165 170 }
-		# 	}
+				b_golden_river_drain_north = {
+					color = { 205 185 190 }
+					province = 391
+				}
 
-		# 	c_golden_river_c = {
-		# 		color = { 160 150 150 }
-		# 	}
+				b_golden_river_drain_east = {
+					color = { 205 185 190 }
+					province = 392
+				}
 
-		# 	c_golden_river_d = {
-		# 		color = { 140 130 130 }
-		# 	}
+				b_golden_river_drain_west = {
+					color = { 205 185 190 }
+					province = 393
+				}
+			}
 
-		# 	c_golden_river_d = {
-		# 		color = { 245 220 225 }
-		# 	}
+			c_golden_river_temple = {
+				color = { 185 165 170 }
 
-		# }
+				b_golden_river_temple_north_east = {
+					color = { 185 165 170 }
+					province = 394
+				}
 
-		# d_little_plains = {
-		# 	color = { 190 145 160 }
+				b_golden_river_temple_north_west = {
+					color = { 185 165 170 }
+					province = 395
+				}
 
-		# 	c_little_plains_border = {
-		# 		color = { 250 190 210 }
-		# 	}
+				b_golden_river_temple_south_east = {
+					color = { 185 165 170 }
+					province = 396
+				}
 
-		# 	c_little_plains_farms = {
-		# 		color = { 135 105 115 }
-		# 	}
+				b_golden_river_temple_south_west = {
+					color = { 185 165 170 }
+					province = 397
+				}
+			}
 
-		# 	c_little_plains_orchards = {
-		# 		color = { 70 55 60 }
-		# 	}
+			c_golden_river_entrance = {
+				color = { 160 150 150 }
 
-		# 	c_little_plains_nestled = {
-		# 		color = { 180 140 155 }
-		# 	}
-		# }
+				b_golden_river_entrance_north_east = {
+					color = { 160 150 150 }
+					province = 398
+				}
 
-		# d_lone_road = {
-		# 	color = { 200 140 115 }
+				b_golden_river_entrance_east = {
+					color = { 160 150 150 }
+					province = 399
+				}
 
-		# 	c_lone_road_a = {
-		# 		color = { 205 140 115 }
-		# 	}
+				b_golden_river_entrance_south_east = {
+					color = { 160 150 150 }
+					province = 400
+				}
 
-		# 	c_lone_road_b = {
-		# 		color = { 100 70 60 }
-		# 	}
+				b_golden_river_entrance_centre = {
+					color = { 160 150 150 }
+					province = 401
+				}
 
-		# 	c_lone_road_c = {
-		# 		color = { 185 130 105 }
-		# 	}
+				b_golden_river_entrance_west = {
+					color = { 160 150 150 }
+					province = 402
+				}
+			}
 
-		# 	c_lone_road_d = {
-		# 		color = { 120 85 70 }
-		# 	}
+			c_golden_river_tributaries = {
+				color = { 140 130 130 }
 
-		# 	c_lone_road_e = {
-		# 		color = { 140 100 80 }
-		# 	}
-		# }
+				b_golden_river_tributaries_north_east = {
+					color = { 140 130 130 }
+					province = 403
+				}
+
+				b_golden_river_tributaries_north_west = {
+					color = { 140 130 130 }
+					province = 404
+				}
+
+				b_golden_river_tributaries_south_east = {
+					color = { 140 130 130 }
+					province = 405
+				}
+
+				b_golden_river_tributaries_south_west = {
+					color = { 140 130 130 }
+					province = 406
+				}
+			}
+
+			c_golden_river_estuary = {
+				color = { 245 220 225 }
+
+				b_golden_river_estuary_north = {
+					color = { 245 220 225 }
+					province = 407
+				}
+
+				b_golden_river_estuary_west = {
+					color = { 245 220 225 }
+					province = 408
+				}
+
+				b_golden_river_estuary_south = {
+					color = { 245 220 225 }
+					province = 409
+				}
+			}
+
+		}
+
+		d_little_plains = {
+			color = { 190 145 160 }
+
+			c_little_plains_farms = {
+				color = { 135 105 115 }
+
+				b_little_plains_farms_east = {
+					color = { 135 105 115 }
+					province = 410
+				}
+
+				b_little_plains_farms_north = {
+					color = { 135 105 115 }
+					province = 411
+				}
+
+				b_little_plains_farms_south = {
+					color = { 135 105 115 }
+					province = 412
+				}
+
+				b_little_plains_farms_north_west = {
+					color = { 135 105 115 }
+					province = 413
+				}
+			}
+
+			c_little_plains_border = {
+				color = { 250 190 210 }
+
+				b_little_plains_border_north = {
+					color = { 250 190 210 }
+					province = 414
+				}
+
+				b_little_plains_border_centre = {
+					color = { 250 190 210 }
+					province = 415
+				}
+
+				b_little_plains_border_south = {
+					color = { 250 190 210 }
+					province = 416
+				}
+			}
+
+			c_little_plains_nestled = {
+				color = { 180 140 155 }
+
+				b_little_plains_nestled_north_east = {
+					color = { 180 140 155 }
+					province = 417
+				}
+
+				b_little_plains_nestled_north_west = {
+					color = { 180 140 155 }
+					province = 418
+				}
+
+				b_little_plains_nestled_east = {
+					color = { 180 140 155 }
+					province = 419
+				}
+
+				b_little_plains_nestled_west = {
+					color = { 180 140 155 }
+					province = 420
+				}
+
+				b_little_plains_nestled_south_west = {
+					color = { 180 140 155 }
+					province = 421
+				}
+
+				b_little_plains_nestled_south_east = {
+					color = { 180 140 155 }
+					province = 422
+				}
+			}
+
+			c_little_plains_orchards = {
+				color = { 70 55 60 }
+
+				b_little_plains_orchards_north_east = {
+					color = { 70 55 60 }
+					province = 423
+				}
+
+				b_little_plains_orchards_east = {
+					color = { 70 55 60 }
+					province = 424
+				}
+
+				b_little_plains_orchards_south_east = {
+					color = { 70 55 60 }
+					province = 425
+				}
+
+				b_little_plains_orchards_west = {
+					color = { 70 55 60 }
+					province = 426
+				}
+
+				b_little_plains_orchards_south_west = {
+					color = { 70 55 60 }
+					province = 427
+				}
+			}
+		}
+
+		d_science_ruins = {
+			color = { 200 140 115 }
+
+			c_science_ruins_biology = {
+				color = { 120 85 70 }
+
+				b_science_ruins_biology_north = {
+					color = { 120 85 70 }
+					province = 428
+				}
+
+				b_science_ruins_biology_east = {
+					color = { 120 85 70 }
+					province = 429
+				}
+
+				b_science_ruins_biology_west = {
+					color = { 120 85 70 }
+					province = 430
+				}
+
+				b_science_ruins_biology_south = {
+					color = { 120 85 70 }
+					province = 431
+				}
+			}
+
+			c_science_ruins_engineering = {
+				color = { 185 130 105 }
+
+				b_science_ruins_engineering_east = {
+					color = { 185 130 105 }
+					province = 432
+				}
+
+				b_science_ruins_engineering_north = {
+					color = { 185 130 105 }
+					province = 433
+				}
+
+				b_science_ruins_engineering_south = {
+					color = { 185 130 105 }
+					province = 434
+				}
+
+				b_science_ruins_engineering_west = {
+					color = { 185 130 105 }
+					province = 435
+				}
+			}
+
+			c_science_ruins_physics = {
+				color = { 205 140 115 }
+
+				b_science_ruins_physics_east = {
+					color = { 205 140 115 }
+					province = 436
+				}
+
+				b_science_ruins_physics_north = {
+					color = { 205 140 115 }
+					province = 437
+				}
+
+				b_science_ruins_physics_south = {
+					color = { 205 140 115 }
+					province = 438
+				}
+			}
+
+			c_science_ruins_rocket = {
+				color = { 140 100 80 }
+
+				b_science_ruins_rocket_north_east = {
+					color = { 140 100 80 }
+					province = 439
+				}
+
+				b_science_ruins_rocket_north_west = {
+					color = { 140 100 80 }
+					province = 440
+				}
+
+				b_science_ruins_rocket_centre = {
+					color = { 140 100 80 }
+					province = 441
+				}
+
+				b_science_ruins_rocket_south_east = {
+					color = { 140 100 80 }
+					province = 442
+				}
+
+				b_science_ruins_rocket_south_west = {
+					color = { 140 100 80 }
+					province = 443
+				}
+			}
+
+			c_science_ruins_computing = {
+				color = { 100 70 60 }
+
+				b_science_ruins_computing_north = {
+					color = { 100 70 60 }
+					province = 444
+				}
+
+				b_science_ruins_computing_east = {
+					color = { 100 70 60 }
+					province = 445
+				}
+
+				b_science_ruins_computing_west = {
+					color = { 100 70 60 }
+					province = 446
+				}
+
+				b_science_ruins_computing_south_east = {
+					color = { 100 70 60 }
+					province = 447
+				}
+
+				b_science_ruins_computing_south_west = {
+					color = { 100 70 60 }
+					province = 448
+				}
+			}
+		}
 	}
 
 	# k_mountain_hold = {
