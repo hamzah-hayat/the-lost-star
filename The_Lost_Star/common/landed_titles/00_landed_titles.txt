@@ -2781,49 +2781,164 @@ e_maranin = {
 		}
 	}
 
-	# k_mountain_hold = {
-	# 	color = { 115 100 60 }
+	k_mountain_hold = {
+		color = { 115 100 60 }
 
-	# 	d_hand = {
-	# 		color = { 115 90 60 }
+		d_hand = {
+			color = { 115 90 60 }
 
-	# 		c_hand_thumb = {
-	# 			color = { 60 50 30 }
-	# 		}
-	# 		c_hand_fist = {
-	# 			color = { 175 140 90 }
-	# 		}
-	# 		c_hand_wrist = {
-	# 			color = { 150 120 80 }
-	# 		}
-	# 	}
+			c_hand_thumb = {
+				color = { 60 50 30 }
 
-	# 	d_arm = {
-	# 		color = { 115 115 60 }
+				b_hand_thumb_north = {
+					color = { 60 50 30 }
+					province = 449
+				}
 
-	# 		c_arm_elbow = {
-	# 			color = { 85 85 45 }
-	# 		}
+				b_hand_thumb_east = {
+					color = { 60 50 30 }
+					province = 450
+				}
 
-	# 		c_arm_muscle = {
-	# 			color = { 60 60 30 }
-	# 		}
+				b_hand_thumb_west = {
+					color = { 60 50 30 }
+					province = 451
+				}
+			}
+			
+			c_hand_fist = {
+				color = { 175 140 90 }
 
-	# 		c_arm_joint = {
-	# 			color = { 150 150 75 }
-	# 		}
-	# 	}
-	# }
+				b_hand_fist_north = {
+					color = { 175 140 90 }
+					province = 452
+				}
+
+				b_hand_fist_east = {
+					color = { 175 140 90 }
+					province = 453
+				}
+
+				b_hand_fist_south = {
+					color = { 175 140 90 }
+					province = 454
+				}
+			}
+
+			c_hand_wrist = {
+				color = { 150 120 80 }
+
+				b_hand_wrist_north = {
+					color = { 150 120 80 }
+					province = 455
+				}
+
+				b_hand_wrist_east = {
+					color = { 150 120 80 }
+					province = 456
+				}
+
+				b_hand_wrist_west = {
+					color = { 150 120 80 }
+					province = 457
+				}
+
+				b_hand_wrist_south = {
+					color = { 150 120 80 }
+					province = 458
+				}
+			}
+		}
+
+		d_arm = {
+			color = { 115 115 60 }
+
+			c_arm_joint = {
+				color = { 150 150 75 }
+
+				b_arm_joint_north = {
+					color = { 150 150 75 }
+					province = 459
+				}
+
+				b_arm_joint_south = {
+					color = { 150 150 75 }
+					province = 460
+				}
+
+				b_arm_joint_west = {
+					color = { 150 150 75 }
+					province = 461
+				}
+			}
+
+			c_arm_muscle = {
+				color = { 60 60 30 }
+
+				b_arm_muscle_east = {
+					color = { 60 60 30 }
+					province = 462
+				}
+
+				b_arm_muscle_north = {
+					color = { 60 60 30 }
+					province = 463
+				}
+
+				b_arm_muscle_south = {
+					color = { 60 60 30 }
+					province = 464
+				}
+
+				b_arm_muscle_west = {
+					color = { 60 60 30 }
+					province = 465
+				}
+			}
+
+			c_arm_elbow = {
+				color = { 85 85 45 }
+
+				b_arm_elbow_east = {
+					color = { 85 85 45 }
+					province = 466
+				}
+
+				b_arm_elbow_south = {
+					color = { 85 85 45 }
+					province = 467
+				}
+
+				b_arm_elbow_north_west = {
+					color = { 85 85 45 }
+					province = 468
+				}
+			}
+		}
+	}
 
 	# k_merchants_valley = {
 	# 	color = { 195 160 220 }
 
 	# 	d_pass = {
 	# 		color = { 220 160 190 }
+
+	# 		c_pass_gate = {
+
+	# 		}
+
+	# 		c_pass_camps = {
+
+	# 		}
+
 	# 	}
 
 	# 	d_market = {
 	# 		color = { 145 120 160 }
+	# 	}
+
+	# 	d_lowlands = {
+	# 		color = { 165 120 180 }
 	# 	}
 
 	# 	d_gap = {
