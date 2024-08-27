@@ -2917,38 +2917,568 @@ e_maranin = {
 		}
 	}
 
-	# k_merchants_valley = {
-	# 	color = { 195 160 220 }
+	k_merchants_valley = {
+		color = { 195 160 220 }
 
-	# 	d_pass = {
-	# 		color = { 220 160 190 }
+		d_gap = {
+			color = { 160 165 220 }
 
-	# 		c_pass_gate = {
+			c_gap_1 = {
+				color = { 155 160 210 }
 
-	# 		}
+				b_gap_1_east = {
+					color = { 155 160 210 }
+					province = 469
+				}
 
-	# 		c_pass_camps = {
+				b_gap_1_centre = {
+					color = { 155 160 210 }
+					province = 470
+				}
 
-	# 		}
+				b_gap_1_west = {
+					color = { 155 160 210 }
+					province = 471
+				}
+			}
 
-	# 	}
+			c_gap_2 = {
+				color = { 55 55 75 }
 
-	# 	d_market = {
-	# 		color = { 145 120 160 }
-	# 	}
+				b_gap_2_north_east = {
+					color = { 55 55 75 }
+					province = 472
+				}
 
-	# 	d_lowlands = {
-	# 		color = { 165 120 180 }
-	# 	}
+				b_gap_2_north = {
+					color = { 55 55 75 }
+					province = 473
+				}
 
-	# 	d_gap = {
-	# 		color = { 160 165 220 }
-	# 	}
+				b_gap_2_east = {
+					color = { 55 55 75 }
+					province = 474
+				}
 
-	# 	d_edge = {
-	# 		color = { 150 140 190 }
-	# 	}
-	# }
+				b_gap_2_south = {
+					color = { 55 55 75 }
+					province = 475
+				}
+
+				b_gap_2_west = {
+					color = { 55 55 75 }
+					province = 476
+				}
+
+				b_gap_2_south_west = {
+					color = { 55 55 75 }
+					province = 477
+				}
+			}
+
+			c_gap_3 = {
+				color = { 130 135 175 }
+
+				b_gap_3_north = {
+					color = { 55 55 75 }
+					province = 478
+				}
+
+				b_gap_3_centre = {
+					color = { 55 55 75 }
+					province = 479
+				}
+
+				b_gap_3_south_east = {
+					color = { 55 55 75 }
+					province = 480
+				}
+
+				b_gap_3_south_west = {
+					color = { 55 55 75 }
+					province = 481
+				}
+			}
+
+			c_gap_4 = {
+				color = { 80 80 110 }
+
+				b_gap_4_north = {
+					color = { 80 80 110 }
+					province = 482
+				}
+
+				b_gap_4_east = {
+					color = { 80 80 110 }
+					province = 483
+				}
+
+				b_gap_4_centre = {
+					color = { 80 80 110 }
+					province = 484
+				}
+
+				b_gap_4_west = {
+					color = { 80 80 110 }
+					province = 485
+				}
+
+				b_gap_4_south = {
+					color = { 80 80 110 }
+					province = 486
+				}
+			}
+
+			c_gap_5 = {
+				color = { 105 105 145 }
+
+				b_gap_5_north = {
+					color = { 105 105 145 }
+					province = 487
+				}
+
+				b_gap_5_east = {
+					color = { 105 105 145 }
+					province = 488
+				}
+
+				b_gap_5_west = {
+					color = { 105 105 145 }
+					province = 489
+				}
+
+				b_gap_5_south = {
+					color = { 105 105 145 }
+					province = 490
+				}
+
+				b_gap_5_south_east = {
+					color = { 105 105 145 }
+					province = 491
+				}
+			}
+
+			c_gap_6 = {
+				color = { 60 60 80 }
+
+				b_gap_6_north_west = {
+					color = { 60 60 80 }
+					province = 492
+				}
+
+				b_gap_6_north_east = {
+					color = { 60 60 80 }
+					province = 493
+				}
+
+				b_gap_6_south_west = {
+					color = { 60 60 80 }
+					province = 494
+				}
+
+				b_gap_6_south_east = {
+					color = { 60 60 80 }
+					province = 495
+				}
+			}
+
+			c_gap_7 = {
+				color = { 150 155 205 }
+
+				b_gap_7_north_west = {
+					color = { 150 155 205 }
+					province = 496
+				}
+
+				b_gap_7_north_east = {
+					color = { 150 155 205 }
+					province = 497
+				}
+
+				b_gap_7_south_west = {
+					color = { 150 155 205 }
+					province = 498
+				}
+
+				b_gap_7_south_east = {
+					color = { 150 155 205 }
+					province = 499
+				}
+			}
+		}
+
+		d_edge = {
+			color = { 150 140 190 }
+
+			c_edge_1 = {
+				color = { 155 145 195 }
+
+				b_edge_1_north_east = {
+					color = { 155 145 195 }
+					province = 500
+				}
+
+				b_edge_1_west = {
+					color = { 155 145 195 }
+					province = 501
+				}
+
+				b_edge_1_east = {
+					color = { 155 145 195 }
+					province = 502
+				}
+
+				b_edge_1_south = {
+					color = { 155 145 195 }
+					province = 503
+				}
+			}
+
+			c_edge_2 = {
+				color = { 40 40 55 }
+
+				b_edge_2_north_east = {
+					color = { 40 40 55 }
+					province = 504
+				}
+
+				b_edge_2_west = {
+					color = { 40 40 55 }
+					province = 505
+				}
+
+				b_edge_2_south = {
+					color = { 40 40 55 }
+					province = 506
+				}
+			}
+
+			c_edge_3 = {
+				color = { 140 130 175 }
+
+				b_edge_3_north_east = {
+					color = { 140 130 175 }
+					province = 507
+				}
+
+				b_edge_3_south = {
+					color = { 140 130 175 }
+					province = 508
+				}
+
+				b_edge_3_south_west = {
+					color = { 140 130 175 }
+					province = 509
+				}
+			}
+
+			c_edge_4 = {
+				color = { 60 55 75 }
+
+				b_edge_4_north = {
+					color = { 60 55 75 }
+					province = 510
+				}
+
+				b_edge_4_centre = {
+					color = { 60 55 75 }
+					province = 511
+				}
+
+				b_edge_4_south_west = {
+					color = { 60 55 75 }
+					province = 512
+				}
+
+				b_edge_4_south_east = {
+					color = { 60 55 75 }
+					province = 513
+				}
+			}
+
+			c_edge_5 = {
+				color = { 125 115 155 }
+
+				b_edge_5_east = {
+					color = { 125 115 155 }
+					province = 514
+				}
+
+				b_edge_5_south = {
+					color = { 125 115 155 }
+					province = 515
+				}
+
+				b_edge_5_west = {
+					color = { 125 115 155 }
+					province = 516
+				}
+
+			}
+
+			c_edge_6 = {
+				color = { 75 70 95 }
+
+				b_edge_6_north = {
+					color = { 75 70 95 }
+					province = 517
+				}
+
+				b_edge_6_east = {
+					color = { 75 70 95 }
+					province = 518
+				}
+
+				b_edge_6_west = {
+					color = { 75 70 95 }
+					province = 519
+				}
+			}
+
+			c_edge_7 = {
+				color = { 105 100 135 }
+
+				b_edge_7_north = {
+					color = { 105 100 135 }
+					province = 520
+				}
+
+				b_edge_7_west = {
+					color = { 105 100 135 }
+					province = 521
+				}
+
+				b_edge_7_south = {
+					color = { 105 100 135 }
+					province = 522
+				}
+			}
+
+			c_edge_8 = {
+				color = { 90 85 115 }
+
+				b_edge_8_north_west = {
+					color = { 90 85 115 }
+					province = 523
+				}
+
+				b_edge_8_east = {
+					color = { 90 85 115 }
+					province = 524
+				}
+
+				b_edge_8_south = {
+					color = { 90 85 115 }
+					province = 525
+				}
+			}
+		}
+
+		d_market = {
+			color = { 145 120 160 }
+
+			c_market_1 = {
+				color = { 150 125 165 }
+
+				b_market_1_north_west = {
+					color = { 150 125 165 }
+					province = 526
+				}
+
+				b_market_1_east = {
+					color = { 150 125 165 }
+					province = 527
+				}
+
+				b_market_1_south = {
+					color = { 150 125 165 }
+					province = 528
+				}
+			}
+
+			c_market_2 = {
+				color = { 60 50 65 }
+
+				b_market_2_west = {
+					color = { 60 50 65 }
+					province = 529
+				}
+
+				b_market_2_east = {
+					color = { 60 50 65 }
+					province = 530
+				}
+
+				b_market_2_south = {
+					color = { 60 50 65 }
+					province = 531
+				}
+			}
+
+			c_market_3 = {
+				color = { 130 110 145 }
+
+				b_market_3_north = {
+					color = { 130 110 145 }
+					province = 532
+				}
+
+				b_market_3_east = {
+					color = { 130 110 145 }
+					province = 533
+				}
+
+				b_market_3_centre = {
+					color = { 130 110 145 }
+					province = 534
+				}
+
+				b_market_3_west = {
+					color = { 130 110 145 }
+					province = 535
+				}
+			}
+
+			c_market_4 = {
+				color = { 75 65 85 }
+
+				b_market_4_north = {
+					color = { 75 65 85 }
+					province = 536
+				}
+
+				b_market_4_west = {
+					color = { 75 65 85 }
+					province = 537
+				}
+
+				b_market_4_centre = {
+					color = { 75 65 85 }
+					province = 538
+				}
+
+				b_market_4_east = {
+					color = { 75 65 85 }
+					province = 539
+				}
+			}
+
+			c_market_5 = {
+				color = { 115 95 125 }
+
+				b_market_5_west = {
+					color = { 115 95 125 }
+					province = 540
+				}
+
+				b_market_5_centre = {
+					color = { 115 95 125 }
+					province = 541
+				}
+
+				b_market_5_east = {
+					color = { 115 95 125 }
+					province = 542
+				}
+			}
+
+			c_market_6 = {
+				color = { 205 170 225 }
+
+				b_market_6_north = {
+					color = { 205 170 225 }
+					province = 543
+				}
+
+				b_market_6_south = {
+					color = { 205 170 225 }
+					province = 544
+				}
+			}
+
+			c_market_7 = {
+				color = { 95 80 105 }
+
+				b_market_7_north = {
+					color = { 95 80 105 }
+					province = 545
+				}
+
+				b_market_7_centre = {
+					color = { 95 80 105 }
+					province = 546
+				}
+
+				b_market_7_south = {
+					color = { 95 80 105 }
+					province = 547
+				}
+
+				b_market_7_south_east = {
+					color = { 95 80 105 }
+					province = 548
+				}
+			}
+		}
+
+		# d_lowlands = {
+		# 	color = { 165 120 180 }
+
+		# 	c_lowlands_1 = {
+		# 		color = { 170 125 185 }
+		# 	}
+
+		# 	c_lowlands_2 = {
+		# 		color = { 60 45 65 }
+		# 	}
+
+		# 	c_lowlands_3 = {
+		# 		color = { 150 110 165 }
+		# 	}
+
+		# 	c_lowlands_4 = {
+		# 		color = { 75 55 85 }
+		# 	}
+
+		# 	c_lowlands_5 = {
+		# 		color = { 135 95 145 }
+		# 	}
+
+		# 	c_lowlands_6 = {
+		# 		color = { 95 70 105 }
+		# 	}
+
+		# 	c_lowlands_7 = {
+		# 		color = { 115 85 125 }
+		# 	}
+		# }
+
+		# d_pass = {
+		# 	color = { 220 160 190 }
+
+		# 	c_pass_1 = {
+		# 		color = { 225 165 195 }
+		# 	}
+
+		# 	c_pass_2 = {
+		# 		color = { 100 75 90 }
+		# 	}
+
+		# 	c_pass_3 = {
+		# 		color = { 185 135 160 }
+		# 	}
+
+		# 	c_pass_4 = {
+		# 		color = { 120 90 105 }
+		# 	}
+
+		# 	c_pass_5 = {
+		# 		color = { 160 120 140 }
+		# 	}
+
+		# }
+
+	}
 
 	# k_outer_lands = {
 	# 	color = { 80 135 80 }
