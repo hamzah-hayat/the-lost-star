@@ -3749,25 +3749,859 @@ e_maranin = {
 
 	}
 
-	# k_outer_lands = {
-	# 	color = { 80 135 80 }
+	k_outer_lands = {
+		color = { 80 135 80 }
 
-	# 	d_lowlands = {
-	# 		color = { 105 135 80 }
-	# 	}
+		d_outer_lowlands = {
+			color = { 105 135 80 }
 
-	# 	d_pass = {
-	# 		color = { 120 135 120 }
-	# 	}
+			c_outer_lowlands_1 = {
+				color = { 100 130 75 }
 
-	# 	d_fort = {
-	# 		color = { 100 105 60 }
-	# 	}
+				b_outer_lowlands_1_north_west = {
+					color = { 100 130 75 }
+					province = 602
+				}
 
-	# 	d_border = {
-	# 		color = { 80 135 120 }
-	# 	}
-	# }
+				b_outer_lowlands_1_east = {
+					color = { 100 130 75 }
+					province = 603
+				}
+
+				b_outer_lowlands_1_west = {
+					color = { 100 130 75 }
+					province = 604
+				}
+
+				b_outer_lowlands_1_south = {
+					color = { 100 130 75 }
+					province = 605
+				}
+			}
+
+			c_outer_lowlands_2 = {
+				color = { 180 230 135 }
+
+				b_outer_lowlands_2_east = {
+					color = { 180 230 135 }
+					province = 606
+				}
+
+				b_outer_lowlands_2_west = {
+					color = { 180 230 135 }
+					province = 607
+				}
+
+				b_outer_lowlands_2_south = {
+					color = { 180 230 135 }
+					province = 608
+				}
+			}
+
+			c_outer_lowlands_3 = {
+				color = { 70 90 55 }
+
+				b_outer_lowlands_3_north_east = {
+					color = { 70 90 55 }
+					province = 609
+				}
+
+				b_outer_lowlands_3_east = {
+					color = { 70 90 55 }
+					province = 610
+				}
+
+				b_outer_lowlands_3_west = {
+					color = { 70 90 55 }
+					province = 611
+				}
+
+				b_outer_lowlands_3_south = {
+					color = { 70 90 55 }
+					province = 612
+				}
+			}
+
+			c_outer_lowlands_4 = {
+				color = { 150 195 115 }
+
+				b_outer_lowlands_4_north = {
+					color = { 150 195 115 }
+					province = 613
+				}
+
+				b_outer_lowlands_4_east = {
+					color = { 150 195 115 }
+					province = 614
+				}
+
+				b_outer_lowlands_4_west = {
+					color = { 150 195 115 }
+					province = 615
+				}
+			}
+
+			c_outer_lowlands_5 = {
+				color = { 45 60 35 }
+
+				b_outer_lowlands_5_east = {
+					color = { 45 60 35 }
+					province = 616
+				}
+
+				b_outer_lowlands_5_centre = {
+					color = { 45 60 35 }
+					province = 617
+				}
+
+				b_outer_lowlands_5_south = {
+					color = { 45 60 35 }
+					province = 618
+				}
+
+				b_outer_lowlands_5_west = {
+					color = { 45 60 35 }
+					province = 619
+				}
+
+			}
+		}
+
+		d_outer_plains = {
+			color = { 125 135 80 }
+
+			c_outer_plains_1 = {
+				color = { 110 115 70 }
+
+				b_outer_plains_1_east = {
+					color = { 110 115 70 }
+					province = 620
+				}
+
+				b_outer_plains_1_centre = {
+					color = { 110 115 70 }
+					province = 621
+				}
+
+				b_outer_plains_1_west = {
+					color = { 110 115 70 }
+					province = 622
+				}
+			}
+
+			c_outer_plains_2 = {
+				color = { 55 60 35 }
+
+				b_outer_plains_2_north = {
+					color = { 55 60 35 }
+					province = 623
+				}
+
+				b_outer_plains_2_centre = {
+					color = { 55 60 35 }
+					province = 624
+				}
+
+				b_outer_plains_2_south = {
+					color = { 55 60 35 }
+					province = 625
+				}
+			}
+
+			c_outer_plains_3 = {
+				color = { 215 235 140 }
+
+				b_outer_plains_3_north = {
+					color = { 215 235 140 }
+					province = 626
+				}
+
+				b_outer_plains_3_east = {
+					color = { 215 235 140 }
+					province = 627
+				}
+
+				b_outer_plains_3_west = {
+					color = { 215 235 140 }
+					province = 628
+				}
+
+				b_outer_plains_3_south = {
+					color = { 215 235 140 }
+					province = 629
+				}
+
+				b_outer_plains_3_south_west = {
+					color = { 215 235 140 }
+					province = 630
+				}
+			}
+
+			c_outer_plains_4 = {
+				color = { 160 175 100 }
+
+				b_outer_plains_4_north = {
+					color = { 160 175 100 }
+					province = 631
+				}
+
+				b_outer_plains_4_east = {
+					color = { 160 175 100 }
+					province = 632
+				}
+
+				b_outer_plains_4_west = {
+					color = { 160 175 100 }
+					province = 633
+				}
+
+				b_outer_plains_4_south = {
+					color = { 160 175 100 }
+					province = 634
+				}
+			}
+
+			c_outer_plains_5 = {
+				color = { 80 90 50 }
+
+				b_outer_plains_5_east = {
+					color = { 80 90 50 }
+					province = 635
+				}
+
+				b_outer_plains_5_centre = {
+					color = { 80 90 50 }
+					province = 636
+				}
+
+				b_outer_plains_5_south = {
+					color = { 80 90 50 }
+					province = 637
+				}
+			}
+
+			c_outer_plains_6 = {
+				color = { 190 205 120 }
+
+				b_outer_plains_6_west = {
+					color = { 190 205 120 }
+					province = 638
+				}
+
+				b_outer_plains_6_centre = {
+					color = { 190 205 120 }
+					province = 639
+				}
+
+				b_outer_plains_6_south = {
+					color = { 190 205 120 }
+					province = 640
+				}
+			}
+
+			c_outer_plains_7 = {
+				color = { 160 170 100 }
+
+				b_outer_plains_7_north = {
+					color = { 160 170 100 }
+					province = 641
+				}
+
+				b_outer_plains_7_east = {
+					color = { 160 170 100 }
+					province = 642
+				}
+
+				b_outer_plains_7_west = {
+					color = { 160 170 100 }
+					province = 643
+				}
+
+				b_outer_plains_7_south_east = {
+					color = { 160 170 100 }
+					province = 644
+				}
+
+				b_outer_plains_7_south_west = {
+					color = { 160 170 100 }
+					province = 645
+				}
+			}
+		}
+
+		d_outer_pass = {
+			color = { 120 135 120 }
+
+			c_outer_pass_1 = {
+				color = { 115 130 115 }
+
+				b_outer_pass_1_north = {
+					color = { 115 130 115 }
+					province = 646
+				}
+
+				b_outer_pass_1_east = {
+					color = { 115 130 115 }
+					province = 647
+				}
+
+				b_outer_pass_1_south = {
+					color = { 115 130 115 }
+					province = 648
+				}
+			}
+
+			c_outer_pass_2 = {
+				color = { 50 60 50 }
+
+				b_outer_pass_2_north = {
+					color = { 50 60 50 }
+					province = 649
+				}
+
+				b_outer_pass_2_east = {
+					color = { 50 60 50 }
+					province = 650
+				}
+
+				b_outer_pass_2_west = {
+					color = { 50 60 50 }
+					province = 651
+				}
+
+				b_outer_pass_2_south_east = {
+					color = { 50 60 50 }
+					province = 652
+				}
+
+				b_outer_pass_2_south_west = {
+					color = { 50 60 50 }
+					province = 653
+				}
+			}
+
+			c_outer_pass_3 = {
+				color = { 90 105 90 }
+
+				b_outer_pass_3_north = {
+					color = { 90 105 90 }
+					province = 654
+				}
+
+				b_outer_pass_3_centre = {
+					color = { 90 105 90 }
+					province = 655
+				}
+
+				b_outer_pass_3_south = {
+					color = { 90 105 90 }
+					province = 656
+				}
+			}
+
+			c_outer_pass_4 = {
+				color = { 70 80 70 }
+
+				b_outer_pass_4_north_east = {
+					color = { 215 240 215 }
+					province = 657
+				}
+
+				b_outer_pass_4_north_west = {
+					color = { 215 240 215 }
+					province = 658
+				}
+
+				b_outer_pass_4_east = {
+					color = { 215 240 215 }
+					province = 659
+				}
+
+				b_outer_pass_4_west = {
+					color = { 215 240 215 }
+					province = 660
+				}
+
+				b_outer_pass_4_south = {
+					color = { 215 240 215 }
+					province = 661
+				}
+			}
+
+			c_outer_pass_5 = {
+				color = { 215 240 215 }
+
+				b_outer_pass_5_east = {
+					color = { 215 240 215 }
+					province = 662
+				}
+
+				b_outer_pass_5_centre = {
+					color = { 215 240 215 }
+					province = 663
+				}
+
+				b_outer_pass_5_west = {
+					color = { 215 240 215 }
+					province = 664
+				}
+			}
+
+			c_outer_pass_6 = {
+				color = { 150 170 150 }
+
+				b_outer_pass_6_north = {
+					color = { 150 170 150 }
+					province = 665
+				}
+
+				b_outer_pass_6_east = {
+					color = { 150 170 150 }
+					province = 666
+				}
+
+				b_outer_pass_6_west = {
+					color = { 150 170 150 }
+					province = 667
+				}
+
+				b_outer_pass_6_south = {
+					color = { 150 170 150 }
+					province = 668
+				}
+			}
+
+			c_outer_pass_7 = {
+				color = { 175 195 175 }
+
+				b_outer_pass_7_north = {
+					color = { 175 195 175 }
+					province = 669
+				}
+
+				b_outer_pass_7_east = {
+					color = { 175 195 175 }
+					province = 670
+				}
+
+				b_outer_pass_7_west = {
+					color = { 175 195 175 }
+					province = 671
+				}
+			}
+
+			c_outer_pass_8 = {
+				color = { 195 215 195 }
+
+				b_outer_pass_8_west = {
+					color = { 195 215 195 }
+					province = 672
+				}
+
+				b_outer_pass_8_east = {
+					color = { 195 215 195 }
+					province = 673
+				}
+			}
+		}
+
+		d_outer_fort = {
+			color = { 100 105 60 }
+
+			c_outer_fort_1 = {
+				color = { 90 95 55 }
+
+				b_outer_fort_1_north = {
+					color = { 90 95 55 }
+					province = 674
+				}
+
+				b_outer_fort_1_west = {
+					color = { 90 95 55 }
+					province = 675
+				}
+
+				b_outer_fort_1_south = {
+					color = { 90 95 55 }
+					province = 676
+				}
+			}
+
+			c_outer_fort_2 = {
+				color = { 70 75 40 }
+
+				b_outer_fort_2_east = {
+					color = { 70 75 40 }
+					province = 677
+				}
+
+				b_outer_fort_2_centre = {
+					color = { 70 75 40 }
+					province = 678
+				}
+
+				b_outer_fort_2_west = {
+					color = { 70 75 40 }
+					province = 679
+				}
+			}
+
+			c_outer_fort_3 = {
+				color = { 240 255 145 }
+
+				b_outer_fort_3_north = {
+					color = { 240 255 145 }
+					province = 680
+				}
+
+				b_outer_fort_3_east = {
+					color = { 240 255 145 }
+					province = 681
+				}
+
+				b_outer_fort_3_south = {
+					color = { 240 255 145 }
+					province = 682
+				}
+			}
+
+			c_outer_fort_4 = {
+				color = { 220 230 130 }
+
+				b_outer_fort_4_east = {
+					color = { 220 230 130 }
+					province = 683
+				}
+
+				b_outer_fort_4_west = {
+					color = { 220 230 130 }
+					province = 684
+				}
+
+				b_outer_fort_4_south = {
+					color = { 220 230 130 }
+					province = 685
+				}
+			}
+
+			c_outer_fort_5 = {
+				color = { 200 210 120 }
+
+				b_outer_fort_5_north = {
+					color = { 200 210 120 }
+					province = 686
+				}
+
+				b_outer_fort_5_east = {
+					color = { 200 210 120 }
+					province = 687
+				}
+
+				b_outer_fort_5_west = {
+					color = { 200 210 120 }
+					province = 688
+				}
+
+				b_outer_fort_5_south = {
+					color = { 200 210 120 }
+					province = 689
+				}
+			}
+
+			c_outer_fort_6 = {
+				color = { 175 190 105 }
+
+				b_outer_fort_6_north = {
+					color = { 175 190 105 }
+					province = 690
+				}
+
+				b_outer_fort_6_east = {
+					color = { 175 190 105 }
+					province = 691
+				}
+
+				b_outer_fort_6_west = {
+					color = { 175 190 105 }
+					province = 692
+				}
+
+				b_outer_fort_6_south_east = {
+					color = { 175 190 105 }
+					province = 693
+				}
+
+				b_outer_fort_6_south_west = {
+					color = { 175 190 105 }
+					province = 694
+				}
+			}
+
+			c_outer_fort_7 = {
+				color = { 155 165 95 }
+
+				b_outer_fort_7_east = {
+					color = { 155 165 95 }
+					province = 695
+				}
+
+				b_outer_fort_7_west = {
+					color = { 155 165 95 }
+					province = 696
+				}
+
+				b_outer_fort_7_south = {
+					color = { 155 165 95 }
+					province = 697
+				}
+			}
+
+			c_outer_fort_8 = {
+				color = { 90 95 55 }
+
+				b_outer_fort_8_north = {
+					color = { 90 95 55 }
+					province = 698
+				}
+
+				b_outer_fort_8_east = {
+					color = { 90 95 55 }
+					province = 699
+				}
+
+				b_outer_fort_8_south = {
+					color = { 90 95 55 }
+					province =700
+				}
+			}
+		}
+
+		d_outer_border = {
+			color = { 80 135 120 }
+
+			c_outer_border_1 = {
+				color = { 80 130 120 }
+
+				b_outer_border_1_plains = {
+					color = { 80 130 120 }
+					province = 701
+				}
+
+				b_outer_border_1_north = {
+					color = { 80 130 120 }
+					province = 702
+				}
+
+				b_outer_border_1_centre = {
+					color = { 80 130 120 }
+					province = 703
+				}
+
+				b_outer_border_1_east = {
+					color = { 80 130 120 }
+					province = 704
+				}
+
+				b_outer_border_1_west = {
+					color = { 80 130 120 }
+					province = 705
+				}
+			}
+
+			c_outer_border_2 = {
+				color = { 35 60 50 }
+
+				b_outer_border_2_north = {
+					color = { 35 60 50 }
+					province = 706
+				}
+
+				b_outer_border_2_centre = {
+					color = { 35 60 50 }
+					province = 707
+				}
+
+				b_outer_border_2_south = {
+					color = { 35 60 50 }
+					province = 708
+				}
+			}
+
+			c_outer_border_3 = {
+				color = { 145 245 220 }
+
+				b_outer_border_3_north = {
+					color = { 145 245 220 }
+					province = 709
+				}
+
+				b_outer_border_3_centre = {
+					color = { 145 245 220 }
+					province = 710
+				}
+
+				b_outer_border_3_west = {
+					color = { 145 245 220 }
+					province = 711
+				}
+
+				b_outer_border_3_south = {
+					color = { 145 245 220 }
+					province = 712
+				}
+			}
+
+			c_outer_border_4 = {
+				color = { 45 75 70 }
+
+				b_outer_border_4_east = {
+					color = { 45 75 70 }
+					province = 713
+				}
+
+				b_outer_border_4_centre = {
+					color = { 45 75 70 }
+					province = 714
+				}
+
+				b_outer_border_4_west = {
+					color = { 45 75 70 }
+					province = 715
+				}
+			}
+
+			c_outer_border_5 = {
+				color = { 110 190 170 }
+
+				b_outer_border_5_north_east = {
+					color = { 110 190 170 }
+					province = 716
+				}
+
+				b_outer_border_5_north_west = {
+					color = { 110 190 170 }
+					province = 717
+				}
+
+				b_outer_border_5_east = {
+					color = { 110 190 170 }
+					province = 718
+				}
+
+				b_outer_border_5_west = {
+					color = { 110 190 170 }
+					province = 719
+				}
+
+				b_outer_border_5_south = {
+					color = { 110 190 170 }
+					province = 720
+				}
+			}
+
+			c_outer_border_6 = {
+				color = { 55 95 85 }
+
+				b_outer_border_6_north = {
+					color = { 55 95 85 }
+					province = 721
+				}
+
+				b_outer_border_6_east = {
+					color = { 55 95 85 }
+					province = 722
+				}
+
+				b_outer_border_6_south = {
+					color = { 55 95 85 }
+					province = 723
+				}
+
+				b_outer_border_6_west = {
+					color = { 55 95 85 }
+					province = 724
+				}
+			}
+
+			c_outer_border_7 = {
+				color = { 130 225 200 }
+
+				b_outer_border_7_east = {
+					color = { 130 225 200 }
+					province = 725
+				}
+
+				b_outer_border_7_west = {
+					color = { 130 225 200 }
+					province = 726
+				}
+
+				b_outer_border_7_centre = {
+					color = { 130 225 200 }
+					province = 727
+				}
+
+				b_outer_border_7_south = {
+					color = { 130 225 200 }
+					province = 728
+				}
+			}
+
+			c_outer_border_8 = {
+				color = { 120 210 185 }
+
+				b_outer_border_8_north = {
+					color = { 120 210 185 }
+					province = 729
+				}
+
+				b_outer_border_8_east = {
+					color = { 120 210 185 }
+					province = 730
+				}
+
+				b_outer_border_8_west = {
+					color = { 120 210 185 }
+					province = 731
+				}
+
+				b_outer_border_8_south = {
+					color = { 120 210 185 }
+					province = 732
+				}
+			}
+
+			c_outer_border_9 = {
+				color = { 100 170 150 }
+
+				b_outer_border_9_north = {
+					color = { 100 170 150 }
+					province = 733
+				}
+
+				b_outer_border_9_east = {
+					color = { 100 170 150 }
+					province = 734
+				}
+
+				b_outer_border_9_centre = {
+					color = { 100 170 150 }
+					province = 735
+				}
+
+				b_outer_border_9_west = {
+					color = { 100 170 150 }
+					province = 736
+				}
+
+				b_outer_border_9_south = {
+					color = { 130 225 200 }
+					province = 737
+				}
+			}
+
+		}
+	}
 }
 
 # Yibin people
