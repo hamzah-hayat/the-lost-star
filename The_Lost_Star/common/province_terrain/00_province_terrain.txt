@@ -1,42 +1,43 @@
 ﻿default_land=plains
 default_sea=sea
 default_coastal_sea=coastal_sea
-# k_island
-    ## d_bastion_inner
-        1=mountains
-        2=plains
-        3=plains
-        4=plains
-        5=hills
-        6=hills
-        7=plains
-        8=plains
-        9=plains
-        10=hills
-        11=mountains
-        12=plains
-        13=plains
-    ## d_bastion_outer
-        14=hills
-        15=hills
-        16=hills
-        17=hills
-        18=hills
-        19=hills
-        20=hills
-        21=plains
-        22=plains
-        23=hills
-        24=plains
-        25=plains
-        26=plains
-    ## d_banana
-        27=floodplains
-        28=floodplains
-        29=floodplains
-        30=plains
-        31=plains
-    ## d_scattared_isles
+# e_terran
+    ## k_island
+        ### d_bastion_inner
+            1=mountains
+            2=plains
+            3=plains
+            4=plains
+            5=hills
+            6=hills
+            7=plains
+            8=plains
+            9=plains
+            10=hills
+            11=mountains
+            12=plains
+            13=plains
+        ### d_bastion_outer
+            14=hills
+            15=hills
+            16=hills
+            17=hills
+            18=hills
+            19=hills
+            20=hills
+            21=plains
+            22=plains
+            23=hills
+            24=plains
+            25=plains
+            26=plains
+        ### d_banana
+            27=floodplains
+            28=floodplains
+            29=floodplains
+            30=plains
+            31=plains
+        ### d_scattared_isles
         32=hills
         33=plains
         34=plains
@@ -44,7 +45,7 @@ default_coastal_sea=coastal_sea
         36=hills
         37=farmlands
         38=plains
-    # Island Sea provinces
+# Central Sea provinces
         39=coastal_sea
         40=coastal_sea
         41=coastal_sea
@@ -59,23 +60,34 @@ default_coastal_sea=coastal_sea
         50=coastal_sea
         51=coastal_sea
         52=coastal_sea
-        53=coastal_sea
-
+# e_maranin
+    ## k_pike
+        ### d_head
+            53=plains
+            54=plains
+            55=plains
+            56=plains
+            57=plains
+            58=plains
+            59=plains
+            60=plains
+            61=plains
+            62=plains
+            63=plains
+            64=plains
+            65=plains
+            66=plains
+            67=forest
+        ### d_fin
+        ### d_gills
+        ### d_tail
+    ## k_gentle_hills
+    ## k_forest_holds
+    ## k_great_ports
+    ## k_mountain_hold
+    ## k_merchants_valley
+    ## k_outer_lands
 # TODO
-54=plains
-55=plains
-56=plains
-57=plains
-58=plains
-59=plains
-60=plains
-61=plains
-62=plains
-63=plains
-64=plains
-65=plains
-66=plains
-67=plains
 68=plains
 69=plains
 70=plains
