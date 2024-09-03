@@ -133,3 +133,34 @@ lost_star_hobrani = {
 		25 = caucasian_dark_hair
 	}
 }
+
+lost_star_solitari = {
+	color = { 0 0.5 1}
+	created = 867.1.1
+	parents = { lost_star_marani }
+	
+	ethos = ethos_courtly
+	heritage = heritage_marani
+	language = language_common
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_collective_lands
+		tradition_culinary_art
+		tradition_agrarian
+		tradition_fp2_strategy_gamers
+		tradition_zealous_people
+		tradition_staunch_traditionalists
+	}
+	
+	name_list = name_list_castilian
+
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { western_clothing_gfx}
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}

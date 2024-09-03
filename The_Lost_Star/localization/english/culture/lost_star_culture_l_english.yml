@@ -8,6 +8,10 @@
   lost_star_bastion_prefix:0 "Bastion"
   lost_star_bastion_collective_noun:0 "Bastions"
 
+  lost_star_solitari:0 "Solitari"
+  lost_star_solitari_prefix:0 "Solitari"
+  lost_star_solitari_collective_noun:0 "Solitaris"
+
 # Heritage
   heritage_terran_name:0 "Terran"
 
