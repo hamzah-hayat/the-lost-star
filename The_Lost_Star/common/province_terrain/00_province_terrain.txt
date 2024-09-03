@@ -359,7 +359,7 @@ default_coastal_sea=coastal_sea
             330=forest
             331=forest
             332=forest
-    ## k_great_ports
+    ## k_solitaire
         ### d_trader_coastland 
             333=plains
             334=plains

@@ -2058,7 +2058,7 @@ e_maranin = {
 		}
 	}
 
-	k_great_ports = {
+	k_solitaire = {
 		color = { 200 185 180 }
 
 		d_trader_coastlands = {
