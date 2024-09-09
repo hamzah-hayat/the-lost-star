@@ -1,58 +1,139 @@
+# Eclipsis
 k_solitaire = {
 	752.5.12 = {
-		holder = lineofsolitaire1
+		holder = lineofeclipsis1
 	}
 	807.2.9 = {
-		holder = lineofsolitaire2
+		holder = lineofeclipsis2
 	}
 	867.1.1 = {
-		holder = lineofsolitaire5
+		holder = lineofeclipsis5
 	}
-
-
 }
 
 d_kings_port  = {
 	752.5.12 = {
-		holder = lineofsolitaire1
+		holder = lineofeclipsis1
 	}
 	807.2.9 = {
-		holder = lineofsolitaire2
+		holder = lineofeclipsis2
 	}
 	867.1.1 = {
-		holder = lineofsolitaire5
+		holder = lineofeclipsis5
 	}
 }
 
 d_golden_river  = {
 	752.5.12 = {
-		holder = lineofsolitaire1
+		holder = lineofeclipsis1
 	}
 	807.2.9 = {
-		holder = lineofsolitaire2
+		holder = lineofeclipsis2
 	}
 	867.1.1 = {
-		holder = lineofsolitaire5
+		holder = lineofeclipsis5
 	}
 }
 
 d_trader_coastlands = {
 	752.5.12 = {
-		holder = lineofsolitaire1
+		liege = k_solitaire
+		holder = lineofeclipsis1
 	}
 	807.2.9 = {
-		holder = lineofsolitaire4
+		holder = lineofeclipsis4
 	}
 }
 
 c_kings_port_throne = {
 	752.5.12 = {
-		holder = lineofsolitaire1
+		liege = k_solitaire
+		holder = lineofeclipsis1
 	}
 	807.2.9 = {
-		holder = lineofsolitaire2
+		holder = lineofeclipsis2
 	}
 	867.1.1 = {
-		holder = lineofsolitaire5
+		holder = lineofeclipsis5
 	}
 }
+
+
+# Rondo
+d_science_ruins = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo5
+	}
+}
+c_science_ruins_biology = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo5
+	}
+}
+c_science_ruins_engineering = {
+	752.5.12 = {
+		liege = d_science_ruins
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo6
+	}
+}
+c_science_ruins_physics = {
+	752.5.12 = {
+		liege = d_science_ruins
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo7
+	}
+}
+c_science_ruins_rocket = {
+	752.5.12 = {
+		liege = d_science_ruins
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo8
+	}
+}
+c_science_ruins_computing = {
+	752.5.12 = {
+		liege = d_science_ruins
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo9
+	}
+}
+
+# Monata
+
+
+# Soulitee

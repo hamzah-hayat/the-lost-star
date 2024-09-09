@@ -13,3 +13,9 @@
 			name = "Eclipsis"
 			culture = "Solitari"
 		}	
+
+	# Rondo
+		dynasty_rondo = {
+			name = "Rondo"
+			culture = "Solitari"
+		}	
