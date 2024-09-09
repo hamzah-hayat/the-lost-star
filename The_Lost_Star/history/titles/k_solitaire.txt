@@ -1,0 +1,58 @@
+k_solitaire = {
+	752.5.12 = {
+		holder = lineofsolitaire1
+	}
+	807.2.9 = {
+		holder = lineofsolitaire2
+	}
+	867.1.1 = {
+		holder = lineofsolitaire5
+	}
+
+
+}
+
+d_kings_port  = {
+	752.5.12 = {
+		holder = lineofsolitaire1
+	}
+	807.2.9 = {
+		holder = lineofsolitaire2
+	}
+	867.1.1 = {
+		holder = lineofsolitaire5
+	}
+}
+
+d_golden_river  = {
+	752.5.12 = {
+		holder = lineofsolitaire1
+	}
+	807.2.9 = {
+		holder = lineofsolitaire2
+	}
+	867.1.1 = {
+		holder = lineofsolitaire5
+	}
+}
+
+d_trader_coastlands = {
+	752.5.12 = {
+		holder = lineofsolitaire1
+	}
+	807.2.9 = {
+		holder = lineofsolitaire4
+	}
+}
+
+c_kings_port_throne = {
+	752.5.12 = {
+		holder = lineofsolitaire1
+	}
+	807.2.9 = {
+		holder = lineofsolitaire2
+	}
+	867.1.1 = {
+		holder = lineofsolitaire5
+	}
+}

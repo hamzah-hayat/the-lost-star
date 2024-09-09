@@ -14,12 +14,12 @@
 			}
 		# c_trader_coastlands_cargo
 			336 = {
+				holding = none
+			}
+			337 = {
 				culture = lost_star_solitari
 				religion = catholic
 				holding = castle_holding
-			}
-			337 = {
-				holding = none
 			}
 			338 = {
 				holding = none
@@ -68,12 +68,12 @@
 			}
 		# c_trader_coastlands_exotic
 			351 = {
+				holding = none
+			}
+			352 = {
 				culture = lost_star_solitari
 				religion = catholic
 				holding = castle_holding
-			}
-			352 = {
-				holding = none
 			}
 			353 = {
 				holding = none
@@ -114,9 +114,7 @@
 			}
 		# c_kings_port_lowlands
 			363 = {
-				culture = lost_star_solitari
-				religion = catholic
-				holding = castle_holding
+				holding = none
 			}
 			364 = {
 				holding = none
@@ -125,16 +123,18 @@
 				holding = none
 			}
 			366 = {
-				holding = none
-			}
-		# c_kings_port_navy
-			367 = {
 				culture = lost_star_solitari
 				religion = catholic
 				holding = castle_holding
 			}
-			368 = {
+		# c_kings_port_navy
+			367 = {
 				holding = none
+			}
+			368 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
 			}
 			369 = {
 				holding = none

@@ -3,3 +3,13 @@
 	culture = "english"
 	motto = dynn_pinkerton_motto
 }
+
+
+
+# k_solitaire
+	# Eclipsis
+		dynasty_eclipsis = {
+			prefix = "dynnp_de"
+			name = "Eclipsis"
+			culture = "Solitari"
+		}	

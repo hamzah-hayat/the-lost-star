@@ -2086,14 +2086,15 @@ e_maranin = {
 			c_trader_coastlands_cargo = {
 				color = { 75 70 60 }
 
-				b_trader_coastlands_cargo_east = {
-					color = { 75 70 60 }
-					province = 336
-				}
-
+				# barony shunted forward to become capital
 				b_trader_coastlands_cargo_centre = {
 					color = { 75 70 60 }
 					province = 337
+				}
+
+				b_trader_coastlands_cargo_east = {
+					color = { 75 70 60 }
+					province = 336
 				}
 
 				b_trader_coastlands_cargo_west = {
@@ -2172,15 +2173,16 @@ e_maranin = {
 
 			c_trader_coastlands_exotic = {
 				color = { 210 190 170 }
+				
+				# barony shunted forward to become capital
+				b_trader_coastlands_exotic_north = {
+					color = { 210 190 170 }
+					province = 352
+				}
 
 				b_trader_coastlands_exotic_east = {
 					color = { 210 190 170 }
 					province = 351
-				}
-
-				b_trader_coastlands_exotic_north = {
-					color = { 210 190 170 }
-					province = 352
 				}
 
 				b_trader_coastlands_exotic_south = {
@@ -2219,6 +2221,13 @@ e_maranin = {
 
 			c_kings_port_throne = {
 				color = { 190 150 170 }
+				capital = b_kings_port_throne_centre
+				
+				# barony shunted forward to become capital
+				b_kings_port_throne_centre = {
+					color = { 190 150 170 }
+					province = 360
+				}
 
 				b_kings_port_throne_north_east = {
 					color = { 190 150 170 }
@@ -2228,11 +2237,6 @@ e_maranin = {
 				b_kings_port_throne_west = {
 					color = { 190 150 170 }
 					province = 359
-				}
-
-				b_kings_port_throne_centre = {
-					color = { 190 150 170 }
-					province = 360
 				}
 
 				b_kings_port_throne_south_east = {
@@ -2249,6 +2253,12 @@ e_maranin = {
 			c_kings_port_lowlands = {
 				color = { 155 125 140 }
 
+				# barony shunted forward to become capital
+				b_kings_port_lowlands_south_west = {
+					color = { 155 125 140 }
+					province = 366
+				}
+
 				b_kings_port_lowlands_east = {
 					color = { 155 125 140 }
 					province = 363
@@ -2259,30 +2269,24 @@ e_maranin = {
 					province = 364
 				}
 
-				
 				b_kings_port_lowlands_south = {
 					color = { 155 125 140 }
 					province = 365
-				}
-
-				
-				b_kings_port_lowlands_south_west = {
-					color = { 155 125 140 }
-					province = 366
 				}
 			}
 
 			c_kings_port_navy = {
 				color = { 200 160 185 }
 
-				b_kings_port_navy_north_east = {
-					color = { 200 160 185 }
-					province = 367
-				}
-
+				# barony shunted forward to become capital
 				b_kings_port_navy_east = {
 					color = { 200 160 185 }
 					province = 368
+				}
+
+				b_kings_port_navy_north_east = {
+					color = { 200 160 185 }
+					province = 367
 				}
 
 				b_kings_port_navy_centre = {

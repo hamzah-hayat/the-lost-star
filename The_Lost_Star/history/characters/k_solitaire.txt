@@ -1,0 +1,206 @@
+﻿lineofsolitaire1 = {
+	name = "Ramón"
+	dynasty = dynasty_eclipsis
+	dna = lineofsolitaire1
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	771.1.25 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofsolitaire1wife
+	}
+	807.2.9={					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsolitaire1wife = {
+	name = "Estefania"
+	female = yes
+	dna = lineofsolitaire1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	775.8.19 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofsolitaire1
+	}
+	836.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+
+lineofsolitaire2 = {
+	name = "Álvar"
+	dynasty = dynasty_eclipsis
+	father = lineofsolitaire1
+	mother = lineofsolitaire1wife
+	dna = lineofsolitaire2
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofsolitaire2wife
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsolitaire2wife = {
+	name = "Urraca"
+	female = yes
+	dna = lineofsolitaire2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofsolitaire2
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsolitaire3 = {
+	name = "Garcia"
+	dynasty = dynasty_eclipsis
+	father = lineofsolitaire1
+	mother = lineofsolitaire1wife
+	dna = lineofsolitaire3
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+
+
+lineofsolitaire4 = {
+	name = "Berenguel"
+	dynasty = dynasty_eclipsis
+	father = lineofsolitaire1
+	mother = lineofsolitaire1wife
+	dna = lineofsolitaire4
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	806.9.20 = {
+		birth = yes
+	}
+}
+
+lineofsolitaire5 = {
+	name = "Oveco"
+	dynasty = dynasty_eclipsis
+	father = lineofsolitaire2
+	mother = lineofsolitaire2wife
+	dna = lineofsolitaire5
+	religion = catholic
+	culture = lost_star_solitari
+
+	diplomacy = 6
+	martial = 10
+	stewardship = 10
+	intrigue = 3
+	learning = 6
+	prowess = 10
+
+	trait = fickle
+	trait = diligent
+	trait = cynical
+	trait = education_intrigue_4
+
+	trait = intellect_good_1
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+	843.6.27 = {
+		add_spouse = lineofsolitaire5wife
+	}
+}
+
+lineofsolitaire5wife = {
+	name = "Maria"
+	female = yes
+	dna = lineofsolitaire5
+	religion = catholic
+	culture = lost_star_solitari
+
+	diplomacy = 6
+	martial = 10
+	stewardship = 10
+	intrigue = 3
+	learning = 6
+	prowess = 10
+
+	trait = trusting
+	trait = temperate
+	trait = calm
+	trait = education_stewardship_4
+
+	trait = intellect_good_1
+
+	sexuality = heterosexual
+
+	826.8.4 = {
+		birth = yes
+	}
+	843.6.27 = {
+		add_spouse = lineofsolitaire5
+	}
+}
+
+lineofsolitaire6 = {
+	name = "Fiamula"
+	dynasty = dynasty_eclipsis
+	father = lineofsolitaire5
+	mother =lineofsolitaire5wife
+	female = yes
+	dna = lineofsolitaire6
+	religion = catholic
+	culture = lost_star_solitari
+
+	diplomacy = 6
+	martial = 10
+	stewardship = 10
+	intrigue = 3
+	learning = 6
+	prowess = 10
+
+	trait = ambitious
+	trait = arbitary
+	trait = cynical
+	trait = education_stewardship_4
+
+	trait = intellect_good_1
+
+	sexuality = heterosexual
+
+	845.10.14 = {
+		birth = yes
+	}
+}
