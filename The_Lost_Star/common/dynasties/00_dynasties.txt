@@ -19,3 +19,15 @@
 			name = "Rondo"
 			culture = "Solitari"
 		}	
+
+		# Monata
+		dynasty_monata = {
+			name = "Monata"
+			culture = "Solitari"
+		}	
+
+		# Soulitee
+		dynasty_soulitee = {
+			name = "Soulitee"
+			culture = "Solitari"
+		}	

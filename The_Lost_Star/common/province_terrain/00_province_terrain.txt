@@ -461,10 +461,10 @@ default_coastal_sea=coastal_sea
             426=plains
             427=plains
         ### d_science_ruins
-            428=plains
-            429=plains
-            430=plains
-            431=plains
+            428=jungle
+            429=jungle
+            430=jungle
+            431=jungle
             432=plains
             433=plains
             434=plains

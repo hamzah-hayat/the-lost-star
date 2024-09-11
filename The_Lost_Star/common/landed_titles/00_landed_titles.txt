@@ -2063,6 +2063,7 @@ e_maranin = {
 
 		d_trader_coastlands = {
 			color = { 220 200 180 }
+			capital = c_trader_coastlands_shipyards
 
 			c_trader_coastlands_food = {
 				color = { 220 200 185 }
@@ -2551,14 +2552,14 @@ e_maranin = {
 			c_little_plains_farms = {
 				color = { 135 105 115 }
 
-				b_little_plains_farms_east = {
-					color = { 135 105 115 }
-					province = 410
-				}
-
 				b_little_plains_farms_north = {
 					color = { 135 105 115 }
 					province = 411
+				}
+
+				b_little_plains_farms_east = {
+					color = { 135 105 115 }
+					province = 410
 				}
 
 				b_little_plains_farms_south = {
@@ -2575,14 +2576,14 @@ e_maranin = {
 			c_little_plains_border = {
 				color = { 250 190 210 }
 
-				b_little_plains_border_north = {
-					color = { 250 190 210 }
-					province = 414
-				}
-
 				b_little_plains_border_centre = {
 					color = { 250 190 210 }
 					province = 415
+				}
+
+				b_little_plains_border_north = {
+					color = { 250 190 210 }
+					province = 414
 				}
 
 				b_little_plains_border_south = {
