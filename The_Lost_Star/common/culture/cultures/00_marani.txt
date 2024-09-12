@@ -148,11 +148,13 @@ lost_star_solitari = {
 		tradition_esteemed_hospitality
 		tradition_culinary_art
 		tradition_agrarian
-		dlc_tradition = {
-		trait = tradition_fp2_strategy_gamers
-		requires_dlc_flag = the_fate_of_iberia
-		}
 	}
+	
+	dlc_tradition = {
+	trait = tradition_fp2_strategy_gamers
+	requires_dlc_flag = the_fate_of_iberia
+	}
+	
 	
 	name_list = name_list_castilian
 
