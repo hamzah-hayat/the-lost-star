@@ -145,12 +145,13 @@ lost_star_solitari = {
 	martial_custom = martial_custom_male_only
 
 	traditions = {
-		tradition_collective_lands
+		tradition_esteemed_hospitality
 		tradition_culinary_art
 		tradition_agrarian
-		tradition_fp2_strategy_gamers
-		tradition_zealous_people
-		tradition_staunch_traditionalists
+		dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+		}
 	}
 	
 	name_list = name_list_castilian
