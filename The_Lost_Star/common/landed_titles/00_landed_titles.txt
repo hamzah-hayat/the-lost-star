@@ -2200,14 +2200,14 @@ e_maranin = {
 			c_trader_coastlands_treasure = {
 				color = { 110 100 90 }
 
-				b_trader_coastlands_treasure_east = {
-					color = { 110 100 90 }
-					province = 355
-				}
-
 				b_trader_coastlands_treasure_centre = {
 					color = { 110 100 90 }
 					province = 356
+				}
+
+				b_trader_coastlands_treasure_east = {
+					color = { 110 100 90 }
+					province = 355
 				}
 
 				b_trader_coastlands_treasure_west = {
@@ -2351,14 +2351,14 @@ e_maranin = {
 			c_central_plains_builders = {
 				color = { 75 70 75  }
 
-				b_central_plains_builders_east = {
-					color = { 75 70 75  }
-					province = 378
-				}
-
 				b_central_plains_builders_centre = {
 					color = { 75 70 75  }
 					province = 379
+				}
+
+				b_central_plains_builders_east = {
+					color = { 75 70 75  }
+					province = 378
 				}
 
 				b_central_plains_builders_west = {
@@ -2629,6 +2629,11 @@ e_maranin = {
 			c_little_plains_orchards = {
 				color = { 70 55 60 }
 
+				b_little_plains_orchards_west = {
+					color = { 70 55 60 }
+					province = 426
+				}
+
 				b_little_plains_orchards_north_east = {
 					color = { 70 55 60 }
 					province = 423
@@ -2642,11 +2647,6 @@ e_maranin = {
 				b_little_plains_orchards_south_east = {
 					color = { 70 55 60 }
 					province = 425
-				}
-
-				b_little_plains_orchards_west = {
-					color = { 70 55 60 }
-					province = 426
 				}
 
 				b_little_plains_orchards_south_west = {
