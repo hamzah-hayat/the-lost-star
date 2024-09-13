@@ -2058,11 +2058,12 @@ e_maranin = {
 		}
 	}
 
-	k_great_ports = {
+	k_solitaire = {
 		color = { 200 185 180 }
 
 		d_trader_coastlands = {
 			color = { 220 200 180 }
+			capital = c_trader_coastlands_shipyards
 
 			c_trader_coastlands_food = {
 				color = { 220 200 185 }
@@ -2086,14 +2087,15 @@ e_maranin = {
 			c_trader_coastlands_cargo = {
 				color = { 75 70 60 }
 
-				b_trader_coastlands_cargo_east = {
-					color = { 75 70 60 }
-					province = 336
-				}
-
+				# barony shunted forward to become capital
 				b_trader_coastlands_cargo_centre = {
 					color = { 75 70 60 }
 					province = 337
+				}
+
+				b_trader_coastlands_cargo_east = {
+					color = { 75 70 60 }
+					province = 336
 				}
 
 				b_trader_coastlands_cargo_west = {
@@ -2172,15 +2174,16 @@ e_maranin = {
 
 			c_trader_coastlands_exotic = {
 				color = { 210 190 170 }
+				
+				# barony shunted forward to become capital
+				b_trader_coastlands_exotic_north = {
+					color = { 210 190 170 }
+					province = 352
+				}
 
 				b_trader_coastlands_exotic_east = {
 					color = { 210 190 170 }
 					province = 351
-				}
-
-				b_trader_coastlands_exotic_north = {
-					color = { 210 190 170 }
-					province = 352
 				}
 
 				b_trader_coastlands_exotic_south = {
@@ -2197,14 +2200,14 @@ e_maranin = {
 			c_trader_coastlands_treasure = {
 				color = { 110 100 90 }
 
-				b_trader_coastlands_treasure_east = {
-					color = { 110 100 90 }
-					province = 355
-				}
-
 				b_trader_coastlands_treasure_centre = {
 					color = { 110 100 90 }
 					province = 356
+				}
+
+				b_trader_coastlands_treasure_east = {
+					color = { 110 100 90 }
+					province = 355
 				}
 
 				b_trader_coastlands_treasure_west = {
@@ -2219,6 +2222,13 @@ e_maranin = {
 
 			c_kings_port_throne = {
 				color = { 190 150 170 }
+				capital = b_kings_port_throne_centre
+				
+				# barony shunted forward to become capital
+				b_kings_port_throne_centre = {
+					color = { 190 150 170 }
+					province = 360
+				}
 
 				b_kings_port_throne_north_east = {
 					color = { 190 150 170 }
@@ -2228,11 +2238,6 @@ e_maranin = {
 				b_kings_port_throne_west = {
 					color = { 190 150 170 }
 					province = 359
-				}
-
-				b_kings_port_throne_centre = {
-					color = { 190 150 170 }
-					province = 360
 				}
 
 				b_kings_port_throne_south_east = {
@@ -2249,6 +2254,12 @@ e_maranin = {
 			c_kings_port_lowlands = {
 				color = { 155 125 140 }
 
+				# barony shunted forward to become capital
+				b_kings_port_lowlands_south_west = {
+					color = { 155 125 140 }
+					province = 366
+				}
+
 				b_kings_port_lowlands_east = {
 					color = { 155 125 140 }
 					province = 363
@@ -2259,30 +2270,24 @@ e_maranin = {
 					province = 364
 				}
 
-				
 				b_kings_port_lowlands_south = {
 					color = { 155 125 140 }
 					province = 365
-				}
-
-				
-				b_kings_port_lowlands_south_west = {
-					color = { 155 125 140 }
-					province = 366
 				}
 			}
 
 			c_kings_port_navy = {
 				color = { 200 160 185 }
 
-				b_kings_port_navy_north_east = {
-					color = { 200 160 185 }
-					province = 367
-				}
-
+				# barony shunted forward to become capital
 				b_kings_port_navy_east = {
 					color = { 200 160 185 }
 					province = 368
+				}
+
+				b_kings_port_navy_north_east = {
+					color = { 200 160 185 }
+					province = 367
 				}
 
 				b_kings_port_navy_centre = {
@@ -2346,14 +2351,14 @@ e_maranin = {
 			c_central_plains_builders = {
 				color = { 75 70 75  }
 
-				b_central_plains_builders_east = {
-					color = { 75 70 75  }
-					province = 378
-				}
-
 				b_central_plains_builders_centre = {
 					color = { 75 70 75  }
 					province = 379
+				}
+
+				b_central_plains_builders_east = {
+					color = { 75 70 75  }
+					province = 378
 				}
 
 				b_central_plains_builders_west = {
@@ -2547,14 +2552,14 @@ e_maranin = {
 			c_little_plains_farms = {
 				color = { 135 105 115 }
 
-				b_little_plains_farms_east = {
-					color = { 135 105 115 }
-					province = 410
-				}
-
 				b_little_plains_farms_north = {
 					color = { 135 105 115 }
 					province = 411
+				}
+
+				b_little_plains_farms_east = {
+					color = { 135 105 115 }
+					province = 410
 				}
 
 				b_little_plains_farms_south = {
@@ -2571,14 +2576,14 @@ e_maranin = {
 			c_little_plains_border = {
 				color = { 250 190 210 }
 
-				b_little_plains_border_north = {
-					color = { 250 190 210 }
-					province = 414
-				}
-
 				b_little_plains_border_centre = {
 					color = { 250 190 210 }
 					province = 415
+				}
+
+				b_little_plains_border_north = {
+					color = { 250 190 210 }
+					province = 414
 				}
 
 				b_little_plains_border_south = {
@@ -2624,6 +2629,11 @@ e_maranin = {
 			c_little_plains_orchards = {
 				color = { 70 55 60 }
 
+				b_little_plains_orchards_west = {
+					color = { 70 55 60 }
+					province = 426
+				}
+
 				b_little_plains_orchards_north_east = {
 					color = { 70 55 60 }
 					province = 423
@@ -2637,11 +2647,6 @@ e_maranin = {
 				b_little_plains_orchards_south_east = {
 					color = { 70 55 60 }
 					province = 425
-				}
-
-				b_little_plains_orchards_west = {
-					color = { 70 55 60 }
-					province = 426
 				}
 
 				b_little_plains_orchards_south_west = {

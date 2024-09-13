@@ -1,0 +1,639 @@
+﻿### k_solitaire
+	## d_trader_coastland 
+		# c_trader_coastlands_food
+			333 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			334 = {
+				holding = none
+			}
+			335 = {
+				holding = none
+			}
+		# c_trader_coastlands_cargo
+			336 = {
+				holding = none
+			}
+			337 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						regimental_grounds_01
+					}
+				}
+			}
+			338 = {
+				holding = none
+			}
+		#	c_trader_coastlands_storage
+			339 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						curtain_walls_01
+					}
+				}
+			}
+			340 = {
+				holding = none
+			}
+			341 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						pastures_01
+					}
+				}
+			}
+			342 = {
+				holding = none
+			}
+			343 = {
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						regimental_grounds_01
+					}
+				}
+			}
+		#	c_trader_coastlands_shipyards
+			344 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			345 = {
+				holding = none
+			}
+			346 = {
+				holding = none
+			}
+			347 = {
+				holding = none
+			}
+			348 = {
+				holding = church_holding
+				867.1.1 = {
+					buildings = {
+						temple_01
+						hospices_01
+					}
+				}
+			}
+			349 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						city_01
+						common_tradeport_01
+					}
+				}
+			}
+			350 = {
+				holding = none
+			}
+		# c_trader_coastlands_exotic
+			351 = {
+				holding = none
+			}
+			352 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			353 = {
+				holding = none
+			}
+			354 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						pastures_01
+					}
+				}
+			}
+		# c_trader_coastlands_treasure
+			355 = {
+				holding = none
+			}
+			356 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						orchards_01
+					}
+				}
+			}
+			357 = {
+				holding = none
+			}
+	## d_kings_port 
+		# c_kings_port_throne
+			358 = {
+				holding = none
+			}
+			359 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						city_02
+						common_tradeport_03
+					}
+				}
+			}
+			360 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						castle_03
+					}
+				}
+			}
+			361 = {
+				holding = church_holding
+				867.1.1 = {
+					buildings = {
+						temple_01
+						monastic_schools_01
+					}
+				}
+			}
+			362 = {
+				holding = none
+			}
+		# c_kings_port_lowlands
+			363 = {
+				holding = none
+			}
+			364 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						common_tradeport_02
+					}
+				}
+			}
+			365 = {
+				holding = none
+			}
+			366 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+		# c_kings_port_navy
+			367 = {
+				holding = none
+			}
+			368 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			369 = {
+				holding = none
+			}
+			370 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						curtain_walls_01
+					}
+				}
+			}
+	## d_central_plains
+		# c_central_plains_smiths
+			371 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						military_camps_01
+					}
+				}
+			}
+			372 = {
+				holding = none
+			}
+			373 = {
+				holding = none
+			}
+			374 = {
+				holding = church_holding
+				867.1.1 = {
+					buildings = {
+						temple_01
+					}
+				}
+			}
+		# c_central_plains_bankers
+			375 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			376 = {
+				holding = none
+			}
+			377 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						hunting_grounds_01
+					}
+				}
+			}
+		# c_central_plains_builders
+			378 = {
+				holding = none
+			}
+			379 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						smiths_01
+					}
+				}
+			}
+			380 = {
+				holding = none
+			}
+		# c_central_plains_merchants
+			381 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						pastures_01
+					}
+				}
+			}
+			382 = {
+				holding = none
+			}
+			383 = {
+				holding = none
+			}
+			384 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						cereal_fields_01
+					}
+				}
+			}
+			385 = {
+				holding = none
+			}
+		# c_central_plains_nobles
+			386 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						castle_02
+						stables_01
+					}
+				}
+			}
+			387 = {
+				holding = none
+			}
+			388 = {
+				holding = none
+			}
+			389 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						city_02
+						guild_halls_01
+					}
+				}
+			}
+			390 = {
+				holding = none
+			}
+	## d_golden_river
+		# c_golden_river_drain
+			391 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			392 = {
+				holding = none
+			}
+			393 = {
+				holding = none
+			}
+		# c_golden_river_temple
+			394 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			395 = {
+				holding = church_holding
+				867.1.1 = {
+					buildings = {
+						temple_01
+						hospices_01
+					}
+				}
+			}
+			396 = {
+				holding = none
+			}
+			397 = {
+				holding = church_holding
+				867.1.1 = {
+					buildings = {
+						temple_02
+						monastic_schools_01
+					}
+				}
+			}
+		# c_golden_river_entrance
+			398 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			399 = {
+				holding = none
+			}
+			400 = {
+				holding = none
+			}
+			401 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						pastures_01
+					}
+				}
+			}
+			402 = {
+				holding = none
+			}
+		#	c_golden_river_tributaries
+			403 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			404 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						hunting_grounds_01
+					}
+				}
+			}
+			405 = {
+				holding = none
+			}
+			406 = {
+				holding = none
+			}
+		# c_golden_river_estuary
+			407 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			408 = {
+				holding = none
+			}
+			409 = {
+				holding = none
+			}
+	## d_little_plains
+		# c_little_plains_farms
+			410 = {
+				holding = none
+			}
+			411 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			412 = {
+				holding = none
+			}
+			413 = {
+				holding = church_holding
+				867.1.1 = {
+					buildings = {
+						temple_01
+						hospices_01
+					}
+				}
+			}
+		# c_little_plains_border
+			414 = {
+				holding = none
+			}
+			415 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						curtain_walls_01
+					}
+				}
+			}
+			416 = {
+				holding = none
+			}
+		# c_little_plains_nestled
+			417 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			418 = {
+				holding = church_holding
+				867.1.1 = {
+					buildings = {
+						temple_01
+						hospices_01
+					}
+				}
+			}
+			419 = {
+				holding = none
+			}
+			420 = {
+				holding = none
+			}
+			421 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						cereal_fields_01
+					}
+				}
+			}
+			422 = {
+				holding = none
+			}
+		# c_little_plains_orchards
+			423 = {
+				holding = none
+			}
+			424 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						cereal_fields_01
+					}
+				}
+			}
+			425 = {
+				holding = none
+			}
+			426 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						outposts_01
+					}
+				}
+			}
+			427 = {
+				holding = none
+			}
+	## d_science_ruins
+		# c_science_ruins_biology
+			428 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						logging_camps_01
+					}
+				}
+			}
+			429 = {
+				holding = none
+			}
+			430 = {
+				holding = none
+			}
+			431 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						ramparts_01
+					}
+				}
+			}
+		# c_science_ruins_engineering
+			432 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			433 = {
+				holding = none
+			}
+			434 = {
+				holding = city_holding
+				867.1.1 = {
+					buildings = {
+						smiths_01
+					}
+				}
+			}
+			435 = {
+				holding = none
+			}
+		# c_science_ruins_physics
+			436 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			437 = {
+				holding = none
+			}
+			438 = {
+				holding = none
+			}
+		# c_science_ruins_rocket
+			439 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						outposts_01
+					}
+				}
+			}
+			440 = {
+				holding = none
+			}
+			441 = {
+				holding = none
+			}
+			442 = {
+				holding = none
+			}
+			443 = {
+				holding = castle_holding
+				867.1.1 = {
+					buildings = {
+						curtain_walls_01
+					}
+				}
+			}
+		# c_science_ruins_computing
+			444 = {
+				culture = lost_star_solitari
+				religion = catholic
+				holding = castle_holding
+			}
+			445 = {
+				holding = church_holding
+				867.1.1 = {
+					buildings = {
+						temple_01
+						hospices_01
+					}
+				}
+			}
+			446 = {
+				holding = none
+			}
+			447 = {
+				holding = none
+			}
+			448 = {
+				holding = none
+			}

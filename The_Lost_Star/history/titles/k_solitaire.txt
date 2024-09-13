@@ -1,0 +1,339 @@
+# Eclipsis
+k_solitaire = {
+	752.5.12 = {
+		holder = lineofeclipsis1
+	}
+	807.2.9 = {
+		holder = lineofeclipsis2
+	}
+	867.1.1 = {
+		holder = lineofeclipsis5
+	}
+}
+
+d_kings_port  = {
+	752.5.12 = {
+		holder = lineofeclipsis1
+	}
+	807.2.9 = {
+		holder = lineofeclipsis2
+	}
+	867.1.1 = {
+		holder = lineofeclipsis5
+	}
+}
+
+d_golden_river  = {
+	752.5.12 = {
+		holder = lineofeclipsis1
+	}
+	807.2.9 = {
+		holder = lineofeclipsis2
+	}
+	867.1.1 = {
+		holder = lineofeclipsis5
+	}
+}
+
+d_trader_coastlands = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofeclipsis1
+	}
+	807.2.9 = {
+		holder = lineofeclipsis4
+	}
+}
+
+c_trader_coastlands_shipyards = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofeclipsis1
+	}
+	807.2.9 = {
+		holder = lineofeclipsis4
+	}
+}
+
+c_kings_port_throne = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofeclipsis1
+	}
+	807.2.9 = {
+		holder = lineofeclipsis2
+	}
+	867.1.1 = {
+		holder = lineofeclipsis5
+	}
+}
+
+
+# Rondo
+d_science_ruins = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo5
+	}
+}
+c_science_ruins_biology = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo5
+	}
+}
+c_science_ruins_engineering = {
+	752.5.12 = {
+		liege = d_science_ruins
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo6
+	}
+}
+c_science_ruins_physics = {
+	752.5.12 = {
+		liege = d_science_ruins
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo7
+	}
+}
+c_science_ruins_rocket = {
+	752.5.12 = {
+		liege = d_science_ruins
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo8
+	}
+}
+c_science_ruins_computing = {
+	752.5.12 = {
+		liege = d_science_ruins
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo9
+	}
+}
+
+# Monata
+d_little_plains = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofmonata1
+	}
+	807.2.9 = {
+		holder = lineofmonata2
+	}
+	867.1.1 = {
+		holder = lineofmonata5
+	}
+}
+c_little_plains_farms = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofmonata1
+	}
+	807.2.9 = {
+		holder = lineofmonata2
+	}
+	867.1.1 = {
+		holder = lineofmonata5
+	}
+}
+c_little_plains_border = {
+	752.5.12 = {
+		liege = d_little_plains
+		holder = lineofmonata1
+	}
+	807.2.9 = {
+		holder = lineofmonata2
+	}
+	867.1.1 = {
+		holder = lineofmonata5
+	}
+}
+c_little_plains_nestled = {
+	752.5.12 = {
+		liege = d_little_plains
+		holder = lineofmonata1
+	}
+	807.2.9 = {
+		holder = lineofmonata2
+	}
+	867.1.1 = {
+		holder = lineofmonata6
+	}
+}
+c_little_plains_orchards = {
+	752.5.12 = {
+		liege = d_little_plains
+		holder = lineofmonata1
+	}
+	807.2.9 = {
+		holder = lineofmonata2
+	}
+	867.1.1 = {
+		holder = lineofmonata7
+	}
+}
+
+
+# Soulitee
+d_central_plains = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofsoulitee1
+	}
+	807.2.9 = {
+		holder = lineofsoulitee2
+	}
+	867.1.1 = {
+		holder = lineofsoulitee5
+	}
+}
+
+c_central_plains_bankers = {
+	752.5.12 = {
+		liege = d_central_plains
+		holder = lineofsoulitee1
+	}
+	807.2.9 = {
+		holder = lineofsoulitee2
+	}
+	867.1.1 = {
+		holder = lineofsoulitee6
+	}
+}
+
+c_central_plains_builders = {
+	752.5.12 = {
+		liege = d_central_plains
+		holder = lineofsoulitee1
+	}
+	807.2.9 = {
+		holder = lineofsoulitee2
+	}
+	867.1.1 = {
+		holder = lineofsoulitee7
+	}
+}
+
+c_central_plains_merchants = {
+	752.5.12 = {
+		liege = d_central_plains
+		holder = lineofsoulitee1
+	}
+	807.2.9 = {
+		holder = lineofsoulitee2
+	}
+	867.1.1 = {
+		holder = lineofsoulitee8
+	}
+}
+
+c_central_plains_nobles = {
+	752.5.12 = {
+		liege = d_central_plains
+		holder = lineofsoulitee1
+	}
+	807.2.9 = {
+		holder = lineofsoulitee2
+	}
+	867.1.1 = {
+		holder = lineofsoulitee5
+	}
+}
+
+c_central_plains_smiths = {
+	752.5.12 = {
+		liege = d_central_plains
+		holder = lineofsoulitee1
+	}
+	807.2.9 = {
+		holder = lineofsoulitee2
+	}
+	867.1.1 = {
+		holder = lineofsoulitee9
+	}
+}
+
+# Minor Families
+
+c_trader_coastlands_cargo = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofsoulitee1
+	}
+	867.1.1 = {
+		liege = d_trader_coastlands
+		holder = solitairemf1
+	}
+}
+c_trader_coastlands_exotic = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofsoulitee1
+	}
+	867.1.1 = {
+		liege = d_trader_coastlands
+		holder = solitairemf2
+	}
+}
+c_trader_coastlands_food = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofsoulitee1
+	}
+	867.1.1 = {
+		liege = d_trader_coastlands
+		holder = solitairemf3
+	}
+}
+c_trader_coastlands_storage = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofsoulitee1
+	}
+	867.1.1 = {
+		liege = d_trader_coastlands
+		holder = solitairemf4
+	}
+}
+c_trader_coastlands_treasure = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofsoulitee1
+	}
+	867.1.1 = {
+		liege = d_trader_coastlands
+		holder = solitairemf5
+	}
+}

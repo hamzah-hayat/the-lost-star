@@ -3,3 +3,31 @@
 	culture = "english"
 	motto = dynn_pinkerton_motto
 }
+
+
+
+# k_solitaire
+	# Eclipsis
+		dynasty_eclipsis = {
+			prefix = "dynnp_de"
+			name = "Eclipsis"
+			culture = "Solitari"
+		}	
+
+	# Rondo
+		dynasty_rondo = {
+			name = "Rondo"
+			culture = "Solitari"
+		}	
+
+		# Monata
+		dynasty_monata = {
+			name = "Monata"
+			culture = "Solitari"
+		}	
+
+		# Soulitee
+		dynasty_soulitee = {
+			name = "Soulitee"
+			culture = "Solitari"
+		}	

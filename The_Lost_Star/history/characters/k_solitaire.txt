@@ -1,0 +1,971 @@
+﻿# Eclipsis
+
+lineofeclipsis1 = {
+	name = "Ramón"
+	dynasty = dynasty_eclipsis
+	dna = lineofeclipsis1
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	771.1.25 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofeclipsis1wife
+	}
+	807.2.9={					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofeclipsis1wife = {
+	name = "Estefania"
+	female = yes
+	dna = lineofeclipsis1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	775.8.19 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofeclipsis1
+	}
+	836.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+
+lineofeclipsis2 = {
+	name = "Álvar"
+	dynasty = dynasty_eclipsis
+	father = lineofeclipsis1
+	mother = lineofeclipsis1wife
+	dna = lineofeclipsis2
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofeclipsis2wife
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofeclipsis2wife = {
+	name = "Urraca"
+	female = yes
+	dna = lineofeclipsis2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofeclipsis2
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofeclipsis3 = {
+	name = "Garcia"
+	dynasty = dynasty_eclipsis
+	father = lineofeclipsis1
+	mother = lineofeclipsis1wife
+	dna = lineofeclipsis3
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+
+
+lineofeclipsis4 = {
+	name = "Berenguel"
+	dynasty = dynasty_eclipsis
+	father = lineofeclipsis1
+	mother = lineofeclipsis1wife
+	dna = lineofeclipsis4
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	806.9.20 = {
+		birth = yes
+	}
+}
+
+lineofeclipsis5 = {
+	name = "Oveco"
+	dynasty = dynasty_eclipsis
+	father = lineofeclipsis2
+	mother = lineofeclipsis2wife
+	dna = lineofeclipsis5
+	religion = catholic
+	culture = lost_star_solitari
+
+	diplomacy = 6
+	martial = 10
+	stewardship = 10
+	intrigue = 3
+	learning = 6
+	prowess = 10
+
+	trait = fickle
+	trait = diligent
+	trait = cynical
+	trait = education_intrigue_4
+
+	trait = intellect_good_1
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+	843.6.27 = {
+		add_spouse = lineofeclipsis5wife
+	}
+}
+
+lineofeclipsis5wife = {
+	name = "Maria"
+	female = yes
+	dna = lineofeclipsis5
+	religion = catholic
+	culture = lost_star_solitari
+
+	diplomacy = 6
+	martial = 10
+	stewardship = 10
+	intrigue = 3
+	learning = 6
+	prowess = 10
+
+	trait = trusting
+	trait = temperate
+	trait = calm
+	trait = education_stewardship_4
+
+	trait = intellect_good_1
+
+	sexuality = heterosexual
+
+	826.8.4 = {
+		birth = yes
+	}
+	843.6.27 = {
+		add_spouse = lineofeclipsis5
+	}
+}
+
+lineofeclipsis6 = {
+	name = "Fiamula"
+	dynasty = dynasty_eclipsis
+	father = lineofeclipsis5
+	mother =lineofeclipsis5wife
+	female = yes
+	dna = lineofeclipsis6
+	religion = catholic
+	culture = lost_star_solitari
+
+	diplomacy = 6
+	martial = 10
+	stewardship = 10
+	intrigue = 3
+	learning = 6
+	prowess = 10
+
+	trait = ambitious
+	trait = arbitary
+	trait = cynical
+	trait = education_stewardship_4
+
+	trait = intellect_good_1
+
+	sexuality = heterosexual
+
+	845.10.14 = {
+		birth = yes
+	}
+}
+
+
+
+# Rondo
+lineofrondo1 = {
+	name = "Visitación"
+	dynasty = dynasty_rondo
+	dna = lineofrondo1
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	771.1.25 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofrondo1wife
+	}
+	807.2.9={					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofrondo1wife = {
+	name = "Martita"
+	female = yes
+	dna = lineofrondo1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	775.8.19 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofrondo1
+	}
+	836.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+
+lineofrondo2 = {
+	name = "Patricio"
+	dynasty = dynasty_rondo
+	father = lineofrondo1
+	mother = lineofrondo1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofrondo2wife
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofrondo2wife = {
+	name = "Sanchia"
+	female = yes
+	religion = catholic
+	culture = lost_star_solitari
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofrondo2
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofrondo3 = {
+	name = "Rodolfo"
+	dynasty = dynasty_rondo
+	father = lineofrondo1
+	mother = lineofrondo1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofrondo3wife
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofrondo3wife = {
+	name = "Agota"
+	female = yes
+	religion = catholic
+	culture = lost_star_solitari
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofrondo3
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofrondo4 = {
+	name = "Iñes"
+	female = yes
+	dynasty = dynasty_rondo
+	father = lineofrondo1
+	mother = lineofrondo1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofrondo4husband
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofrondo4husband = {
+	name = "Felipe"
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofrondo4
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofrondo5 = {
+	name = "Tomás"
+	dynasty = dynasty_rondo
+	father = lineofrondo2
+	mother = lineofrondo2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofrondo6 = {
+	name = "Eustaquio"
+	dynasty = dynasty_rondo
+	father = lineofrondo2
+	mother = lineofrondo2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofrondo7 = {
+	name = "Seve"
+	dynasty = dynasty_rondo
+	father = lineofrondo2
+	mother = lineofrondo2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+
+
+lineofrondo8 = {
+	name = "Fernándo"
+	dynasty = dynasty_rondo
+	father = lineofrondo3
+	mother = lineofrondo3wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofrondo9 = {
+	name = "Renato"
+	dynasty = dynasty_rondo
+	father = lineofrondo3
+	mother = lineofrondo3wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofrondo10 = {
+	name = "Natalia"
+	female = yes
+	dynasty = dynasty_rondo
+	father = lineofrondo4
+	mother = lineofrondo4wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofrondo11 = {
+	name = "Visitación II"
+	dynasty = dynasty_rondo
+	father = lineofrondo4
+	mother = lineofrondo4wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+# Monata
+lineofmonata1 = {
+	name = "Alejandro"
+	dynasty = dynasty_monata
+	dna = lineofmonata1
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	771.1.25 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofmonata1wife
+	}
+	807.2.9={					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofmonata1wife = {
+	name = "Theresa"
+	female = yes
+	dna = lineofmonata1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	775.8.19 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofmonata1
+	}
+	836.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofmonata2 = {
+	name = "Maximiliano"
+	dynasty = dynasty_monata
+	father = lineofmonata1
+	mother = lineofmonata1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofmonata2wife
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofmonata2wife = {
+	name = "Reina"
+	female = yes
+	religion = catholic
+	culture = lost_star_solitari
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofmonata2
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofmonata3 = {
+	name = "Theresa II"
+	female = yes
+	dynasty = dynasty_monata
+	father = lineofmonata1
+	mother = lineofmonata1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofmonata3husband
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofmonata3husband = {
+	name = "Gustavo"
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofmonata3
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofmonata4 = {
+	name = "Eloisa"
+	female = yes
+	dynasty = dynasty_monata
+	father = lineofmonata1
+	mother = lineofmonata1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofmonata4husband
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofmonata4husband = {
+	name = "Pablo"
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofmonata4
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofmonata5 = {
+	name = "Vidal"
+	dynasty = dynasty_monata
+	father = lineofmonata2
+	mother = lineofmonata2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofmonata6 = {
+	name = "Theresa III"
+	female = yes
+	dynasty = dynasty_monata
+	father = lineofmonata2
+	mother = lineofmonata2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofmonata7 = {
+	name = "Loída"
+	female = yes
+	dynasty = dynasty_monata
+	father = lineofmonata3husband
+	mother = lineofmonata3
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofmonata8 = {
+	name = "Verónica"
+	female = yes
+	dynasty = dynasty_monata
+	father = lineofmonata3husband
+	mother = lineofmonata3
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofmonata11 = {
+	name = "Hernán"
+	dynasty = dynasty_monata
+	father = lineofmonata4husband
+	mother = lineofmonata4
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+	830.5.8{					
+		death = { death_reason = death_accident } 				
+	}	
+}
+
+# Soulitee
+
+lineofsoulitee1 = {
+	name = "Alexis"
+	dynasty = dynasty_soulitee
+	dna = lineofsoulitee1
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	771.1.25 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofsoulitee1wife
+	}
+	807.2.9={					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsoulitee1wife = {
+	name = "Sabrina"
+	female = yes
+	dna = lineofsoulitee1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	775.8.19 = {
+		birth = yes
+	}
+	790.6.2 = {
+		add_spouse = lineofsoulitee1
+	}
+	836.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+
+lineofsoulitee2 = {
+	name = "Alexis II"
+	dynasty = dynasty_soulitee
+	father = lineofsoulitee1
+	mother = lineofsoulitee1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofsoulitee2wife
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsoulitee2wife = {
+	name = "Elena"
+	female = yes
+	religion = catholic
+	culture = lost_star_solitari
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofsoulitee2
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsoulitee3 = {
+	name = "Tadeo"
+	dynasty = dynasty_soulitee
+	father = lineofsoulitee1
+	mother = lineofsoulitee1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	797.9.20 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofsoulitee3wife
+	}
+	867.1.1{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsoulitee3wife = {
+	name = "Graciela"
+	female = yes
+	religion = catholic
+	culture = lost_star_solitari
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofsoulitee3
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsoulitee4 = {
+	name = "Herminia"
+	female = yes
+	dynasty = dynasty_soulitee
+	father = lineofsoulitee1
+	mother = lineofsoulitee1wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofsoulitee4husband
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsoulitee4husband = {
+	name = "Rómulo"
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	795.2.5 = {
+		birth = yes
+	}
+	813.5.4 = {
+		add_spouse = lineofsoulitee4
+	}
+	866.4.12{					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}
+
+lineofsoulitee5 = {
+	name = "Tito"
+	dynasty = dynasty_soulitee
+	father = lineofsoulitee2
+	mother = lineofsoulitee2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofsoulitee6 = {
+	name = "Jaziel"
+	dynasty = dynasty_soulitee
+	father = lineofsoulitee2
+	mother = lineofsoulitee2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofsoulitee7 = {
+	name = "Édgar"
+	dynasty = dynasty_soulitee
+	father = lineofsoulitee2
+	mother = lineofsoulitee2wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+
+
+lineofsoulitee8 = {
+	name = "Aarón"
+	dynasty = dynasty_soulitee
+	father = lineofsoulitee3
+	mother = lineofsoulitee3wife
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+lineofsoulitee9 = {
+	name = "Ulises"
+	dynasty = dynasty_soulitee
+	father = lineofsoulitee4
+	mother = lineofsoulitee4husband
+	religion = catholic
+	culture = lost_star_solitari
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+
+# Minor Families
+
+solitairemf1 = {
+	name = "Rubén"
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+solitairemf2 = {
+	name = "Sergio"
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+solitairemf3 = {
+	name = "Antonio"
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+solitairemf4 = {
+	name = "Tácito"
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
+
+solitairemf5 = {
+	name = "Francisco"
+	religion = catholic
+	culture = lost_star_solitari
+
+	sexuality = heterosexual
+
+	826.11.27 = {
+		birth = yes
+	}
+}
