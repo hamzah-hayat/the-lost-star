@@ -82,6 +82,18 @@ d_science_ruins = {
 		holder = lineofrondo5
 	}
 }
+c_golden_river_temple = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofrondo1
+	}
+	807.2.9 = {
+		holder = lineofrondo2
+	}
+	867.1.1 = {
+		holder = lineofrondo5
+	}
+}
 c_science_ruins_biology = {
 	752.5.12 = {
 		liege = k_solitaire
@@ -156,6 +168,18 @@ d_little_plains = {
 		holder = lineofmonata5
 	}
 }
+c_golden_river_estuary = {
+	752.5.12 = {
+		liege = k_solitaire
+		holder = lineofmonata1
+	}
+	807.2.9 = {
+		holder = lineofmonata2
+	}
+	867.1.1 = {
+		holder = lineofmonata5
+	}
+}
 c_little_plains_farms = {
 	752.5.12 = {
 		liege = k_solitaire
@@ -219,7 +243,18 @@ d_central_plains = {
 		holder = lineofsoulitee5
 	}
 }
-
+c_golden_river_drain = {
+	752.5.12 = {
+		liege = d_central_plains
+		holder = lineofsoulitee1
+	}
+	807.2.9 = {
+		holder = lineofsoulitee2
+	}
+	867.1.1 = {
+		holder = lineofsoulitee6
+	}
+}
 c_central_plains_bankers = {
 	752.5.12 = {
 		liege = d_central_plains
