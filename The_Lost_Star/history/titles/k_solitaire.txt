@@ -94,7 +94,7 @@ c_golden_river_temple = {
 		holder = lineofrondo5
 	}
 }
-c_science_ruins_biology = {
+c_science_ruins_engineering = {
 	752.5.12 = {
 		liege = k_solitaire
 		holder = lineofrondo1
@@ -106,7 +106,7 @@ c_science_ruins_biology = {
 		holder = lineofrondo5
 	}
 }
-c_science_ruins_engineering = {
+c_science_ruins_biology = {
 	752.5.12 = {
 		liege = d_science_ruins
 		holder = lineofrondo1
