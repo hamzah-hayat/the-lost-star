@@ -12,3 +12,58 @@
 		}
 	}
 }
+
+dynasty_eclipsis = {
+	pattern="diagonal_A.dds"
+	color1=red
+	color2=black
+	color3=black
+	colored_emblem={
+		color1=black
+		texture="flag_blocky_11.dds"
+		mask={ 1 0 0 }
+		instance={
+			depth=2.010000
+		}
+	
+	}
+	
+	colored_emblem={
+		color1=white
+		color2=black
+		color3=black
+		texture="ce_head.dds"
+		mask={ 0 2 0 }
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+			rotation=180
+		}
+	
+	}
+	
+	colored_emblem={
+		color1=red
+		texture="flag_pirate_8.dds"
+		mask={ 0 2 0 }
+		instance={
+			depth=3.010000
+		}
+	
+	}
+	
+	colored_emblem={
+		color1=white
+		color2=red
+		color3=red
+		texture="ce_head.dds"
+		mask={ 1 0 0 }
+		instance={
+			position={ 0.500000 0.530000 }
+			scale={ 0.750000 0.750000 }
+		}
+	
+	}
+
+}
