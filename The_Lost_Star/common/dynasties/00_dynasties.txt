@@ -12,6 +12,7 @@
 			prefix = "dynnp_de"
 			name = "Eclipsis"
 			culture = "Solitari"
+			motto = dynn_eclipsis_motto
 		}	
 
 	# Rondo
