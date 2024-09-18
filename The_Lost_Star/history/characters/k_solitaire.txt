@@ -139,6 +139,11 @@ lineofeclipsis5 = {
 
 	826.11.27 = {
 		birth = yes
+		effect = {
+			dynasty = {
+				add_dynasty_prestige_level = 1
+			}
+		}
 	}
 	843.6.27 = {
 		add_spouse = lineofeclipsis5wife
@@ -373,6 +378,11 @@ lineofrondo5 = {
 
 	826.11.27 = {
 		birth = yes
+		effect = {
+			dynasty = {
+				add_dynasty_prestige_level = 1
+			}
+		}
 	}
 }
 
@@ -618,6 +628,11 @@ lineofmonata5 = {
 
 	826.11.27 = {
 		birth = yes
+		effect = {
+			dynasty = {
+				add_dynasty_prestige_level = 1
+			}
+		}
 	}
 }
 
@@ -846,6 +861,11 @@ lineofsoulitee5 = {
 
 	826.11.27 = {
 		birth = yes
+		effect = {
+			dynasty = {
+				add_dynasty_prestige_level = 1
+			}
+		}
 	}
 }
 
