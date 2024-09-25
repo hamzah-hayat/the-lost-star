@@ -1,0 +1,23 @@
+﻿#########################
+####### WEEK 1 #########
+#########################
+
+challenge_character_john = {
+	start_date = 867.1.1
+	achievements = {  }
+	character = {
+		name = "bookmark_john"
+		dynasty = 1
+		history_id = 100000
+		dynasty_splendor_level = 1
+		type = male
+		birth = 851.1.1
+		title = k_island
+		government = feudal_government
+		culture = english
+		religion = "catholic"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+
+		animation = personality_honorable
+	}
+}
