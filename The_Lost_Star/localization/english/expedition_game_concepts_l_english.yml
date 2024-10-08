@@ -1,0 +1,8 @@
+﻿l_english:
+ game_concept_expedition_success_chance:0 "Expedition Success Chance"
+ game_concept_expedition_success_chance_no_prefix:0 "Success Chance"
+ game_concept_expedition_success_chance_desc:1 "When setting out on a [GetActivityType('activity_expedition').GetName] there is no guarantee you will have a fruitful search. The main factors are:"
+ game_concept_expedition_danger:0 "Expedition Peril"
+ game_concept_expedition_danger_no_prefix:0 "Peril"
+ game_concept_expedition_dangerous:0 "Perilous"
+ game_concept_expedition_danger_desc:1 "test expedition danger description"

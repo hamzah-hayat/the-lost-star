@@ -1,0 +1,31 @@
+﻿l_english:
+ expedition_success_bar:0 "[expedition_success_chance_no_prefix|E]: [Activity.MakeScope.Var( 'expedition_success_chance' ).GetValue|V1]%#!"
+
+ # Province Descs
+
+ # Host Desc
+
+ # Conclusion Desc
+
+ ### ACTIVITY
+ # GUESTS
+ # PHASES
+ 
+ # OPTIONS
+ 
+ # ARTIFACTS
+ 
+ # INTENTS
+ 
+ # EFFECTS
+ 
+ # TOOLTIPS
+ expedition_success_chance:1 "[expedition_success_chance_no_prefix|E]"
+
+
+ # ACTIVITY LOG
+
+ # CUSTOM LOC
+
+ # MEMORY
+ 
