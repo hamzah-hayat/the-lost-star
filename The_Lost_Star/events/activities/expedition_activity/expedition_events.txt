@@ -1,0 +1,155 @@
+﻿# Events for handling the Expedition activity
+
+namespace = expedition
+
+## Expedition events
+## by GLACoding
+
+#######################
+#	Something
+#	by GLACoding
+#######################
+
+expedition.4001 = {
+	type = activity_event
+	title = expedition.4001.t
+	desc = expedition.4001.desc
+	theme = expedition_activity
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	root = {
+		stress_impact = {
+			base = medium_stress_impact_loss
+		}
+	}
+	cooldown = { years = 1 }
+
+	option = { #Melt down plaques for gold
+		name = expedition.4001.a
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_planetarium_melt_plaques
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					add_gold = minor_gold_value
+				}
+			}
+		}
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
+				ai_greed = 1
+			}
+		}
+	}
+
+	option = { #Keep the plaques
+		name = expedition.4001.b
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_planetarium_keep_plaques
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					add_learning_lifestyle_xp = medium_lifestyle_xp
+				}
+			}
+		}
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
+				ai_compassion = 1
+			}
+		}
+	}
+	
+	option = { #Perhaps a through search can help us in our expedition?
+		name = expedition.4001.c
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_planetarium_search_throughly
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					expedition_activity_success_change_effect = { CHANGE = increase_medium }
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_energy = 1
+			}
+		}
+	}
+	
+	option = { #Deliver a rousing speech to the party
+		name = expedition.4001.d
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_planetarium_rousing_speech
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					add_prestige = minor_prestige_gain
+					expedition_activity_success_change_effect = { CHANGE = increase_major }
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_sociability = 1
+				ai_energy = 0.5
+			}
+		}
+	}
+}
+
+
+root = {
+	duel = {
+		skill = diplomacy
+		value = 16
+		50 = {
+			desc = expedition.4001.d.success
+			compare_modifier = {
+				value = scope:duel_value
+				multiplier = 3.5
+				min = -25
+			}
+			send_interface_toast = {
+				title = expedition.4001.d.success
+				add_gold = minor_gold_value
+				add_prestige = medium_prestige_gain
+				expedition_activity_success_change_effect = { CHANGE = increase_minor }
+			}
+		}
+		40 = {
+			desc = expedition.4001.d.failure
+			compare_modifier = {
+				value = scope:duel_value
+				multiplier = -3.5
+				min = -25
+			}
+			send_interface_toast = {
+				title = expedition.4001.d.failure
+			}
+		}
+	}
+}

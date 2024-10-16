@@ -1,0 +1,22 @@
+﻿# 2. Random Flavor
+expedition_random_pulse = {
+	trigger = {
+		exists = scope:activity
+		OR = {
+			is_ai = no
+			involved_activity.activity_host ?= this
+		}
+	}
+	random_events = {
+		chance_of_no_event = {
+			if = {
+				limit = { this = scope:host }
+				value = 0
+			}
+			else = { value = 50 }
+		}
+		# Generic
+		200 = expedition.4001 #A planeterium is found
+
+	}
+}

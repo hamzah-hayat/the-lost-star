@@ -1,0 +1,9 @@
+﻿l_english:
+ expedition.4001.t:2 "The Planetarium"
+ expedition.4001.desc:2 "The planetarium description"
+ expedition.4001.a:1 "melt down plaques for gold!"
+ expedition.4001.b:0 "keep plaques"
+ expedition.4001.c:0 "through search"
+ expedition.4001.d:0 "rousing speeech"
+ expedition.4001.d.success:0 "sucessful rousing speeech"
+ expedition.4001.d.faiulure:0 "failed rousing speeech"

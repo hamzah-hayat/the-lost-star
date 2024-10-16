@@ -250,6 +250,10 @@
 
 	}
 
+	###################
+	# PHASES
+	###################
+
 	# Active phases of of an activity, each activity has at least one active phase, each must be uniquely named
 	phases = {
 		expedition_phase_excavation = {
@@ -290,8 +294,24 @@
 			# root = character in this phase
 			# scope:activity = the activity
 			# scope:host = host of the activity
-			on_phase_active = {
-				scope:activity = { progress_activity_phase_after = { weeks = 1 } }
+			on_phase_active = { # Fires for every attendee
+				if = {
+					limit = { this = scope:host }
+					scope:activity = { progress_activity_phase_after = { weeks = 1 } }
+					scope:activity = {
+						every_attending_character = {
+							limit = { is_ai = no }
+							trigger_event = {
+								on_action = expedition_random_pulse
+								days = 7
+							}
+							trigger_event = {
+								on_action = expedition_random_pulse
+								days = 14
+							}
+						}
+					}
+				}
 			}
 
 			# Run when this phase ends
