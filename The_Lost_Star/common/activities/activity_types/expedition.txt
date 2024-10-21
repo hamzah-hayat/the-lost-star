@@ -297,7 +297,7 @@
 			on_phase_active = { # Fires for every attendee
 				if = {
 					limit = { this = scope:host }
-					scope:activity = { progress_activity_phase_after = { weeks = 4 } }
+					scope:activity = { progress_activity_phase_after = { weeks = 10 } }
 					scope:activity = {
 						every_attending_character = {
 							limit = { is_ai = no }
