@@ -81,9 +81,39 @@ expedition_success_chance_value = {
 	# MODIFIERS
 
 	# EVENTS
-
+	if = {
+		limit = { exists = var:expedition_success_chance_event }
+		add = {
+			value = var:expedition_success_chance_event
+			desc = expedition_success_chance.events
+		}
+	}
 	# TYPE
 
+}
+
+expedition_activity_success_increase_minor_value = 3
+expedition_activity_success_increase_medium_value = 5
+expedition_activity_success_increase_major_value = 10
+expedition_activity_success_increase_massive_value = 15 # use very sparingly, this is huge
+expedition_activity_success_increase_adventurer_initial_medium_value = 30
+expedition_activity_success_increase_adventurer_initial_high_value = 50
+
+expedition_activity_success_decrease_minor_value = {
+	value = expedition_activity_success_increase_minor_value
+	multiply = -1
+}
+expedition_activity_success_decrease_medium_value = {
+	value = expedition_activity_success_increase_medium_value
+	multiply = -1
+}
+expedition_activity_success_decrease_major_value = {
+	value = expedition_activity_success_increase_major_value
+	multiply = -1
+}
+expedition_activity_success_decrease_massive_value = {
+	value = expedition_activity_success_increase_massive_value
+	multiply = -1
 }
 
 expedition_success_chance_inverse_value = {

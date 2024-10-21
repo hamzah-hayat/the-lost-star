@@ -4,6 +4,7 @@ namespace = expedition
 
 ## Expedition events
 ## by GLACoding
+## Based on hunt_events.txt
 
 #######################
 #	Something
@@ -14,7 +15,7 @@ expedition.4001 = {
 	type = activity_event
 	title = expedition.4001.t
 	desc = expedition.4001.desc
-	theme = expedition_activity
+	theme = expedition_activity_planetarium
 	left_portrait = {
 		character = root
 		animation = thinking
@@ -106,8 +107,35 @@ expedition.4001 = {
 
 				#Effect
 				root = {
-					add_prestige = minor_prestige_gain
-					expedition_activity_success_change_effect = { CHANGE = increase_major }
+					duel = {
+						skill = diplomacy
+						value = 16
+						50 = {
+							desc = expedition.4001.d.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4001.d.success
+								add_gold = minor_gold_value
+								add_prestige = medium_prestige_gain
+								expedition_activity_success_change_effect = { CHANGE = increase_minor }
+							}
+						}
+						40 = {
+							desc = expedition.4001.d.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4001.d.failure
+							}
+						}
+					}
 				}
 			}
 		}
@@ -121,34 +149,261 @@ expedition.4001 = {
 	}
 }
 
+expedition.4002 = {
+	type = activity_event
+	title = expedition.4002.t
+	desc = expedition.4002.desc
+	theme = expedition_activity_warehouse
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	cooldown = { years = 1 }
 
-root = {
-	duel = {
-		skill = diplomacy
-		value = 16
-		50 = {
-			desc = expedition.4001.d.success
-			compare_modifier = {
-				value = scope:duel_value
-				multiplier = 3.5
-				min = -25
-			}
-			send_interface_toast = {
-				title = expedition.4001.d.success
-				add_gold = minor_gold_value
-				add_prestige = medium_prestige_gain
-				expedition_activity_success_change_effect = { CHANGE = increase_minor }
+	option = { #Do nothing
+		name = expedition.4002.a
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_warehouse_do_nothing
+				score = 25
+				tags = { random }
+				character = root
+
+				#Effect
 			}
 		}
-		40 = {
-			desc = expedition.4001.d.failure
-			compare_modifier = {
-				value = scope:duel_value
-				multiplier = -3.5
-				min = -25
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
 			}
-			send_interface_toast = {
-				title = expedition.4001.d.failure
+		}
+	}
+
+	option = { #Search for valuables
+		name = expedition.4002.b
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_warehouse_search_valuables
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					duel = {
+						skill = stewardship
+						value = 16
+						50 = {
+							desc = expedition.4002.b.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4002.b.success
+								add_gold = medium_gold_value
+							}
+						}
+						40 = {
+							desc = expedition.4002.b.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4002.b.failure
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
+				ai_greed = 1
+			}
+		}
+	}
+	
+	option = { #Search for information
+		name = expedition.4002.c
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_warehouse_search_information
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					duel = {
+						skill = stewardship
+						value = 16
+						50 = {
+							desc = expedition.4002.c.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4002.c.success
+								expedition_activity_success_change_effect = { CHANGE = increase_medium }
+							}
+						}
+						40 = {
+							desc = expedition.4002.c.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4002.c.failure
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_energy = 1
+			}
+		}
+	}
+	
+}
+
+expedition.5001 = {
+	type = activity_event
+	title = expedition.5001.t
+	desc = expedition.5001.desc
+	theme = expedition_activity_fuse
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	cooldown = { years = 1 }
+
+	option = { #Do nothing
+		name = expedition.5001.a
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_fuse_do_nothing
+				score = 25
+				tags = { random }
+				character = root
+
+				#Effect
+			}
+		}
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
+			}
+		}
+	}
+
+	option = { #Smack the box
+		name = expedition.5001.b
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_fuse_smack_box
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					duel = {
+						skill = prowess
+						value = 16
+						50 = {
+							desc = expedition.5001.b.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.5001.b.success
+								expedition_activity_success_change_effect = { CHANGE = increase_minor }
+							}
+						}
+						40 = {
+							desc = expedition.5001.b.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.5001.b.failure
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_energy = 1
+			}
+		}
+	}
+
+	option = { #Attempt to restore lighting
+		name = expedition.5001.c
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_fuse_restore_lighting
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					duel = {
+						skill = learning
+						value = 16
+						50 = {
+							desc = expedition.5001.c.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.5001.c.success
+								expedition_activity_success_change_effect = { CHANGE = increase_medium }
+							}
+						}
+						40 = {
+							desc = expedition.5001.c.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.5001.c.failure
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_sociability = 1
+				ai_energy = 0.5
 			}
 		}
 	}

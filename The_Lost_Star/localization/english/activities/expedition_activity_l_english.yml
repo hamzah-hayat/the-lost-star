@@ -21,7 +21,15 @@
  
  # TOOLTIPS
  expedition_success_chance:1 "[expedition_success_chance_no_prefix|E]"
-
+ expedition_activity_success_increase_minor_tt:0 "[expedition_success_chance_no_prefix|E] #positive_value increases slightly#!"
+ expedition_activity_success_increase_medium_tt:0 "[expedition_success_chance_no_prefix|E] #positive_value increases#!"
+ expedition_activity_success_increase_major_tt:0 "[expedition_success_chance_no_prefix|E] #positive_value increases greatly#!"
+ expedition_activity_success_increase_massive_tt:0 "[expedition_success_chance_no_prefix|E] #positive_value increases tremendously#!"
+ expedition_activity_success_increase_adventurer_initial_medium_tt: "[expedition_success_chance_no_prefix|E] #positive_value increases greatly#!"
+ expedition_activity_success_increase_adventurer_initial_high_tt: "[expedition_success_chance_no_prefix|E] #positive_value increases tremendously#!"
+ expedition_activity_success_decrease_minor_tt:0 "[expedition_success_chance_no_prefix|E] #negative_value decreases slightly#!"
+ expedition_activity_success_decrease_medium_tt:0 "[expedition_success_chance_no_prefix|E] #negative_value decreases#!"
+ expedition_activity_success_decrease_major_tt:0 "[expedition_success_chance_no_prefix|E] #negative_value decreases greatly#!"
 
  # ACTIVITY LOG
 
