@@ -16,11 +16,11 @@ expedition_random_pulse = {
 			else = { value = 50 }
 		}
 		# Generic
-		200 = expedition.4001 #A planeterium is found
-		200 = expedition.4002 #Gargantuan Warehouse
+		100 = expedition.4001 #A planeterium is found
+		100 = expedition.4002 #Gargantuan Warehouse
 
 		#Excavation - move this to a another random pulse
-		2000 = expedition.5001 #Fix Fuse box
+		100 = expedition.5001 #Fix Fuse box
 
 	}
 }
