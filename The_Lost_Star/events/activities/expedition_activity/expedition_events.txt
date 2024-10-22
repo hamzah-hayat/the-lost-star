@@ -14,11 +14,16 @@ namespace = expedition
 expedition.4001 = {
 	type = activity_event
 	title = expedition.4001.t
-	desc = expedition.4001.desc
+	desc = {
+		desc = expedition.4001.opening
+		desc = expedition.4001.opening.2
+	}
+
+
 	theme = expedition_activity_planetarium
 	left_portrait = {
 		character = root
-		animation = thinking
+		animation = admiration
 	}
 	root = {
 		stress_impact = {
@@ -152,7 +157,10 @@ expedition.4001 = {
 expedition.4002 = {
 	type = activity_event
 	title = expedition.4002.t
-	desc = expedition.4002.desc
+	desc = {
+		desc = expedition.4002.opening
+		desc = expedition.4002.opening.2
+	}
 	theme = expedition_activity_warehouse
 	left_portrait = {
 		character = root
@@ -282,13 +290,34 @@ expedition.4002 = {
 expedition.5001 = {
 	type = activity_event
 	title = expedition.5001.t
-	desc = expedition.5001.desc
+	desc = {
+		desc = expedition.5001.opening
+		desc = expedition.5001.opening.2
+		desc = expedition.5001.opening.3
+	}
+
 	theme = expedition_activity_fuse
 	left_portrait = {
 		character = root
 		animation = thinking
 	}
+	right_portrait = {
+		character = scope:expedition_participant
+		animation = idle
+	}
 	cooldown = { years = 1 }
+	
+
+	immediate = {
+		scope:activity = {
+			random_attending_character = {
+				limit = {
+					NOT = { this = scope:host }
+				}
+				save_scope_as = expedition_participant
+			}
+		}
+	}
 
 	option = { #Do nothing
 		name = expedition.5001.a

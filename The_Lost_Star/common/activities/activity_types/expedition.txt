@@ -906,54 +906,37 @@
 
 	# Can read in multiple, they will be displayed left to right based on this order
 	window_characters = {
-		key = { # Will be localized as activity_window_character_key
-
-			# Name of the camera to use for this portrait
-			camera = camera_name
+		host = {
+			camera = camera_event_center
 			
-			# root = the activity
-			# scope:activity = the activity
-			# scope:host = host of the activity
-			# scope:player = the player character viewing the window
-			# Pick the desired character by scoping to them and doing add_to_list = characters
-			# A random valid character will be picked to display, if the character is already displayed they will be skipped
 			effect = {
-				add_to_list = characters
+				if = {
+					limit = {
+						OR = {
+							scope:host.location = scope:activity.activity_location
+							scope:host.location = { is_sea_province = yes }
+						}
+					}
+					scope:host = {
+						add_to_list = characters
+					}
+				}
 			}
-
-			# scripted animation block for animation selection based on triggers
-			# root = the activity
-			# scope:activity = the activity
-			# scope:host = host of the activity
-			# scope:player = the player character viewing the window
-			# scope:character = the character who is going to receive triggered animation
 			scripted_animation = {
-				triggered_animation = {
-					trigger = {
-						scope:host = {
-							is_female = no
-						}
-					}
+				animation = idle
+			}
+		}
 
-					# both syntaxes are supported
-					animation = one_handed_1_aggressive
+		antiquarian = {
+			camera = camera_event_center
+			
+			effect = {
+				scope:host.court_position:antiquarian_court_position ?= {
+						add_to_list = characters
 				}
-				triggered_animation = {
-					trigger = {
-						scope:character = {
-							is_female = yes
-						}
-					}
-
-					animation = throne_room_conversation_1
-					# Instead of 'animation' you can also define a 'scripted_animation'
-					#scripted_animation = key_of_scripted_animation
-				}
-
-				# 1 default animation if all triggers fail. Convention is to always have some always-valid trigger and not use this field
-				animation = throne_room_conversation_3
-				# Instead of 'animation' you can also define a 'scripted_animation'
-				#scripted_animation = key_of_scripted_animation
+			}
+			scripted_animation = {
+				animation = thinking
 			}
 		}
 	}

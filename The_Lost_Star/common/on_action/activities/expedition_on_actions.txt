@@ -20,7 +20,7 @@ expedition_random_pulse = {
 		200 = expedition.4002 #Gargantuan Warehouse
 
 		#Excavation - move this to a another random pulse
-		200 = expedition.5001 #Fix Fuse box
+		2000 = expedition.5001 #Fix Fuse box
 
 	}
 }

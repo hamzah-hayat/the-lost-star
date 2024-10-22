@@ -59,8 +59,7 @@ expedition_success_chance_value = {
 					}				
 					else = { add = 15 }
 				}
-				#fix note: change this desc
-				#desc = expedition_success_chance.master_of_hunt
+				desc = expedition_success_chance.antiquarian
 			}
 		}
 

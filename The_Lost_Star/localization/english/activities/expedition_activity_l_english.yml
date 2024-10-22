@@ -1,4 +1,10 @@
 ﻿l_english:
+ activity_expedition:1 "Expedition"
+ activity_expedition_desc:1 "An expedition focused on delving into the long lost ruins of the ancients"
+ expedition_type_generic:1 "Exploration Expedition"
+ expedition_type_generic_desc:1 "An expedition focused on delving into the long lost ruins of the ancients"
+ expedition_type_raid:1 "Raiding Expedition"
+ expedition_type_raid_desc:1 "An expedition focused on fighting past a hostile force occupying a ruin of the ancients"
  expedition_success_bar:0 "[expedition_success_chance_no_prefix|E]: [Activity.MakeScope.Var( 'expedition_success_chance' ).GetValue|V1]%#!"
 
  # Province Descs
@@ -8,6 +14,8 @@
  # Conclusion Desc
 
  ### ACTIVITY
+ activity_window_character_antiquarian:1 "$antiquarian_court_position$\n[Character.GetShortUINameNoTooltip|U]"
+
  # GUESTS
  # PHASES
  
