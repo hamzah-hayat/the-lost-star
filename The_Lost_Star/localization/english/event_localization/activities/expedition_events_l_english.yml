@@ -39,8 +39,8 @@
  expedition.4010.b:0 "Unmount and keep the plaques"
  expedition.4010.c:0 "Conduct a through search through the terminals"
  expedition.4010.d:0 "Deliver a rousing speeech"
- expedition.4010.d.success:0 "sucessful rousing speeech"
- expedition.4010.d.failure:0 "failed rousing speeech"
+ expedition.4010.d.success:0 "Sucessful rousing speeech"
+ expedition.4010.d.failure:0 "Failed rousing speeech"
 
  expedition.4020.t:2 "Gargantuan Warehouse"
  expedition.4020.opening:2 "Pushing aside the overgrown vines clinging to a doorway, I beheld a gargantuan warehouse, its rows of metal boxes seemingly stretching out to the horizon. Strange metal contraptions lay dormant, their labour’s half finished. Dust motes danced in the shafts of light filtering through cracked windows, illuminating what looks to be a scriptorium of some kind."
