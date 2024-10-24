@@ -524,7 +524,7 @@
 			3 = activity_invite_rule_vassals
 			1 = activity_invite_rule_friends
 			2 = activity_invite_rule_glory_hounds
-			1 = activity_invite_rule_hunters
+			1 = activity_invite_rule_antiquarian
 			4 = activity_invite_rule_courtiers
 			4 = activity_invite_rule_fellow_vassals
 		}
@@ -970,7 +970,7 @@
 	# scope:special_option = flag of the selected special option, not set if activity has no special option category
 	province_description = {
 		first_valid = {
-			desc = activity_invite_rule_hunters
+			desc = activity_invite_rule_antiquarian
 		}
 	}
 
@@ -994,7 +994,7 @@
 	# scope:host = host of the activity
 	conclusion_description = {
 		first_valid = {
-			desc = activity_invite_rule_hunters
+			desc = activity_invite_rule_antiquarian
 		}
 	}
 }

@@ -1,0 +1,15 @@
+﻿### ACTIVITY INVITE RULES ###
+
+activity_invite_rule_antiquarian = {
+	effect = {
+		court_position:antiquarian_court_position ?= {
+			if = {
+				limit = {
+					# Remove diarchs from the list.
+					bannable_serving_diarch_trigger = no
+				}
+				add_to_list = characters
+			}
+		}
+	}
+}
