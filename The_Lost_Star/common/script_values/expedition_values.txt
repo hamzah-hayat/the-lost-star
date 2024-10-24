@@ -1,3 +1,24 @@
+expedition_activity_base_cost = {
+	value = standard_activity_base_cost
+	# Adventurer
+	if = {
+		limit = { is_landless_adventurer = yes }
+		multiply = 0.25
+	}
+}
+
+expedition_normal_option_cost = {
+	value = 10
+	multiply = activity_cost_scale_by_tier
+	multiply = activity_cost_scale_by_era
+}
+
+expedition_good_option_cost = {
+	value = 35
+	multiply = activity_cost_scale_by_tier
+	multiply = activity_cost_scale_by_era
+}
+
 expedition_success_chance_value = {
 	activity_host = {
 		### HOST

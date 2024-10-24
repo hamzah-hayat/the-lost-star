@@ -7,7 +7,7 @@
 	
 	can_start_showing_failures_only = {
 		is_available_adult = yes
-		can_hunt_trigger = yes
+		can_do_expedition_trigger = yes
 	}
 
 	is_valid = {
@@ -17,7 +17,7 @@
 			is_landed = yes 
 			NOT = { is_incapable = yes }
 		}
-		NOT = { has_variable = hunt_invalidated }
+		NOT = { has_variable = expedition_invalidated }
 
 #		Fix Note: change this once ruin buildings are in
 #		trigger_if = {
@@ -37,8 +37,8 @@
 	on_invalidated = {
 		# Save scopes for flavor events
 		scope:activity = {
-			var:hunt_invalidated_flavor ?= { save_scope_as = invalidated_flavor }
-			var:hunt_invalidated_culprit ?= { save_scope_as = invalidated_culprit }
+			var:expedition_invalidated_flavor ?= { save_scope_as = invalidated_flavor }
+			var:expedition_invalidated_culprit ?= { save_scope_as = invalidated_culprit }
 			every_attending_character = {
 				limit = {
 					is_ai = no
@@ -51,43 +51,43 @@
 				add_to_list = attendees
 			}
 			if = { # Wound
-				limit = { var:hunt_invalidated ?= flag:wounded }
+				limit = { var:expedition_invalidated ?= flag:wounded }
 				save_scope_as = wounded_invalidation
 				every_in_list = {
 					list = attendees
-					trigger_event = hunt.0086
+					trigger_event = expedition.0086
 				}
 			}
 			else_if = { # Death
-				limit = { var:hunt_invalidated ?= flag:death }
+				limit = { var:expedition_invalidated ?= flag:death }
 				save_scope_as = death_invalidation
 				every_in_list = {
 					list = attendees
-					trigger_event = hunt.0080
+					trigger_event = expedition.0080
 				}
 			}
 			else_if = { # Assassination Attempt
-				limit = { var:hunt_invalidated ?= flag:assassination_attempt }
+				limit = { var:expedition_invalidated ?= flag:assassination_attempt }
 				save_scope_as = assassination_invalidation
 				every_in_list = {
 					list = attendees
-					trigger_event = hunt.0083
+					trigger_event = expedition.0083
 				}
 			}
 			else_if = { # Abduction Attempt
-				limit = { var:hunt_invalidated ?= flag:abduction_attempt }
+				limit = { var:expedition_invalidated ?= flag:abduction_attempt }
 				save_scope_as = abduction_attempt_invalidation
 				every_in_list = {
 					list = attendees
-					trigger_event = hunt.0084
+					trigger_event = expedition.0084
 				}
 			}
 			else_if = { # Abduction
-				limit = { var:hunt_invalidated ?= flag:abduction }
+				limit = { var:expedition_invalidated ?= flag:abduction }
 				save_scope_as = abduction_invalidation
 				every_in_list = {
 					list = attendees
-					trigger_event = hunt.0085
+					trigger_event = expedition.0085
 				}
 			}
 			else_if = { # Host Imprisoned
@@ -96,7 +96,7 @@
 				}
 				every_in_list = {
 					list = attendees
-					trigger_event = hunt.0082
+					trigger_event = expedition.0082
 				}
 			}
 			# Host becomes unlanded
@@ -140,7 +140,8 @@
 				scope:host = { trigger_event = activity_system.0100 }
 			}
 
-			hunt_remove_variables_effect = yes
+			#Fix Note: this isnt used right now, but will be in future
+			expedition_remove_variables_effect = yes
 		}
 	}
 
@@ -153,10 +154,10 @@
 			player_heir ?= {
 				save_scope_as = heir
 				add_character_flag = {
-					flag = hunt_heir
+					flag = expedition_heir
 					weeks = 1
 				}
-				trigger_event = { id = hunt.0080 days = 1 }
+				trigger_event = { id = expedition.0080 days = 1 }
 			}
 		}
 	}
@@ -184,8 +185,8 @@
 
 		#Expedition types
 		special_type = {
-			# Revel Expedition.
-			## Generic Expedition
+			# Generic Expedition.
+			## Normal exploration expedition
 			expedition_type_generic = {
 				default = yes
 
@@ -466,7 +467,7 @@
 	cost = {
 		gold = {
 			add = { # Base cost, scaled by era
-				value = hunt_activity_base_cost
+				value = expedition_activity_base_cost
 				multiply = activity_cost_scale_by_era
 			}
 		}
@@ -482,7 +483,7 @@
 	ui_predicted_cost = {
 		gold = {
 			add = { # Base cost, scaled by era
-				value = hunt_activity_base_cost
+				value = expedition_activity_base_cost
 				multiply = activity_cost_scale_by_era
 			}
 		}
@@ -537,8 +538,7 @@
 	can_be_activity_guest = {
 		is_adult = yes
 		NOT = { has_trait = incapable }
-		# Fix Note: replace can_hunt_trigger
-		can_hunt_trigger = yes
+		can_do_expedition_trigger = yes
 		in_diplomatic_range = scope:host
 	}
 

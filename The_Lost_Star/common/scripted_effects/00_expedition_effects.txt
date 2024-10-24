@@ -31,3 +31,14 @@ expedition_activity_success_outcome_effect = {
 		}
 	}
 }
+
+expedition_invalidation_event_effect = {
+	if = {
+		limit = { exists = scope:activity }
+		custom_tooltip = expedition_ends_tt
+	}
+}
+
+expedition_remove_variables_effect = {
+	
+}

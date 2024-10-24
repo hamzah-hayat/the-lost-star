@@ -6,6 +6,8 @@
  expedition_type_raid:1 "Raiding Expedition"
  expedition_type_raid_desc:1 "An expedition focused on fighting past a hostile force occupying a ruin of the ancients"
  expedition_success_bar:0 "[expedition_success_chance_no_prefix|E]: [Activity.MakeScope.Var( 'expedition_success_chance' ).GetValue|V1]%#!"
+ activity_expedition_predicted_cost:0 "The cost of a [GetActivityType( 'activity_expedition' ).GetNameNoTooltip] is primarily affected by [activity_type|E] the [activity_options|E] you select."
+ 
 
  # Province Descs
 
@@ -38,6 +40,7 @@
  expedition_activity_success_decrease_minor_tt:0 "[expedition_success_chance_no_prefix|E] #negative_value decreases slightly#!"
  expedition_activity_success_decrease_medium_tt:0 "[expedition_success_chance_no_prefix|E] #negative_value decreases#!"
  expedition_activity_success_decrease_major_tt:0 "[expedition_success_chance_no_prefix|E] #negative_value decreases greatly#!"
+ expedition_ends_tt:2 "The [GetActivityType('activity_expedition').GetName] ends"
 
  # ACTIVITY LOG
 
