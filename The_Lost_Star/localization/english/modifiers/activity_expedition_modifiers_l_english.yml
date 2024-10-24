@@ -1,0 +1,2 @@
+﻿l_english:
+ expedition_success_chance.antiquarian:0 "[GetCourtPositionType('antiquarian_court_position').GetName()] [aptitude|E]"

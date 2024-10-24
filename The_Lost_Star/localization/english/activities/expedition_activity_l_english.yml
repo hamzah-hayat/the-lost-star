@@ -1,0 +1,77 @@
+﻿l_english:
+ activity_expedition:1 "Expedition"
+ activity_expedition_desc:1 "An expedition focused on delving into the long lost ruins of the ancients"
+ expedition_type_generic:1 "Exploration Expedition"
+ expedition_type_generic_desc:1 "An expedition focused on delving into the long lost ruins of the ancients"
+ expedition_type_raid:1 "Raiding Expedition"
+ expedition_type_raid_desc:1 "An expedition focused on fighting past a hostile force occupying a ruin of the ancients"
+ expedition_success_bar:0 "[expedition_success_chance_no_prefix|E]: [Activity.MakeScope.Var( 'expedition_success_chance' ).GetValue|V1]%#!"
+ activity_expedition_predicted_cost:0 "The cost of a [GetActivityType( 'activity_expedition' ).GetNameNoTooltip] is primarily affected by [activity_type|E] the [activity_options|E] you select."
+
+ activity_invite_rule_antiquarian:1 "Court Antiquarian"
+ 
+
+ # Province Descs
+
+ # Host Desc
+
+ # Conclusion Desc
+
+ ### ACTIVITY
+ activity_window_character_antiquarian:1 "$antiquarian_court_position$\n[Character.GetShortUINameNoTooltip|U]"
+ expedition_phase_excavation:1 "Excavation Phase"
+
+ # GUESTS
+ # PHASES
+ 
+ # OPTIONS
+ 
+ # ARTIFACTS
+ 
+ # INTENTS
+ 
+ # EFFECTS
+ 
+ # TOOLTIPS
+ expedition_success_chance:1 "[expedition_success_chance_no_prefix|E]"
+ expedition_activity_success_increase_minor_tt:0 "[expedition_success_chance_no_prefix|E] #positive_value increases slightly#!"
+ expedition_activity_success_increase_medium_tt:0 "[expedition_success_chance_no_prefix|E] #positive_value increases#!"
+ expedition_activity_success_increase_major_tt:0 "[expedition_success_chance_no_prefix|E] #positive_value increases greatly#!"
+ expedition_activity_success_increase_massive_tt:0 "[expedition_success_chance_no_prefix|E] #positive_value increases tremendously#!"
+ expedition_activity_success_increase_adventurer_initial_medium_tt: "[expedition_success_chance_no_prefix|E] #positive_value increases greatly#!"
+ expedition_activity_success_increase_adventurer_initial_high_tt: "[expedition_success_chance_no_prefix|E] #positive_value increases tremendously#!"
+ expedition_activity_success_decrease_minor_tt:0 "[expedition_success_chance_no_prefix|E] #negative_value decreases slightly#!"
+ expedition_activity_success_decrease_medium_tt:0 "[expedition_success_chance_no_prefix|E] #negative_value decreases#!"
+ expedition_activity_success_decrease_major_tt:0 "[expedition_success_chance_no_prefix|E] #negative_value decreases greatly#!"
+ expedition_ends_tt:2 "The [GetActivityType('activity_expedition').GetName] ends"
+
+ # ACTIVITY LOG
+expedition_planetarium_melt_plaques_log_title:0 "$expedition.4010.t$"
+expedition_planetarium_melt_plaques_log:0 "[CHARACTER.GetShortUIName|U] melted down old plaques for gold"
+expedition_planetarium_keep_plaques_log_title:0 "$expedition.4010.t$"
+expedition_planetarium_keep_plaques_log:0 "[CHARACTER.GetShortUIName|U] kept ancient plaques to study"
+expedition_planetarium_search_throughly_log_title:0 "$expedition.4010.t$"
+expedition_planetarium_search_throughly_log:0 "[CHARACTER.GetShortUIName|U] used the planetarium terminals help the expedition"
+expedition_planetarium_rousing_speech_log_title:0 "$expedition.4010.t$"
+expedition_planetarium_rousing_speech_log:0 "[CHARACTER.GetShortUIName|U] gave a rousing speech in a planetarium"
+expedition_warehouse_search_valuables_log_title:0 "$expedition.4020.t$"
+expedition_warehouse_search_valuables_log:0 "[CHARACTER.GetShortUIName|U] searched for valuables in a warehouse"
+expedition_warehouse_search_information_log_title:0 "$expedition.4020.t$"
+expedition_warehouse_search_information_log:0 "[CHARACTER.GetShortUIName|U] searched for information in a warehouse"
+expedition_fuse_smack_box_log_title:0 "$expedition.5010.t$"
+expedition_fuse_smack_box_log:0 "[CHARACTER.GetShortUIName|U] used his might to try to repair a fuse box"
+expedition_fuse_restore_lighting_log_title:0 "$expedition.5010.t$"
+expedition_fuse_restore_lighting_log:0 "[CHARACTER.GetShortUIName|U] used his intellect to try to repair a fuse box"
+
+
+
+
+
+
+
+
+
+ # CUSTOM LOC
+
+ # MEMORY
+ 

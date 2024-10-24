@@ -1,0 +1,26 @@
+﻿# 2. Random Flavor
+expedition_random_pulse = {
+	trigger = {
+		exists = scope:activity
+		OR = {
+			is_ai = no
+			involved_activity.activity_host ?= this
+		}
+	}
+	random_events = {
+		chance_of_no_event = {
+			if = {
+				limit = { this = scope:host }
+				value = 0
+			}
+			else = { value = 50 }
+		}
+		# Generic
+		100 = expedition.4010 #A planeterium is found
+		100 = expedition.4020 #Gargantuan Warehouse
+
+		#Excavation - move this to a another random pulse
+		100 = expedition.5010 #Fix Fuse box
+
+	}
+}

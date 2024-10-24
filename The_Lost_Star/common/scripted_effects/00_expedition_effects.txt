@@ -1,0 +1,44 @@
+﻿expedition_activity_success_change_effect = {
+	scope:activity = {
+		if = {
+			limit = {
+				NOT = { exists = var:expedition_success_chance_event }
+			}
+			set_variable = { name = expedition_success_chance_event value = 0 }
+		}
+		change_variable = {
+			name = expedition_success_chance_event
+			add = expedition_activity_success_$CHANGE$_value
+		}
+		set_variable = {
+			name = expedition_success_chance
+			value = expedition_success_chance_value
+		}
+	}
+	custom_tooltip = expedition_activity_success_$CHANGE$_tt
+}
+
+expedition_activity_success_outcome_effect = {
+	scope:activity = {
+		hidden_effect = {
+			random = {
+				chance = var:expedition_success_chance
+				set_variable = {
+					name = expedition_success
+					value = flag:yes
+				}
+			}
+		}
+	}
+}
+
+expedition_invalidation_event_effect = {
+	if = {
+		limit = { exists = scope:activity }
+		custom_tooltip = expedition_ends_tt
+	}
+}
+
+expedition_remove_variables_effect = {
+	
+}

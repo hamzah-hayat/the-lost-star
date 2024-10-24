@@ -1,0 +1,142 @@
+expedition_activity_base_cost = {
+	value = standard_activity_base_cost
+	# Adventurer
+	if = {
+		limit = { is_landless_adventurer = yes }
+		multiply = 0.25
+	}
+}
+
+expedition_normal_option_cost = {
+	value = 10
+	multiply = activity_cost_scale_by_tier
+	multiply = activity_cost_scale_by_era
+}
+
+expedition_good_option_cost = {
+	value = 35
+	multiply = activity_cost_scale_by_tier
+	multiply = activity_cost_scale_by_era
+}
+
+expedition_success_chance_value = {
+	activity_host = {
+		### HOST
+		# SKILLS
+		add = {
+			value = learning
+			divide = 2
+			ceiling = yes
+			max = 15
+			desc = learning_modifier
+		}
+		add = {
+			value = martial
+			divide = 12
+			ceiling = yes
+			max = 10
+			desc = martial_modifier
+		}
+		add = {
+			value = prowess
+			divide = 6
+			ceiling = yes
+			max = 15
+			desc = prowess_modifier
+		}
+		# TRAIT
+
+		# MODIFIERS
+
+		# Antiquarian
+		if = {
+			limit = { exists = court_position:antiquarian_court_position }
+			add = {
+				value = 0
+				court_position:antiquarian_court_position = {
+					if = {
+						limit = {
+							aptitude = { court_position = antiquarian_court_position value <= 1 }
+						}
+						add = 3
+					}
+					else_if = {
+						limit = {
+							aptitude = { court_position = antiquarian_court_position value = 2 }
+						}
+						add = 6
+					}
+					else_if = {
+						limit = {
+							aptitude = { court_position = antiquarian_court_position value = 3 }
+						}
+						add = 9
+					}
+					else_if = {
+						limit = {
+							aptitude = { court_position = antiquarian_court_position value = 4 }
+						}
+						add = 12
+					}				
+					else = { add = 15 }
+				}
+				desc = expedition_success_chance.antiquarian
+			}
+		}
+
+		# ESTATE
+	}
+	# GUESTS
+
+	# OPTION
+
+	# METHOD	
+
+	# LOCATION
+
+	# CULTURE
+
+	# SIGHTINGS
+
+	# MODIFIERS
+
+	# EVENTS
+	if = {
+		limit = { exists = var:expedition_success_chance_event }
+		add = {
+			value = var:expedition_success_chance_event
+			desc = expedition_success_chance.events
+		}
+	}
+	# TYPE
+
+}
+
+expedition_activity_success_increase_minor_value = 3
+expedition_activity_success_increase_medium_value = 5
+expedition_activity_success_increase_major_value = 10
+expedition_activity_success_increase_massive_value = 15 # use very sparingly, this is huge
+expedition_activity_success_increase_adventurer_initial_medium_value = 30
+expedition_activity_success_increase_adventurer_initial_high_value = 50
+
+expedition_activity_success_decrease_minor_value = {
+	value = expedition_activity_success_increase_minor_value
+	multiply = -1
+}
+expedition_activity_success_decrease_medium_value = {
+	value = expedition_activity_success_increase_medium_value
+	multiply = -1
+}
+expedition_activity_success_decrease_major_value = {
+	value = expedition_activity_success_increase_major_value
+	multiply = -1
+}
+expedition_activity_success_decrease_massive_value = {
+	value = expedition_activity_success_increase_massive_value
+	multiply = -1
+}
+
+expedition_success_chance_inverse_value = {
+	value = 100
+	subtract = expedition_success_chance_value
+}

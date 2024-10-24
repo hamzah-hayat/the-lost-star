@@ -1,0 +1,1172 @@
+﻿# Events for handling the Expedition activity
+
+namespace = expedition
+
+## Expedition events
+## by GLACoding
+## Based on hunt_events.txt
+
+#####################################
+##	SETUP AND MAINTENANCE EVENTS	
+##	0000 - 0099						
+#####################################
+
+#######################
+## Random exploration events
+## 4000-5000
+## by GLACoding
+#######################
+
+#######################
+## Random excavation events
+## 5000-6000
+## by GLACoding
+#######################
+
+#####################################
+#	SETUP AND MAINTENANCE EVENTS	#
+#	0000 - 0099						#
+#####################################
+
+#######################
+#	Expedition invalidated
+#	original by Joe Parkin - Hunt invalidated
+# modified by GLACoding
+#######################
+
+# Death
+expedition.0080 = {
+	type = character_event
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						this = scope:host
+						is_in_list = attendees
+					}
+				}
+				desc = expedition.0080.t.inheritor
+			}
+			desc = expedition.0080.t
+		}
+	}
+	desc = {
+		first_valid = { # Summary
+			# Dead Host
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						this = scope:host
+						is_in_list = attendees
+					}
+				}
+				desc = expedition.0080.death_inheritor
+			}
+			triggered_desc = {
+				trigger = {
+					exists = scope:host.killer
+					this = scope:killer
+					NOR = {
+						this = scope:host
+						is_in_list = attendees
+					}
+				}
+				desc = expedition.0080.death_inheritor_killer
+			}
+			# Dead Guest
+			triggered_desc = {
+				trigger = {
+					exists = scope:host.killer
+					this = scope:killer
+					NOR = {
+						this = scope:host
+						is_in_list = attendees
+					}
+				}
+				desc = expedition.0080.death_inheritor_killer
+			}
+			desc = expedition.0080.death
+		}
+		first_valid = {			
+			triggered_desc = {
+				trigger = {
+					OR = {
+						is_in_list = attendees
+						this = scope:host
+					}
+					NAND = {
+						has_character_flag = expedition_heir
+						exists = scope:death_invalidation
+						scope:invalidated_flavor ?= scope:host
+					}
+				}
+				desc = expedition.0080.desc
+			}
+			desc = expedition.0080.desc_inheritor
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+		trigger = { 
+			OR = {
+				is_in_list = attendees 
+				this = scope:host
+			}
+		}
+	}
+	right_portrait = {
+		character = scope:host
+		trigger = {
+			NOR = {
+				this = root
+				scope:invalidated_culprit ?= this 
+			}
+		}
+		triggered_animation = {
+			trigger = { is_alive = no }
+			animation = loss_1
+		}
+		animation = stress
+	}
+	center_portrait = {
+		character = scope:invalidated_flavor
+		trigger = {
+			exists = scope:invalidated_flavor
+			NOR = {
+				scope:invalidated_flavor ?= root
+				scope:invalidated_flavor ?= scope:host
+			}
+		}
+	}
+	artifact = {
+		position = lower_left_portrait
+		target = scope:newly_created_artifact
+		trigger = { exists = scope:newly_created_artifact }
+	}
+	theme = expedition_activity
+	override_background = {
+		trigger = { is_participant_in_activity = scope:activity }
+		reference = wilderness
+	}
+	override_background = {
+		trigger = {
+			NOT = { is_participant_in_activity = scope:activity }
+		}
+		reference = relaxing_room
+	}
+	cooldown = { weeks = 1 }
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { this = scope:host }
+			}
+			expedition_invalidation_event_effect = yes
+		}
+	}
+
+	option = {
+		name = expedition.0080.a
+		if = {
+			limit = { exists = scope:newly_created_artifact }
+			hidden_effect = { destroy_artifact = scope:newly_created_artifact }
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = expedition.0080.abort
+		trigger = { this = scope:host }
+		scope:activity = {
+			set_variable = {
+				name = expedition_invalidated
+				value = flag:death
+			}
+			set_variable = {
+				name = expedition_invalidated_flavor
+				value = scope:invalidated_flavor
+			}
+			if = {
+				limit = { exists = scope:invalidated_culprit }
+				set_variable = {
+					name = expedition_invalidated_culprit
+					value = scope:invalidated_culprit
+				}
+			}
+		}
+		expedition_invalidation_event_effect = yes
+		if = {
+			limit = { exists = scope:newly_created_artifact }
+			hidden_effect = { destroy_artifact = scope:newly_created_artifact }
+		}
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+# Wound Decision
+expedition.0081 = {
+	type = activity_event
+	title = expedition.0081.t
+	desc = {
+		first_valid = { # Summary
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						has_trait = wounded
+						has_trait = maimed
+					}
+				}
+				desc = expedition.0081.sick
+			}
+			desc = expedition.0081.wounded
+		}
+		first_valid = {
+			triggered_desc = {
+				trigger = { this = scope:host }
+				desc = expedition.0081.host
+			}
+			desc = expedition.0081.guest
+		}
+	}
+	left_portrait = {
+		character = root
+		triggered_animation = {
+			trigger = {
+				NOR = {
+					has_trait = wounded
+					has_trait = maimed
+				}
+			}
+			animation = pain
+		}
+		triggered_animation = {
+			trigger = {
+				OR = {
+					has_trait = wounded
+					has_trait = maimed
+				}
+			}
+			animation = sick
+		}
+	}
+	right_portrait = {
+		character = scope:host
+		trigger = {
+			NOT = { this = scope:host }
+		}
+		animation = worry
+	}
+	theme = expedition_activity
+
+	trigger = {
+		is_healthy = no
+		OR = {
+			has_trait = wounded
+			# Fix Note : recent_expedition_wound isn't used yet, but will be in future
+			has_character_flag = recent_expedition_wound
+		}
+		NOT = { has_character_flag = expedition_wound_ignored }
+		NOT = { exists = scope:activity.var:expedition_success }
+	}
+
+	option = {
+		name = expedition.0081.a
+		if = {
+			limit = { this = scope:host }
+			scope:activity = {
+				set_variable = {
+					name = expedition_invalidated
+					value = flag:wound
+				}
+				set_variable = {
+					name = expedition_invalidated_flavor
+					value = scope:host
+				}
+			}
+			expedition_invalidation_event_effect = yes
+		}
+		else = {
+			scope:host = {
+				send_interface_toast = {
+					title = expedition_wounded_guest_leaves_toast
+					left_icon = root
+					root = { remove_from_activity = scope:activity }
+				}
+			}
+		}
+		stress_impact = {
+			brave = minor_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+		}
+	}
+
+	option = {
+		name = expedition.0081.b
+		add_character_flag = expedition_wound_ignored
+		stress_impact = {
+			craven = minor_stress_impact_gain
+			humble = minor_stress_impact_gain
+		}
+	}
+}
+
+# Host Imprisoned
+expedition.0082 = {
+	type = character_event
+	title = expedition.0080.t
+	desc = {
+		first_valid = { # Summary
+			# Host Imprisoned
+			triggered_desc = {
+				trigger = {
+					scope:host = {
+						is_alive = yes
+						is_imprisoned = yes
+					}
+					this = scope:host
+				}
+				desc = expedition.0080.imprisoned_self
+			}
+			triggered_desc = {
+				trigger = {
+					scope:host = {
+						is_alive = yes
+						is_imprisoned = yes
+					}
+				}
+				desc = expedition.0080.imprisoned
+			}
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = scope:host
+		animation = prisonhouse
+	}
+	lower_left_portrait = scope:host.imprisoner
+	theme = expedition_activity
+	cooldown = { weeks = 1 }
+
+	immediate = {
+		expedition_invalidation_event_effect = yes
+		show_as_tooltip = {
+			scope:host.imprisoner = {
+				imprison = {
+					target = scope:host
+					type = house_arrest
+				}
+			}
+		}
+	}
+
+	option = {
+		name = expedition.0080.a
+		custom_tooltip = expedition_ends_tt
+	}
+}
+
+# Assassination Attempt
+expedition.0083 = {
+	type = character_event
+	title = expedition.0082.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:invalidated_culprit }
+				desc = expedition.0080.assassination_culprit
+			}
+			desc = expedition.0080.assassination
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+		trigger = { is_in_list = attendees }
+	}
+	right_portrait = {
+		character = scope:host
+		trigger = {
+			NOR = {
+				this = root
+				this = scope:invalidated_culprit
+			}
+		}
+		animation = stress
+	}
+	lower_right_portrait = {
+		character = scope:invalidated_flavor
+		trigger = {
+			exists = scope:invalidated_flavor
+			NOR = {
+				scope:invalidated_flavor = root
+				scope:invalidated_flavor = scope:host
+			}
+		}
+	}
+	lower_center_portrait = {
+		character = scope:invalidated_culprit
+		trigger = {
+			exists = scope:invalidated_culprit
+			NOT = { scope:invalidated_culprit = root }
+		}
+	}
+	theme = expedition_activity
+	cooldown = { weeks = 1 }
+	
+	trigger = {
+		# No need for invalidation ping for botched scheme targets
+		NOR = {
+			scope:invalidated_flavor ?= root
+			scope:invalidated_culprit ?= root
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { this = scope:host }
+			}
+			expedition_invalidation_event_effect = yes
+		}
+		show_as_tooltip = {
+			if = {
+				limit = {
+					exists = scope:invalidated_culprit
+				}
+				scope:invalidated_flavor = {
+					add_opinion = {
+						target = scope:invalidated_culprit
+						modifier = attempted_murder_me_crime
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = expedition.0082.a
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = expedition.0080.abort
+		trigger = { this = scope:host }
+		scope:activity = {
+			set_variable = {
+				name = expedition_invalidated
+				value = flag:assassination_attempt
+			}
+			set_variable = {
+				name = expedition_invalidated_flavor
+				value = scope:invalidated_flavor
+			}
+			set_variable = {
+				name = expedition_invalidated_culprit
+				value = scope:invalidated_culprit
+			}
+		}
+		expedition_invalidation_event_effect = yes
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+# Abduction Attempt
+expedition.0084 = {
+	type = character_event
+	title = expedition.0082.t
+	desc = {
+		desc = expedition.0080.abduction_attempt
+		triggered_desc = {
+			trigger = { exists = scope:invalidated_culprit }
+			desc = expedition.0080.assassination_culprit
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+		trigger = { is_in_list = attendees }
+	}
+	right_portrait = {
+		character = scope:host
+		trigger = {
+			NOR = {
+				this = root
+				this = scope:invalidated_culprit
+			}
+		}
+		animation = stress
+	}
+	lower_right_portrait = {
+		character = scope:invalidated_flavor
+		trigger = {
+			exists = scope:invalidated_flavor
+			NOR = {
+				scope:invalidated_flavor = root
+				scope:invalidated_flavor = scope:host
+			}
+		}
+	}
+	lower_center_portrait = {
+		character = scope:invalidated_culprit
+		trigger = {
+			exists = scope:invalidated_culprit
+			NOT = { scope:invalidated_culprit = root }
+		}
+	}
+	theme = expedition_activity
+	cooldown = { weeks = 1 }
+	
+	trigger = {
+		# No need for invalidation ping for botched scheme targets
+		NOR = {
+			scope:invalidated_flavor ?= this
+			scope:invalidated_culprit ?= this
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { this = scope:host }
+			}
+			expedition_invalidation_event_effect = yes
+		}
+		show_as_tooltip = {
+			scope:invalidated_flavor = {
+				add_opinion = {
+					target = scope:invalidated_culprit
+					modifier = attempted_abduct_me_crime
+				}
+			}
+		}
+	}
+
+	option = {
+		name = expedition.0082.a
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = expedition.0080.abort
+		trigger = { this = scope:host }
+		scope:activity = {
+			set_variable = {
+				name = expedition_invalidated
+				value = flag:abduction_attempt
+			}
+			set_variable = {
+				name = expedition_invalidated_flavor
+				value = scope:invalidated_flavor
+			}
+			set_variable = {
+				name = expedition_invalidated_culprit
+				value = scope:invalidated_culprit
+			}
+		}
+		expedition_invalidation_event_effect = yes
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+# Abduction
+expedition.0085 = {
+	type = character_event
+	title = expedition.0082.t
+	desc = {
+		desc = expedition.0080.abduction
+		triggered_desc = {
+			trigger = { exists = scope:invalidated_culprit }
+			desc = expedition.0080.abduction_culprit
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+		trigger = { is_in_list = attendees }
+	}
+	right_portrait = {
+		character = scope:host
+		trigger = {
+			NOR = {
+				this = root
+				this = scope:invalidated_culprit
+			}
+		}
+		animation = stress
+	}
+	lower_right_portrait = {
+		character = scope:invalidated_flavor
+		trigger = {
+			exists = scope:invalidated_flavor
+			NOR = {
+				scope:invalidated_flavor = root
+				scope:invalidated_flavor = scope:host
+			}
+		}
+	}
+	lower_center_portrait = {
+		character = scope:invalidated_culprit
+		trigger = {
+			exists = scope:invalidated_culprit
+			NOT = { scope:invalidated_culprit = root }
+		}
+	}
+	theme = expedition_activity
+	cooldown = { weeks = 1 }
+	
+	trigger = {
+		# No need for invalidation ping for botched scheme targets
+		NOR = {
+			scope:abduct_target ?= this
+			scope:invalidated_culprit ?= this
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { this = scope:host }
+			}
+			expedition_invalidation_event_effect = yes
+		}
+		show_as_tooltip = {
+			hard_imprison_character_effect = {
+				TARGET = scope:invalidated_flavor
+				IMPRISONER = scope:invalidated_culprit
+			}
+			scope:invalidated_flavor = {
+				add_opinion = {
+					target = scope:invalidated_culprit
+					modifier = abducted_me_opinion
+				}
+			}
+		}
+	}
+
+	option = {
+		name = expedition.0082.a
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = expedition.0080.abort
+		trigger = { this = scope:host }
+		scope:activity = {
+			set_variable = {
+				name = expedition_invalidated
+				value = flag:abduction
+			}
+			set_variable = {
+				name = expedition_invalidated_flavor
+				value = scope:invalidated_flavor
+			}
+			set_variable = {
+				name = expedition_invalidated_culprit
+				value = scope:invalidated_culprit
+			}
+		}
+		expedition_invalidation_event_effect = yes
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+# Wound
+expedition.0086 = {
+	type = character_event
+	title = expedition.0080.t
+	desc = {
+		first_valid = { # Summary
+			# Wounded Guest
+			triggered_desc = {
+				trigger = { scope:invalidated_flavor ?= root }
+				desc = expedition.0080.wounded_self
+			}
+			desc = expedition.0080.wounded
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+		trigger = { is_in_list = attendees }
+	}
+	right_portrait = {
+		character = scope:host
+		trigger = {
+			NOT = { this = root }
+		}
+		triggered_animation = {
+			trigger = { is_alive = no }
+			animation = loss_1
+		}
+		animation = stress
+	}
+	lower_right_portrait = {
+		character = scope:invalidated_flavor
+		trigger = {
+			exists = scope:invalidated_flavor
+			NOR = {
+				scope:invalidated_flavor = root
+				scope:invalidated_flavor = scope:host
+			}
+		}
+	}
+	theme = expedition_activity
+	cooldown = { weeks = 1 }
+
+	immediate = {
+		expedition_invalidation_event_effect = yes
+	}
+
+	option = {
+		name = expedition.0080.a
+		custom_tooltip = expedition_ends_tt
+	}
+}
+
+#######################
+# Random exploration events
+# 4000-5000
+# by GLACoding
+#######################
+
+expedition.4010 = {
+	type = activity_event
+	title = expedition.4010.t
+	desc = {
+		desc = expedition.4010.opening
+		desc = expedition.4010.opening.2
+	}
+
+
+	theme = expedition_activity_planetarium
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+	immediate = {
+		stress_impact = {
+			base = medium_stress_impact_loss
+		}
+	}
+	cooldown = { years = 1 }
+
+	option = { #Melt down plaques for gold
+		name = expedition.4010.a
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_planetarium_melt_plaques_log
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					add_gold = minor_gold_value
+				}
+			}
+		}
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
+				ai_greed = 1
+			}
+		}
+	}
+
+	option = { #Keep the plaques
+		name = expedition.4010.b
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_planetarium_keep_plaques_log
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					add_learning_lifestyle_xp = medium_lifestyle_xp
+				}
+			}
+		}
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
+				ai_compassion = 1
+			}
+		}
+	}
+	
+	option = { #Perhaps a through search can help us in our expedition?
+		name = expedition.4010.c
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_planetarium_search_throughly_log
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					expedition_activity_success_change_effect = { CHANGE = increase_medium }
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_energy = 1
+			}
+		}
+	}
+	
+	option = { #Deliver a rousing speech to the party
+		name = expedition.4010.d
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_planetarium_rousing_speech_log
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					duel = {
+						skill = diplomacy
+						value = high_skill_rating
+						50 = {
+							desc = expedition.4010.d.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4010.d.success
+								add_gold = minor_gold_value
+								add_prestige = medium_prestige_gain
+								expedition_activity_success_change_effect = { CHANGE = increase_minor }
+							}
+						}
+						40 = {
+							desc = expedition.4010.d.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4010.d.failure
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_sociability = 1
+				ai_energy = 0.5
+			}
+		}
+	}
+}
+
+expedition.4020 = {
+	type = activity_event
+	title = expedition.4020.t
+	desc = {
+		desc = expedition.4020.opening
+		desc = expedition.4020.opening.2
+	}
+	theme = expedition_activity_warehouse
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	cooldown = { years = 1 }
+
+	option = { #Do nothing
+		name = expedition.4020.a
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
+			}
+		}
+	}
+
+	option = { #Search for valuables
+		name = expedition.4020.b
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_warehouse_search_valuables_log
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					duel = {
+						skill = stewardship
+						value = high_skill_rating
+						50 = {
+							desc = expedition.4020.b.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4020.b.success
+								add_gold = medium_gold_value
+							}
+						}
+						40 = {
+							desc = expedition.4020.b.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4020.b.failure
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
+				ai_greed = 1
+			}
+		}
+	}
+	
+	option = { #Search for information
+		name = expedition.4020.c
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_warehouse_search_information_log
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					duel = {
+						skill = stewardship
+						value = high_skill_rating
+						50 = {
+							desc = expedition.4020.c.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4020.c.success
+								expedition_activity_success_change_effect = { CHANGE = increase_medium }
+							}
+						}
+						40 = {
+							desc = expedition.4020.c.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.4020.c.failure
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_energy = 1
+			}
+		}
+	}
+	
+}
+
+#######################
+# Random excavation events
+# 5000-6000
+# by GLACoding
+#######################
+
+expedition.5010 = {
+	type = activity_event
+	title = expedition.5010.t
+	desc = {
+		desc = expedition.5010.opening
+		first_valid = {
+			triggered_desc = {
+				trigger  = { exists = scope:expedition_participant }	
+				desc = expedition.5010.opening.2
+				desc = expedition.5010.opening.3
+			}
+			desc = expedition.5010.opening.fallback.2
+			desc = expedition.5010.opening.fallback.3
+		}
+
+	}
+
+	theme = expedition_activity_fuse
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	right_portrait = {
+		character = scope:expedition_participant
+		animation = idle
+	}
+	cooldown = { years = 1 }
+	
+
+	immediate = {
+		scope:activity = {
+			random_attending_character = {
+				limit = {
+					NOT = { this = scope:host }
+				}
+				save_scope_as = expedition_participant
+			}
+		}
+	}
+
+	option = { #Do nothing
+		name = expedition.5010.a
+		ai_chance = {
+			base = 30
+			ai_value_modifier = {
+			}
+		}
+	}
+
+	option = { #Smack the box
+		name = expedition.5010.b
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_fuse_smack_box_log
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					duel = {
+						skill = prowess
+						value = high_skill_rating
+						50 = {
+							desc = expedition.5010.b.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.5010.b.success
+								expedition_activity_success_change_effect = { CHANGE = increase_minor }
+							}
+						}
+						40 = {
+							desc = expedition.5010.b.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.5010.b.failure
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_energy = 1
+			}
+		}
+	}
+
+	option = { #Attempt to restore lighting
+		name = expedition.5010.c
+		scope:activity = {
+			add_activity_log_entry = {
+				key = expedition_fuse_restore_lighting_log
+				score = 25
+				tags = { random good }
+				character = root
+
+				#Effect
+				root = {
+					duel = {
+						skill = learning
+						value = high_skill_rating
+						50 = {
+							desc = expedition.5010.c.success
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = 3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.5010.c.success
+								expedition_activity_success_change_effect = { CHANGE = increase_medium }
+							}
+						}
+						40 = {
+							desc = expedition.5010.c.failure
+							compare_modifier = {
+								value = scope:duel_value
+								multiplier = -3.5
+								min = -25
+							}
+							send_interface_toast = {
+								title = expedition.5010.c.failure
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 70
+			ai_value_modifier = {
+				ai_sociability = 1
+				ai_energy = 0.5
+			}
+		}
+	}
+}

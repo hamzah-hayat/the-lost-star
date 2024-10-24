@@ -1,0 +1,23 @@
+﻿expedition_activity_planetarium_background = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/expedition_activity_planetarium.dds"
+		environment = "environment_event_standard"
+		ambience = "event:/SFX/Events/Backgrounds/city_alley_night"
+	}
+}
+
+expedition_activity_warehouse_background = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/expedition_activity_warehouse.dds"
+		environment = "environment_event_standard"
+		ambience = "event:/SFX/Events/Backgrounds/city_alley_night"
+	}
+}
+
+expedition_activity_fuse_background = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/expedition_activity_fuse.dds"
+		environment = "environment_event_standard"
+		ambience = "event:/SFX/Events/Backgrounds/city_alley_night"
+	}
+}

@@ -1,0 +1,51 @@
+﻿expedition_activity = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_diplomacy.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_diplomacy"
+	}
+	background = { # Landless Adventurer
+		trigger = { government_has_flag = government_is_landless_adventurer }
+		reference = ep3_relaxing_tent
+	}
+	background = { # Landed Ruler
+		reference = throne_room
+	}
+}
+
+expedition_activity_planetarium = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_diplomacy.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_diplomacy"
+	}
+	background = {
+		reference = expedition_activity_planetarium_background
+	}
+}
+
+expedition_activity_warehouse = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_diplomacy.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_diplomacy"
+	}
+	background = {
+		reference = expedition_activity_warehouse_background
+	}
+}
+
+expedition_activity_fuse = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_diplomacy.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_diplomacy"
+	}
+	background = {
+		reference = expedition_activity_fuse_background
+	}
+}
